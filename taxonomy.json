@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "definition": "Contestation is an explicit or implicit challenge to an AI system's conclusion, reasoning, evidence, explanation, or epistemic authority that calls for justification, correction, reconsideration, or acknowledgment of uncertainty.",
+  "core_test": "Is the participant disputing what the system asserts or does, versus merely not understanding it, expressing a feeling, or commenting on how it looks? Only the first is contestation.",
+  "unit_rule": "Label the target line (text_pl), using the context only to understand it. Answer yes when the target line is part of the contestation move (starts it, is its core, or runs straight into the same participant's next line or two). Answer no when the only pushback in the window is a separate move or the interviewer's line.",
+  "boundary_rules": [
+    "Criticism of the representation is contestation only when the participant claims it obstructs or prevents correctly interpreting the output; a stated preference (colours, font, layout taste) is not.",
+    "Expressed personal uncertainty ('I am not sure I follow this') is not contestation unless it asks the system to acknowledge uncertainty in turn.",
+    "Hypothetical reasoning counts only when it works as a counterexample against the system; idle speculation does not.",
+    "A task question posed or read back by the interviewer is not the participant's challenge."
+  ],
+  "also_no": [
+    "Incomprehension ('I don't understand this axis').",
+    "General affect without a challenge (frustration, boredom, interest)."
+  ],
+  "dimensions": [
+    {
+      "name": "is_contestation",
+      "required": "always",
+      "values": ["yes", "no"]
+    },
+    {
+      "name": "presence",
+      "required": "if is_contestation = yes",
+      "values": ["explicit", "implicit", "ambiguous"],
+      "value_if_no": "absent"
+    },
+    {
+      "name": "target",
+      "required": "if is_contestation = yes",
+      "values": ["prediction", "reasoning", "evidence", "input data", "explanation representation", "system competence"]
+    },
+    {
+      "name": "interaction_act",
+      "required": "if is_contestation = yes",
+      "values": ["request for justification", "direct challenge", "correction", "alternative proposal", "counterexample", "rejection", "request to acknowledge uncertainty"]
+    },
+    {
+      "name": "grounds",
+      "required": "if is_contestation = yes",
+      "values": ["domain knowledge", "technical knowledge", "prior experience", "internal inconsistency", "missing evidence", "data-quality concern", "causal implausibility", "presentation ambiguity"]
+    },
+    {
+      "name": "expected_response",
+      "required": "if is_contestation = yes",
+      "values": ["justify", "revise", "incorporate correction", "provide additional information", "acknowledge uncertainty", "expose conflicting evidence", "defer to human expertise"]
+    },
+    {
+      "name": "notes",
+      "required": "if presence = ambiguous, or whenever the annotator hesitates",
+      "values": "free text"
+    }
+  ],
+  "constraints": [
+    "Exactly one value per dimension per episode.",
+    "If is_contestation = no: presence = absent and target, interaction_act, grounds, expected_response are empty.",
+    "If is_contestation = yes: presence is not absent and all four structured dimensions are filled.",
+    "If presence = ambiguous: notes must be non-empty.",
+    "If text_pl and text_en disagree, the Polish wins."
+  ]
+}

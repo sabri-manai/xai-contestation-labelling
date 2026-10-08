@@ -1,0 +1,102 @@
+{
+  "seed": 42,
+  "total": 250,
+  "flagged": {
+    "method": "notebook 02 stratified draw (group x format) on lexicon-flagged participant lines on explanation slides, gold + guide examples excluded",
+    "per_cell_cap": 25,
+    "n": 204,
+    "pool_by_cell": {
+      "DE": {
+        "Descriptive statistics": 47,
+        "SHAP": 26,
+        "LIME": 10,
+        "Anchor": 12,
+        "Counterfactual": 11
+      },
+      "IT": {
+        "Descriptive statistics": 15,
+        "SHAP": 13,
+        "LIME": 2,
+        "Anchor": 2,
+        "Counterfactual": 0
+      },
+      "SSH": {
+        "Descriptive statistics": 44,
+        "SHAP": 33,
+        "LIME": 20,
+        "Anchor": 9,
+        "Counterfactual": 10
+      }
+    },
+    "drawn_by_cell": {
+      "DE": {
+        "Descriptive statistics": 25,
+        "SHAP": 25,
+        "LIME": 10,
+        "Anchor": 12,
+        "Counterfactual": 11
+      },
+      "IT": {
+        "Descriptive statistics": 15,
+        "SHAP": 13,
+        "LIME": 2,
+        "Anchor": 2,
+        "Counterfactual": 0
+      },
+      "SSH": {
+        "Descriptive statistics": 25,
+        "SHAP": 25,
+        "LIME": 20,
+        "Anchor": 9,
+        "Counterfactual": 10
+      }
+    }
+  },
+  "random_unflagged": {
+    "method": "uniform random sample of participant lines on explanation slides not flagged by the lexicon, at least 5 words",
+    "pool": 4614,
+    "n": 46,
+    "drawn_by_cell": {
+      "DE": {
+        "Descriptive statistics": 0,
+        "SHAP": 3,
+        "LIME": 1,
+        "Anchor": 1,
+        "Counterfactual": 0
+      },
+      "IT": {
+        "Descriptive statistics": 6,
+        "SHAP": 6,
+        "LIME": 2,
+        "Anchor": 2,
+        "Counterfactual": 1
+      },
+      "SSH": {
+        "Descriptive statistics": 7,
+        "SHAP": 9,
+        "LIME": 3,
+        "Anchor": 4,
+        "Counterfactual": 1
+      }
+    }
+  },
+  "excluded": {
+    "gold_episodes": 76,
+    "guide_examples": [
+      "PK_DE_07:125",
+      "PK_DE_03:64",
+      "PK_DE_08:83"
+    ]
+  },
+  "translation": {
+    "source": "claude",
+    "cache": "outputs/02_translation_and_feasibility_audit/translations/claude_pl_en_cache.parquet"
+  },
+  "gold": {
+    "n": 76,
+    "contestation_yes": 44,
+    "contestation_no": 32,
+    "examples": 12,
+    "calibration": 64
+  }
+}
