@@ -50,15 +50,18 @@ if email:
     else:
         st.sidebar.caption(f"{len(done_ids)} / {total} labelled")
 
-        # ep_num lives in session_state so label.py can advance it after a save
-        if "ep_num" not in st.session_state:
-            st.session_state.ep_num = 1
+        # _pending_ep is written by _go() during a save/skip/back.
+        # We consume it here (before any widget), then clear it.
+        if "ep_num_val" not in st.session_state:
+            st.session_state.ep_num_val = 1
+        if "_pending_ep" in st.session_state:
+            st.session_state.ep_num_val = st.session_state.pop("_pending_ep")
 
         ep_num = st.sidebar.number_input(
             "Episode #", min_value=1, max_value=total, step=1,
-            value=st.session_state.ep_num,
-            key="ep_num",
+            value=int(st.session_state.ep_num_val),
         )
+        st.session_state.ep_num_val = ep_num
         st.session_state.current_episode_id = all_ids[ep_num - 1]
 
 st.sidebar.divider()

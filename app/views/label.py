@@ -102,77 +102,70 @@ def render():
 
         prev = get_latest_label(annotator_id, ep_id)
 
-        with st.form(key=f"label_form_{ep_id}"):
-            is_contestation = st.radio(
-                "Is this **contestation**?",
-                ["yes", "no"],
-                index=0 if (prev and prev.get("is_contestation") == "yes") else 1,
-                help=TAXONOMY.get("core_test", ""),
-            )
+        is_contestation = st.radio(
+            "Is this **contestation**?",
+            ["yes", "no"],
+            index=0 if (prev and prev.get("is_contestation") == "yes") else 1,
+            help=TAXONOMY.get("core_test", ""),
+            key=f"ic_{ep_id}",
+        )
 
-            st.markdown("*Fill dimensions below only if **yes**.*")
+        st.markdown("*Fill dimensions below only if **yes**.*")
 
-            presence = st.selectbox(
-                "Presence", [""] + _DIM_VALUES["presence"],
-                index=_dim_index("presence", prev),
-            )
-            target = st.selectbox(
-                "Target", [""] + _DIM_VALUES["target"],
-                index=_dim_index("target", prev),
-            )
-            interaction_act = st.selectbox(
-                "Interaction act", [""] + _DIM_VALUES["interaction_act"],
-                index=_dim_index("interaction_act", prev),
-            )
-            grounds = st.selectbox(
-                "Grounds", [""] + _DIM_VALUES["grounds"],
-                index=_dim_index("grounds", prev),
-            )
-            expected_response = st.selectbox(
-                "Expected response", [""] + _DIM_VALUES["expected_response"],
-                index=_dim_index("expected_response", prev),
-            )
+        presence = st.selectbox(
+            "Presence", [""] + _DIM_VALUES["presence"],
+            index=_dim_index("presence", prev), key=f"pr_{ep_id}",
+        )
+        target = st.selectbox(
+            "Target", [""] + _DIM_VALUES["target"],
+            index=_dim_index("target", prev), key=f"tg_{ep_id}",
+        )
+        interaction_act = st.selectbox(
+            "Interaction act", [""] + _DIM_VALUES["interaction_act"],
+            index=_dim_index("interaction_act", prev), key=f"ia_{ep_id}",
+        )
+        grounds = st.selectbox(
+            "Grounds", [""] + _DIM_VALUES["grounds"],
+            index=_dim_index("grounds", prev), key=f"gr_{ep_id}",
+        )
+        expected_response = st.selectbox(
+            "Expected response", [""] + _DIM_VALUES["expected_response"],
+            index=_dim_index("expected_response", prev), key=f"er_{ep_id}",
+        )
+        notes = st.text_area(
+            "Notes",
+            value=(prev.get("notes") or "") if prev else "",
+            placeholder="Required when presence = ambiguous. Also use when you hesitate.",
+            key=f"nt_{ep_id}",
+        )
 
-            notes = st.text_area(
-                "Notes",
-                value=(prev.get("notes") or "") if prev else "",
-                placeholder="Required when presence = ambiguous. Also use when you hesitate.",
-            )
-
-            bcol1, bcol2, bcol3 = st.columns(3)
-            with bcol1:
-                back = st.form_submit_button("← Back", use_container_width=True)
-            with bcol2:
-                submitted = st.form_submit_button("Save ✓", use_container_width=True,
-                                                  type="primary")
-            with bcol3:
-                skip = st.form_submit_button("Skip →", use_container_width=True)
-
-        if back:
-            _go(-1)
-            st.rerun()
-
-        elif skip:
-            save_label(annotator_id, ep_id, None, None, None, None, None, None,
-                       notes or None, is_skipped=True)
-            _advance()
-            st.rerun()
-
-        elif submitted:
-            error = _validate(is_contestation, presence, target, interaction_act,
-                              grounds, expected_response, notes)
-            if error:
-                st.error(error)
-            else:
-                time_spent = time.time() - st.session_state.episode_start_time
-                final_presence = "absent" if is_contestation == "no" else (presence or None)
-                save_label(
-                    annotator_id, ep_id, is_contestation,
-                    final_presence, target or None,
-                    interaction_act or None, grounds or None,
-                    expected_response or None, notes or None,
-                    time_spent_s=time_spent,
-                )
+        bcol1, bcol2, bcol3 = st.columns(3)
+        with bcol1:
+            if st.button("← Back", use_container_width=True):
+                _go(-1)
+                st.rerun()
+        with bcol2:
+            if st.button("Save ✓", use_container_width=True, type="primary"):
+                error = _validate(is_contestation, presence, target, interaction_act,
+                                  grounds, expected_response, notes)
+                if error:
+                    st.error(error)
+                else:
+                    time_spent = time.time() - st.session_state.get("episode_start_time", time.time())
+                    final_presence = "absent" if is_contestation == "no" else (presence or None)
+                    save_label(
+                        annotator_id, ep_id, is_contestation,
+                        final_presence, target or None,
+                        interaction_act or None, grounds or None,
+                        expected_response or None, notes or None,
+                        time_spent_s=time_spent,
+                    )
+                    _advance()
+                    st.rerun()
+        with bcol3:
+            if st.button("Skip →", use_container_width=True):
+                save_label(annotator_id, ep_id, None, None, None, None, None, None,
+                           notes or None, is_skipped=True)
                 _advance()
                 st.rerun()
 
@@ -207,11 +200,11 @@ def _validate(is_contestation, presence, target, interaction_act,
 
 
 def _go(delta: int):
-    """Move ep_num by delta, clamped to valid range."""
+    """Queue an episode advance via _pending_ep (consumed by main.py before widget renders)."""
     from app.db import get_all_work_episode_ids
     total = len(get_all_work_episode_ids())
-    current = st.session_state.get("ep_num", 1)
-    st.session_state.ep_num = max(1, min(total, current + delta))
+    current = st.session_state.get("ep_num_val", 1)
+    st.session_state._pending_ep = max(1, min(total, current + delta))
     st.session_state.current_episode_id = None
     st.session_state.pop("episode_start_ep", None)
     st.session_state.pop("episode_start_time", None)
