@@ -28,6 +28,7 @@ init_db()
 # Auto-seed on first run if episodes table is empty
 if not get_all_work_episode_ids():
     seed()
+    init_db()   # apply the labelling order to the freshly seeded episodes
 
 st.sidebar.title("🍄 XAI Labelling")
 

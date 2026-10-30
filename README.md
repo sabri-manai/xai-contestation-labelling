@@ -53,6 +53,9 @@ tightened; `coding_guide.md` §6 has the changelog. `labels.db` gains the column
 
 ## Your labels live in `labels/<your code>.csv`
 
+**Order matters:** label episodes **1–100 first**, in order, without skipping ahead. Everyone
+labels these same 100; they are used to measure agreement between labellers.
+
 **Already labelling?** `git pull` in the same folder, restart the app, log in with the same
 email. Everything you labelled is still there. Episodes with a yellow warning need the new
 "explanation request" field.

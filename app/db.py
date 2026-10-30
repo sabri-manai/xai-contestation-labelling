@@ -135,6 +135,16 @@ def init_db():
             cols = {r[1] for r in conn.execute(f"PRAGMA table_info({table})")}
             if "explanation_request" not in cols:
                 conn.execute(f"ALTER TABLE {table} ADD COLUMN explanation_request TEXT")
+        # labelling order from data/queue_order.csv (reliability block of 100 first); re-applied
+        # on every start so all machines show the same order after a git pull
+        if "queue_pos" not in {r[1] for r in conn.execute("PRAGMA table_info(episodes)")}:
+            conn.execute("ALTER TABLE episodes ADD COLUMN queue_pos INTEGER")
+        order_file = Path(__file__).parent.parent / "data" / "queue_order.csv"
+        if order_file.exists():
+            import csv
+            with open(order_file, newline="", encoding="utf-8") as f:
+                conn.executemany("UPDATE episodes SET queue_pos=? WHERE episode_id=?",
+                                 [(int(r["queue_pos"]), r["episode_id"]) for r in csv.DictReader(f)])
 
 
 # ---------------------------------------------------------------------------
@@ -202,7 +212,8 @@ def get_all_work_episode_ids() -> list[str]:
     """All episode IDs that are not gold (gold_role IS NULL or empty)."""
     with get_conn() as conn:
         rows = conn.execute(
-            "SELECT episode_id FROM episodes WHERE (gold_role IS NULL OR gold_role = '') ORDER BY episode_id"
+            "SELECT episode_id FROM episodes WHERE (gold_role IS NULL OR gold_role = '') "
+            "ORDER BY queue_pos IS NULL, queue_pos, episode_id"
         ).fetchall()
     return [r["episode_id"] for r in rows]
 
