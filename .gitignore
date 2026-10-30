@@ -3,6 +3,7 @@
 
 # Database (contains annotation work — back up separately)
 labels.db
+labels.db-*
 
 # Python
 __pycache__/
@@ -18,3 +19,10 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# OpenRouter key for jev/jev_labeling.ipynb
+.env
+labels.db.bak-*
+labels/*.tmp
+labelers_private.csv
+labels/*.migrated

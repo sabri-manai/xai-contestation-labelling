@@ -91,6 +91,7 @@ CREATE TABLE IF NOT EXISTS labels (
     episode_id        TEXT    NOT NULL REFERENCES episodes(episode_id),
     version           INTEGER NOT NULL DEFAULT 1,
     is_contestation   TEXT,
+    explanation_request TEXT,   -- taxonomy v1.1 second gate
     presence          TEXT,
     target            TEXT,
     interaction_act   TEXT,
@@ -129,6 +130,11 @@ CREATE INDEX IF NOT EXISTS idx_assignments_ann  ON assignments(annotator_id);
 def init_db():
     with get_conn() as conn:
         conn.executescript(SCHEMA)
+        # taxonomy v1.1: add the second gate to databases created under v1.0
+        for table in ("labels", "adjudications"):
+            cols = {r[1] for r in conn.execute(f"PRAGMA table_info({table})")}
+            if "explanation_request" not in cols:
+                conn.execute(f"ALTER TABLE {table} ADD COLUMN explanation_request TEXT")
 
 
 # ---------------------------------------------------------------------------
@@ -177,10 +183,11 @@ def annotator_exists(username: str) -> bool:
 
 def get_or_create_annotator(identifier: str) -> int:
     """Return the annotator id for the given free-text identifier, creating if needed."""
-    identifier = identifier.strip()
+    identifier = identifier.strip().lower()
     with get_conn() as conn:
+        # case-insensitive, so accounts created before emails were lowercased still match
         row = conn.execute(
-            "SELECT id FROM annotators WHERE username=?", (identifier,)
+            "SELECT id FROM annotators WHERE lower(username)=? ORDER BY id LIMIT 1", (identifier,)
         ).fetchone()
         if row:
             return row["id"]
@@ -289,6 +296,7 @@ def save_label(
     notes: str | None,
     is_skipped: bool = False,
     time_spent_s: float | None = None,
+    explanation_request: str | None = None,
 ):
     with get_conn() as conn:
         # Compute next version
@@ -300,13 +308,13 @@ def save_label(
 
         lid = conn.execute(
             """INSERT INTO labels
-               (annotator_id, episode_id, version, is_contestation, presence,
-                target, interaction_act, grounds, expected_response,
+               (annotator_id, episode_id, version, is_contestation, explanation_request,
+                presence, target, interaction_act, grounds, expected_response,
                 notes, is_skipped, time_spent_s)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,?)""",
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)""",
             (
                 annotator_id, episode_id, version,
-                is_contestation, presence, target,
+                is_contestation, explanation_request, presence, target,
                 interaction_act, grounds, expected_response,
                 notes, int(is_skipped), time_spent_s,
             ),

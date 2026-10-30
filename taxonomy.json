@@ -1,23 +1,52 @@
 {
-  "version": "1.0",
+  "version": "1.1",
+  "changelog": [
+    {
+      "version": "1.1",
+      "date": "2026-10-29",
+      "changes": [
+        "Added a second gate, explanation_request, independent of is_contestation. A dispute of content is contestation; a signal that the explanation's form or level failed the participant is an explanation request. Both may be yes.",
+        "Boundary rule 1 rewritten: representation criticism is contestation only when the participant says it blocks or distorts the correct reading of the output; otherwise it is an explanation request.",
+        "Unit rule rewritten: the unit is the target line plus the same participant's immediately following line or two, with no interviewer turn in between.",
+        "Incomprehension moved from 'also no' to explanation_request = yes.",
+        "Phase 1 (IUI 2027 submission) numbers are reported under v1.0 and are not changed by this version."
+      ]
+    }
+  ],
   "definition": "Contestation is an explicit or implicit challenge to an AI system's conclusion, reasoning, evidence, explanation, or epistemic authority that calls for justification, correction, reconsideration, or acknowledgment of uncertainty.",
   "core_test": "Is the participant disputing what the system asserts or does, versus merely not understanding it, expressing a feeling, or commenting on how it looks? Only the first is contestation.",
-  "unit_rule": "Label the target line (text_pl), using the context only to understand it. Answer yes when the target line is part of the contestation move (starts it, is its core, or runs straight into the same participant's next line or two). Answer no when the only pushback in the window is a separate move or the interviewer's line.",
+  "unit_rule": "Label the target line (text_pl), using the context only to understand it. The unit is the target line plus the same participant's immediately following line or two, provided no interviewer turn comes between them. Answer yes when the target line starts the contestation move, is its core, or runs straight into that continuation. Answer no when the only pushback in the window is a separate move, comes only after an interviewer turn, or is the interviewer's line.",
   "boundary_rules": [
-    "Criticism of the representation is contestation only when the participant claims it obstructs or prevents correctly interpreting the output; a stated preference (colours, font, layout taste) is not.",
+    "Criticism of the representation is contestation only when the participant says it blocks or distorts the correct reading of the output (a wrong, missing, or misleading legend, scale, label, unit, or ordering). A complaint that the form does not suit them, or a stated preference about colours, font, or layout, is not contestation; label it explanation_request = yes.",
     "Expressed personal uncertainty ('I am not sure I follow this') is not contestation unless it asks the system to acknowledge uncertainty in turn.",
     "Hypothetical reasoning counts only when it works as a counterexample against the system; idle speculation does not.",
     "A task question posed or read back by the interviewer is not the participant's challenge."
   ],
   "also_no": [
-    "Incomprehension ('I don't understand this axis').",
+    "Incomprehension ('I don't understand this axis') is not contestation; it is an explanation request.",
     "General affect without a challenge (frustration, boredom, interest)."
   ],
+  "explanation_request": {
+    "definition": "The participant signals that the explanation as presented does not work for them and that a different form, level, language, or amount of explanation would: they cannot read it, do not know a term it uses, miss a legend or axis label, want it in plainer or less mathematical language or in another format, or ask for information the explanation should have shown. The participant need not dispute anything.",
+    "test": "Would a different explanation (another format, a plainer level, an added legend, term, or datum) have helped this participant at this line? If yes, explanation_request = yes.",
+    "not_a_request": [
+      "A remark about the participant's own expertise with no reference to the explanation ('I'm not an expert').",
+      "Affect with no reference to the explanation.",
+      "The interviewer's line."
+    ],
+    "relation_to_contestation": "Independent. A pure incomprehension is request = yes, contestation = no. A dispute that also asks for a legend is both yes. A dispute of the prediction on domain grounds is contestation = yes, request = no."
+  },
   "dimensions": [
     {
       "name": "is_contestation",
       "required": "always",
       "values": ["yes", "no"]
+    },
+    {
+      "name": "explanation_request",
+      "required": "always",
+      "values": ["yes", "no"],
+      "note": "Second gate, independent of is_contestation."
     },
     {
       "name": "presence",
@@ -53,6 +82,7 @@
   ],
   "constraints": [
     "Exactly one value per dimension per episode.",
+    "is_contestation and explanation_request are both filled for every episode.",
     "If is_contestation = no: presence = absent and target, interaction_act, grounds, expected_response are empty.",
     "If is_contestation = yes: presence is not absent and all four structured dimensions are filled.",
     "If presence = ambiguous: notes must be non-empty.",

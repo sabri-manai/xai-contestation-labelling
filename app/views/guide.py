@@ -47,12 +47,37 @@ Uczestnik **kontestuje**, gdy podważa to, co system AI *twierdzi lub robi* —
 domagając się uzasadnienia, korekty lub przyznania się do niepewności.
 
 **Nie jest kontestacją:**
-- *„Nie rozumiem tej osi."* → niezrozumienie, nie zakwestionowanie.
-- *„Czcionka jest za mała."* → preferencja estetyczna bez twierdzenia interpretacyjnego.
+- *„Nie rozumiem tej osi."* → niezrozumienie, nie zakwestionowanie (ale **prośba o wyjaśnienie = tak**).
+- *„Czcionka jest za mała."* → preferencja estetyczna bez twierdzenia interpretacyjnego (prośba o wyjaśnienie = tak).
 - *„Jestem trochę sfrustrowany."* → ogólny afekt.
 
 **Kluczowa granica:** Czy uczestnik twierdzi, że system jest *błędny, wprowadzający w błąd
-lub niekompletny*? Tylko to jest kontestacją.
+lub niekompletny*? Tylko to jest kontestacją. Krytyka wykresu jest kontestacją tylko wtedy,
+gdy uczestnik mówi, że *uniemożliwia lub zniekształca* poprawne odczytanie wyniku.
+
+**Jednostka:** linia docelowa plus bezpośrednio następujące 1–2 linie *tego samego* uczestnika,
+o ile nie ma między nimi wypowiedzi prowadzącego.
+""")
+        st.subheader("Druga bramka: prośba o wyjaśnienie (explanation request)")
+        st.markdown("""
+Zaznacz **tak**, gdy uczestnik sygnalizuje, że wyjaśnienie *w tej formie* mu nie służy i pomogłaby
+inna forma, poziom, język lub ilość wyjaśnienia: nie może go odczytać, nie zna terminu, brakuje
+legendy lub opisu osi, chce prostszego języka albo innego formatu, prosi o dane, które wyjaśnienie
+powinno pokazać. Nie musi niczego kwestionować. **Wypełnij dla każdego epizodu, niezależnie od
+kontestacji.**
+
+**Test:** *Czy inne wyjaśnienie (inny format, prostszy poziom, dodana legenda, termin, dana)
+pomogłoby uczestnikowi w tym miejscu?* Jeśli tak → prośba = tak.
+
+| sytuacja | kontestacja | prośba |
+|---|---|---|
+| „Nie rozumiem tego objaśnienia, jest napisane językiem matematycznym." | nie | **tak** |
+| „Ten słupek nie może być prawdziwy — kształt kapelusza powinien dominować." | **tak** | nie |
+| „Słaba czytelność… napisałbym 'żółty kapelusz', dodał slajd z legendą." (mówi, że utrudnia odczyt, proponuje poprawki) | **tak** | **tak** |
+| Czyta slajd na głos i mówi „to bardzo mądre, tak, zdecydowanie." | nie | nie |
+
+**Nie jest prośbą:** uwaga o własnej wiedzy bez odniesienia do wyjaśnienia („nie jestem ekspertem");
+sam afekt; wypowiedź prowadzącego.
 """)
     else:
         st.markdown("""
@@ -60,12 +85,37 @@ A participant **contests** when they dispute what the AI system *asserts or does
 calling for justification, correction, or acknowledgment of uncertainty.
 
 **Not contestation:**
-- *"I don't understand this axis."* → incomprehension, not a challenge.
-- *"The font is too small."* → aesthetic preference with no interpretive claim.
+- *"I don't understand this axis."* → incomprehension, not a challenge (but **explanation request = yes**).
+- *"The font is too small."* → aesthetic preference with no interpretive claim (explanation request = yes).
 - *"I'm a bit frustrated."* → general affect.
 
 **Key boundary:** Does the participant claim the system is *wrong, misleading,
-or incomplete*? Only that is contestation.
+or incomplete*? Only that is contestation. Criticism of the chart is contestation only
+when the participant says it *blocks or distorts* the correct reading of the output.
+
+**Unit:** the target line plus the *same* participant's immediately following 1–2 lines,
+provided no interviewer turn comes between them.
+""")
+        st.subheader("Second gate: explanation request")
+        st.markdown("""
+Mark **yes** when the participant signals that the explanation *as presented* does not work for
+them and that a different form, level, language, or amount of explanation would: they cannot read
+it, do not know a term, miss a legend or axis label, want plainer language or another format, or
+ask for data the explanation should have shown. They need not dispute anything. **Fill it for
+every episode, independently of contestation.**
+
+**Test:** *Would a different explanation (another format, a plainer level, an added legend, term,
+or datum) have helped this participant here?* If yes → request = yes.
+
+| situation | contestation | request |
+|---|---|---|
+| "I don't understand this explanation, it's written in mathematical language." | no | **yes** |
+| "This bar can't be right — cap shape should dominate here." | **yes** | no |
+| "Low readability… I'd write 'yellow cap', add a slide with a legend." (says it hinders reading, proposes fixes) | **yes** | **yes** |
+| Reads the slide aloud and says "that's very wise, yes, definitely." | no | no |
+
+**Not a request:** a remark about one's own expertise with no reference to the explanation ("I'm
+not an expert"); affect alone; the interviewer's line.
 """)
 
     # ------------------------------------------------------------------ #

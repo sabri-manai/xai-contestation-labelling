@@ -44,6 +44,41 @@ taxonomy.json             label schema
 coding_guide.md           full annotation guide
 ```
 
+## Codebook v1.1 (29 Oct 2026)
+
+The form has a second gate, **explanation request**, filled for every episode independently
+of contestation (see the Guide tab, "Second gate"). The unit rule and boundary rule 1 were
+tightened; `coding_guide.md` §6 has the changelog. `labels.db` gains the column on first start
+(additive migration, nothing is rewritten).
+
+## Your labels live in `labels/<your code>.csv`
+
+**Already labelling?** `git pull` in the same folder, restart the app, log in with the same
+email. Everything you labelled is still there. Episodes with a yellow warning need the new
+"explanation request" field.
+
+The app saves all your labels to `labels/<your code>.csv` (code shown in the sidebar; the file
+never contains your email). To share progress:
+
+```bash
+git add labels && git commit -m "labels" && git pull --rebase && git push
+```
+
+Never commit `labels.db`.
+
+**Project lead:** `labelers_private.csv` (not committed) lists email → code for logins on this
+machine; `.venv/bin/python -m app.sync alice@x.pl bob@y.pl` prints the code for any email.
+
+## Hand-off to the framework
+
+```bash
+git pull
+.venv/bin/python export_labels.py     # labels/*.csv + labels.db → ../xai-contestation-framework/data/human_labels.csv
+```
+
+The Jev notebook moved to `../xai-contestation-framework/benchmark/jev_detect.ipynb`;
+`jev/` here keeps run 1 (codebook v1.0) and the disagreement review for reference.
+
 ## Notes
 
 - `labels.db` is gitignored — back it up separately.

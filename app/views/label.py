@@ -12,6 +12,7 @@ if str(_ROOT) not in sys.path:
 import streamlit as st
 
 from app.db import get_episode, get_latest_label, save_label
+from app.sync import write_file
 
 # Load taxonomy once
 _TAXONOMY_PATH = Path(__file__).parent.parent.parent / "taxonomy.json"
@@ -101,6 +102,9 @@ def render():
         st.subheader("Label")
 
         prev = get_latest_label(annotator_id, ep_id)
+        if prev and not prev.get("is_skipped") and prev.get("explanation_request") is None:
+            st.warning("Labelled before the **explanation request** field existed (codebook v1.1). "
+                       "Please set it below and save again.")
 
         is_contestation = st.radio(
             "Is this **contestation**?",
@@ -110,7 +114,16 @@ def render():
             key=f"ic_{ep_id}",
         )
 
-        st.markdown("*Fill dimensions below only if **yes**.*")
+        explanation_request = st.radio(
+            "Is this an **explanation request**? (would a different format, level, "
+            "legend, or term have helped here? — independent of the answer above)",
+            ["yes", "no"],
+            index=0 if (prev and prev.get("explanation_request") == "yes") else 1,
+            help=TAXONOMY.get("explanation_request", {}).get("test", ""),
+            key=f"er2_{ep_id}",
+        )
+
+        st.markdown("*Fill dimensions below only if **contestation = yes**.*")
 
         presence = st.selectbox(
             "Presence", [""] + _DIM_VALUES["presence"],
@@ -159,13 +172,16 @@ def render():
                         interaction_act or None, grounds or None,
                         expected_response or None, notes or None,
                         time_spent_s=time_spent,
+                        explanation_request=explanation_request,
                     )
+                    write_file(annotator_id, st.session_state.identifier)
                     _advance()
                     st.rerun()
         with bcol3:
             if st.button("Skip →", use_container_width=True):
                 save_label(annotator_id, ep_id, None, None, None, None, None, None,
                            notes or None, is_skipped=True)
+                write_file(annotator_id, st.session_state.identifier)
                 _advance()
                 st.rerun()
 

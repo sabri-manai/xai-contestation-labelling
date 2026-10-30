@@ -1,5 +1,9 @@
 # Contestation Coding Guide (XAI-FUNGI Feasibility Audit)
 
+**Version 1.1, 29 Oct 2026.** Two changes from v1.0: a second gate, *explanation request*
+(§1b), and tighter wording of the unit rule and of boundary rule 1. The changelog is at the
+end. Phase 1 results were coded under v1.0.
+
 **Scope.** Code the audited candidate episodes in
 `outputs/02_translation_and_feasibility_audit/tables/feasibility_review_sample.csv`.
 
@@ -28,13 +32,14 @@ ever conflict, the Polish wins.
 **Unit of analysis — code the target line as the head of a short episode.**
 Use the context to *understand* the target, then decide:
 
+- The unit is the target line **plus the same participant's immediately
+  following line or two, provided no interviewer turn comes between them.**
 - Code **`yes`** when the target line is *part of* the contestation move — it
-  starts it, is its core, or runs straight into the next line or two of the
-  *same participant's* continuing thought (the unit is "an utterance **or short
-  contiguous sequence**").
+  starts it, is its core, or runs straight into that continuation.
 - Code **`no`** when the target itself is neutral and the only pushback in the
-  window is a *separate, unrelated* move, or is the **interviewer's** line
-  (grey `speaker` rows are usually the task question → `no`).
+  window is a *separate, unrelated* move, comes **only after an interviewer
+  turn**, or is the **interviewer's** line (grey `speaker` rows are usually the
+  task question → `no`).
 
 The test: *would you point to the target line (± its immediate continuation) as
 where the pushback is?* Do **not** code `yes` merely because some unrelated later
@@ -48,6 +53,7 @@ Fill these columns; leave the four structure fields blank when
 | column | values |
 |---|---|
 | `is_contestation` | `yes` / `no` |
+| `explanation_request` | `yes` / `no` — second gate, always filled, independent of `is_contestation` (§1b) |
 | `presence` | `explicit` / `implicit` / `ambiguous` |
 | `target` | `prediction` / `reasoning` / `evidence` / `input data` / `explanation representation` / `system competence` |
 | `interaction_act` | `request for justification` / `direct challenge` / `correction` / `alternative proposal` / `counterexample` / `rejection` / `request to acknowledge uncertainty` |
@@ -58,6 +64,38 @@ Fill these columns; leave the four structure fields blank when
 Pick the **single best** category per dimension. Use `ambiguous` sparingly and
 say why in `notes`. These five dimensions are exactly the paper's contestation
 taxonomy table.
+
+---
+
+## 1b. Explanation request — the second gate
+
+**Definition.** The participant signals that the explanation *as presented* does
+not work for them and that a different form, level, language, or amount of
+explanation would: they cannot read it, do not know a term it uses, miss a
+legend or axis label, want it in plainer or less mathematical language or in
+another format, or ask for information the explanation should have shown. They
+need not dispute anything.
+
+**The test.** *Would a different explanation (another format, a plainer level,
+an added legend, term, or datum) have helped this participant at this line?*
+If yes → `explanation_request = yes`.
+
+**Independent of contestation.** Fill it for every episode.
+
+| situation | `is_contestation` | `explanation_request` |
+|---|---|---|
+| "I don't understand this explanation, it's in mathematical language I'm not adapted to." | no | **yes** |
+| "This bar can't be right — cap shape should dominate here." | **yes** | no |
+| "There's certainly low readability... I'd write 'yellow cap' so everyone understands, and add a slide with a legend." (says the display makes reading worse, proposes fixes) | **yes** | **yes** |
+| Reads the slide aloud and says "that's very wise, yes, definitely." | no | no |
+
+**Not a request:** a remark about one's own expertise with no reference to the
+explanation ("I'm not an expert"); affect with no reference to the explanation;
+the interviewer's line.
+
+**Why it exists.** For the interactive system the two gates trigger different
+actions: a dispute is *checked* (the user may be right or wrong); a request is
+*re-presented* (another format or level), and there is nothing to check.
 
 ---
 
@@ -76,11 +114,14 @@ commenting on how it looks? Only the first is contestation.
 
 ## 3. Boundary rules (these decide most disagreements)
 
-1. **Criticism of the representation** → *not* contestation **unless** the
-   participant claims the representation *obstructs or prevents* correctly
-   interpreting the output; a stated preference with no interpretive
-   consequence is not enough.
-   *"The font is too small / the colours clash"* → **no**.
+1. **Criticism of the representation** → contestation **only when** the
+   participant says it *blocks or distorts the correct reading of the output*
+   (a wrong, missing, or misleading legend, scale, label, unit, or ordering).
+   A complaint that the form does not suit them, or a stated preference about
+   colours, font, or layout → `is_contestation = no`,
+   `explanation_request = yes`.
+   *"The font is too small / the colours clash"* → **no** (request: yes).
+   *"These are millimetres, not centimetres — the chart misleads"* → **yes**.
    *"This bar can't be right — cap shape should dominate here"* → **yes**.
 2. **Expressed personal uncertainty** → *not* contestation **unless** it demands
    that the system acknowledge uncertainty too.
@@ -98,7 +139,7 @@ commenting on how it looks? Only the first is contestation.
 
 **Also code `no` for:**
 - **Incomprehension** — *"I don't understand this axis / these two look the
-  same"* (a comprehension problem, not a dispute).
+  same"* (a comprehension problem, not a dispute) → `explanation_request = yes`.
 - **General affect** without a challenge — frustration, boredom, interest.
 
 ---
@@ -146,3 +187,20 @@ Matched by the filter on question vocabulary.*
 5. **Gate read.** From the adjudicated labels: count genuine contestation
    episodes, check diversity across the group × format grid, and report the
    confirmation proportion.
+
+---
+
+## 6. Changelog
+
+**v1.1 (29 Oct 2026).** Added the second gate `explanation_request` (§1b).
+Rewrote the unit rule (§1): the unit is the target line plus the same
+participant's immediate continuation, with no interviewer turn in between.
+Rewrote boundary rule 1 (§3): representation criticism is contestation only
+when it blocks or distorts the correct reading; otherwise it is a request.
+Incomprehension now codes as a request rather than as nothing. Phase 1
+(IUI 2027 submission) was coded under v1.0; its numbers are unchanged. The
+worked examples in §4, the table in §1b and the app's Guide tab use gold
+episodes; those are flagged `in_guide` in the data and excluded from
+automatic-labeller evaluation.
+
+**v1.0.** Phase 1 codebook.
