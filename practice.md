@@ -158,11 +158,3 @@ suggestion to discuss.**
 | grounds: missing evidence vs presentation ambiguity | information absent → missing; shown but unclear → ambiguity |
 | expected response: justify vs provide additional information | wants the *why* → justify; wants more data → additional information |
 | act: direct challenge vs rejection | says what is wrong → challenge; dismisses without reason → rejection |
-
-## Our decisions (fill in after practice, before labelling)
-
-Date: ____  Labellers: ____
-
-1. 
-2. 
-3. 
