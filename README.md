@@ -1,89 +1,42 @@
 # XAI Contestation Labelling
 
-A minimal local tool for annotating contestation in XAI think-aloud transcripts.
+A small local app for labelling contestation in XAI think-aloud transcripts.
 
-## Setup
+## Setup (once)
 
 ```bash
+git clone https://github.com/sabri-manai/xai-contestation-labelling.git
+cd xai-contestation-labelling
 python3 -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+.venv/bin/pip install -r requirements.txt
 ```
 
-## Run
+Start the app with `.venv/bin/python -m streamlit run app/main.py` and open http://localhost:8501.
 
-```bash
-streamlit run app/main.py
-```
+## Steps
 
-Open [http://localhost:8501](http://localhost:8501). The database is created and
-populated automatically on first run.
+1. **Read** `coding_guide.md` §1–§3 and the app's **Guide** tab.
+2. **Practise together** with [`practice.md`](practice.md): code the 12 episodes alone, compare,
+   discuss disagreements using the rules, open the key, write your decisions at the bottom.
+3. **Label alone.** Log in with your email. Label episodes **1–100 first, in order**. Everyone
+   labels these same 100 to measure agreement, so from here on: no discussing episodes, no
+   comparing answers. Put doubts in **Notes**.
+4. Choose every answer actively (the form starts on "no"). Take a break every 25–30 episodes.
+5. **Share** your labels when done (or at the end of each day):
+   ```bash
+   git add labels && git commit -m "labels" && git pull --rebase && git push
+   ```
 
-## Usage
-
-1. Enter your **email** in the sidebar — progress is saved and restored on return.
-2. Use **Episode #** to jump to any episode or pick up where you left off.
-3. **Label** — read the target line in context, fill in the form, hit **Save ✓**.
-   - **← Back** / **Skip →** to navigate without saving.
-4. **Guide** — taxonomy reference (EN/PL) with three labelled examples.
-
-## Files
-
-```
-app/
-  main.py        entry point
-  db.py          SQLite helpers
-  seed.py        loads CSVs into labels.db
-  views/
-    label.py     annotation screen
-    guide.py     taxonomy + examples
-data/
-  episodes_to_label.csv   250 episodes to label
-  gold_standard.csv       76 adjudicated gold episodes
-taxonomy.json             label schema
-coding_guide.md           full annotation guide
-```
-
-## Codebook v1.1 (29 Oct 2026)
-
-The form has a second gate, **explanation request**, filled for every episode independently
-of contestation (see the Guide tab, "Second gate"). The unit rule and boundary rule 1 were
-tightened; `coding_guide.md` §6 has the changelog. `labels.db` gains the column on first start
-(additive migration, nothing is rewritten).
-
-## Your labels live in `labels/<your code>.csv`
-
-**Order matters:** label episodes **1–100 first**, in order, without skipping ahead. Everyone
-labels these same 100; they are used to measure agreement between labellers.
-
-**Already labelling?** `git pull` in the same folder, restart the app, log in with the same
-email. Everything you labelled is still there. Episodes with a yellow warning need the new
-"explanation request" field.
-
-The app saves all your labels to `labels/<your code>.csv` (code shown in the sidebar; the file
-never contains your email). To share progress:
-
-```bash
-git add labels && git commit -m "labels" && git pull --rebase && git push
-```
-
+Your labels are saved to `labels/<your code>.csv` (code shown in the sidebar; no email in it) and
+come back whenever you log in with the same email. Polish is authoritative; English is a translation.
 Never commit `labels.db`.
 
-**Project lead:** `labelers_private.csv` (not committed) lists email → code for logins on this
-machine; `.venv/bin/python -m app.sync alice@x.pl bob@y.pl` prints the code for any email.
+**Already labelling?** `git pull`, restart, log in with the same email; nothing is lost. Episodes
+with a yellow warning need the new "explanation request" field.
 
-## Hand-off to the framework
+## Project lead
 
-```bash
-git pull
-.venv/bin/python export_labels.py     # labels/*.csv + labels.db → ../xai-contestation-framework/data/human_labels.csv
-```
-
-The Jev notebook moved to `../xai-contestation-framework/benchmark/jev_detect.ipynb`;
-`jev/` here keeps run 1 (codebook v1.0) and the disagreement review for reference.
-
-## Notes
-
-- `labels.db` is gitignored — back it up separately.
-- Polish is authoritative; English is a translation.
-- Labels are append-only; editing an episode creates a new version row.
+- Collect: `git pull && .venv/bin/python export_labels.py` → `../xai-contestation-framework/data/human_labels.csv`
+  (prints agreement between labellers).
+- Who is who: `.venv/bin/python -m app.sync alice@x.pl bob@y.pl` prints each email's code.
+- Episode order: `data/queue_order.csv` (from `make_queue_order.py`); codebook changes: `coding_guide.md` §6.
