@@ -94,6 +94,12 @@ def render():
             f"`{ep['episode_id']}` · {ep['participant_group']} · "
             f"{ep['explanation_format']} · {ep['explanation_theme']}"
         )
+        if ep.get("context_pl_asr"):
+            with st.expander("Original transcript (automatic speech recognition, uncorrected)"):
+                st.markdown(_context_html(ep["context_pl_asr"], ep["text_pl_asr"]),
+                            unsafe_allow_html=True)
+                st.caption("The text above the box is this transcript corrected for speech-recognition "
+                           "errors. [?] = uncertain correction, [niezrozumiałe] = unrecoverable.")
 
     # ------------------------------------------------------------------
     # Labelling form

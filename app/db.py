@@ -139,12 +139,29 @@ def init_db():
         # on every start so all machines show the same order after a git pull
         if "queue_pos" not in {r[1] for r in conn.execute("PRAGMA table_info(episodes)")}:
             conn.execute("ALTER TABLE episodes ADD COLUMN queue_pos INTEGER")
+        import csv
         order_file = Path(__file__).parent.parent / "data" / "queue_order.csv"
         if order_file.exists():
-            import csv
             with open(order_file, newline="", encoding="utf-8") as f:
                 conn.executemany("UPDATE episodes SET queue_pos=? WHERE episode_id=?",
                                  [(int(r["queue_pos"]), r["episode_id"]) for r in csv.DictReader(f)])
+        # episode text from data/episodes_to_label.csv (cleaned transcripts + the original ASR text),
+        # re-applied on every start so databases seeded earlier show the current text
+        cols = {r[1] for r in conn.execute("PRAGMA table_info(episodes)")}
+        for c in ("text_pl_asr", "context_pl_asr"):
+            if c not in cols:
+                conn.execute(f"ALTER TABLE episodes ADD COLUMN {c} TEXT")
+        work_file = Path(__file__).parent.parent / "data" / "episodes_to_label.csv"
+        if work_file.exists():
+            with open(work_file, newline="", encoding="utf-8") as f:
+                rows = list(csv.DictReader(f))
+            if rows and "text_pl_asr" in rows[0]:
+                conn.executemany(
+                    "UPDATE episodes SET text_pl=?, text_en=?, context_pl=?, context_en=?, en_source=?, "
+                    "text_pl_asr=?, context_pl_asr=? WHERE episode_id=?",
+                    [(r["text_pl"], r["text_en"], r["context_pl"], r["context_en"], r["en_source"],
+                      r["text_pl_asr"], r["context_pl_asr"], r["episode_id"]) for r in rows],
+                )
 
 
 # ---------------------------------------------------------------------------
