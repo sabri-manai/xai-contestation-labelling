@@ -1,6 +1,15 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "changelog": [
+    {
+      "version": "1.2",
+      "date": "2026-10-31",
+      "changes": [
+        "Unit of the 250 (+6) episodes changed from transcript line to sentence: speech-recognition lines, which were cut at pauses, were rejoined into complete sentences; the target is the sentence(s) containing the original line, and context is the 3 sentences before and after.",
+        "Unit rule reworded accordingly: target sentence plus the same participant's next one or two sentences, with no interviewer turn in between.",
+        "The gold set, the practice set and Phase 1 remain line-based (v1.1 unit)."
+      ]
+    },
     {
       "version": "1.1",
       "date": "2026-10-29",
@@ -15,7 +24,7 @@
   ],
   "definition": "Contestation is an explicit or implicit challenge to an AI system's conclusion, reasoning, evidence, explanation, or epistemic authority that calls for justification, correction, reconsideration, or acknowledgment of uncertainty.",
   "core_test": "Is the participant disputing what the system asserts or does, versus merely not understanding it, expressing a feeling, or commenting on how it looks? Only the first is contestation.",
-  "unit_rule": "Label the target line (text_pl), using the context only to understand it. The unit is the target line plus the same participant's immediately following line or two, provided no interviewer turn comes between them. Answer yes when the target line starts the contestation move, is its core, or runs straight into that continuation. Answer no when the only pushback in the window is a separate move, comes only after an interviewer turn, or is the interviewer's line.",
+  "unit_rule": "Label the target sentence(s) (text_pl), using the context only to understand it. The unit is the target sentence plus the same participant's next one or two sentences, provided no interviewer turn comes between them. Answer yes when the target sentence starts the contestation move, is its core, or runs straight into that continuation. Answer no when the only pushback in the window is a separate move, comes only after an interviewer turn, or is the interviewer's line.",
   "boundary_rules": [
     "Criticism of the representation is contestation only when the participant says it blocks or distorts the correct reading of the output (a wrong, missing, or misleading legend, scale, label, unit, or ordering). A complaint that the form does not suit them, or a stated preference about colours, font, or layout, is not contestation; label it explanation_request = yes.",
     "Expressed personal uncertainty ('I am not sure I follow this') is not contestation unless it asks the system to acknowledge uncertainty in turn.",
@@ -40,39 +49,81 @@
     {
       "name": "is_contestation",
       "required": "always",
-      "values": ["yes", "no"]
+      "values": [
+        "yes",
+        "no"
+      ]
     },
     {
       "name": "explanation_request",
       "required": "always",
-      "values": ["yes", "no"],
+      "values": [
+        "yes",
+        "no"
+      ],
       "note": "Second gate, independent of is_contestation."
     },
     {
       "name": "presence",
       "required": "if is_contestation = yes",
-      "values": ["explicit", "implicit", "ambiguous"],
+      "values": [
+        "explicit",
+        "implicit",
+        "ambiguous"
+      ],
       "value_if_no": "absent"
     },
     {
       "name": "target",
       "required": "if is_contestation = yes",
-      "values": ["prediction", "reasoning", "evidence", "input data", "explanation representation", "system competence"]
+      "values": [
+        "prediction",
+        "reasoning",
+        "evidence",
+        "input data",
+        "explanation representation",
+        "system competence"
+      ]
     },
     {
       "name": "interaction_act",
       "required": "if is_contestation = yes",
-      "values": ["request for justification", "direct challenge", "correction", "alternative proposal", "counterexample", "rejection", "request to acknowledge uncertainty"]
+      "values": [
+        "request for justification",
+        "direct challenge",
+        "correction",
+        "alternative proposal",
+        "counterexample",
+        "rejection",
+        "request to acknowledge uncertainty"
+      ]
     },
     {
       "name": "grounds",
       "required": "if is_contestation = yes",
-      "values": ["domain knowledge", "technical knowledge", "prior experience", "internal inconsistency", "missing evidence", "data-quality concern", "causal implausibility", "presentation ambiguity"]
+      "values": [
+        "domain knowledge",
+        "technical knowledge",
+        "prior experience",
+        "internal inconsistency",
+        "missing evidence",
+        "data-quality concern",
+        "causal implausibility",
+        "presentation ambiguity"
+      ]
     },
     {
       "name": "expected_response",
       "required": "if is_contestation = yes",
-      "values": ["justify", "revise", "incorporate correction", "provide additional information", "acknowledge uncertainty", "expose conflicting evidence", "defer to human expertise"]
+      "values": [
+        "justify",
+        "revise",
+        "incorporate correction",
+        "provide additional information",
+        "acknowledge uncertainty",
+        "expose conflicting evidence",
+        "defer to human expertise"
+      ]
     },
     {
       "name": "notes",

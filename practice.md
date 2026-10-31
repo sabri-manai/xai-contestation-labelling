@@ -3,6 +3,7 @@
 12 episodes from the gold set, **not** among the 250. Code each one on paper, **on your own**:
 contestation yes/no, explanation request yes/no, and if contestation = yes the five dimensions.
 Then compare with your co-labeller and open the key. ▶ marks the target line.
+These gold episodes keep the older **line** unit; in the app the target is a full **sentence** (codebook v1.2).
 
 ## 1. `MW_IT_07:89` · IT · LIME
 

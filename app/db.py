@@ -151,6 +151,16 @@ def init_db():
             with open(work_file, newline="", encoding="utf-8") as f:
                 rows = list(csv.DictReader(f))
             if rows and "text_pl_asr" in rows[0]:
+                # work episodes no longer in the file (withdrawn replacements) are dropped, unless labelled
+                keep = [r["episode_id"] for r in rows]
+                gone = [x["episode_id"] for x in conn.execute(
+                    f"SELECT episode_id FROM episodes WHERE (gold_role IS NULL OR gold_role = '') "
+                    f"AND episode_id NOT IN ({','.join('?' * len(keep))}) "
+                    f"AND episode_id NOT IN (SELECT episode_id FROM labels)", keep)]
+                if gone:
+                    marks = ",".join("?" * len(gone))
+                    conn.execute(f"DELETE FROM assignments WHERE episode_id IN ({marks})", gone)
+                    conn.execute(f"DELETE FROM episodes WHERE episode_id IN ({marks})", gone)
                 # episodes added after this database was seeded (e.g. replacements for unclear transcripts)
                 conn.executemany(
                     "INSERT OR IGNORE INTO episodes (episode_id, transcript_id, participant_group, "
@@ -169,6 +179,7 @@ def init_db():
         # labelling order (after any episode was added above)
         order_file = Path(__file__).parent.parent / "data" / "queue_order.csv"
         if order_file.exists():
+            conn.execute("UPDATE episodes SET queue_pos=NULL")   # anything not in the file goes last
             with open(order_file, newline="", encoding="utf-8") as f:
                 conn.executemany("UPDATE episodes SET queue_pos=? WHERE episode_id=?",
                                  [(int(r["queue_pos"]), r["episode_id"]) for r in csv.DictReader(f)])

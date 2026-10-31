@@ -1,6 +1,7 @@
 # Contestation Coding Guide (XAI-FUNGI Feasibility Audit)
 
-**Version 1.1, 29 Oct 2026.** Two changes from v1.0: a second gate, *explanation request*
+**Version 1.2, 31 Oct 2026.** The unit is now a **sentence**, not a speech-recognition line (§1, §6).
+v1.1 (29 Oct) added a second gate, *explanation request*
 (§1b), and tighter wording of the unit rule and of boundary rule 1. The changelog is at the
 end. Phase 1 results were coded under v1.0.
 
@@ -29,19 +30,21 @@ or `P:` (participant); the `speaker` column says who said the target line. The
 English (`text_en` / `context_en`) is a translation of the Polish; if the two
 ever conflict, the Polish wins.
 
-**Unit of analysis — code the target line as the head of a short episode.**
+**Unit of analysis — code the target sentence as the head of a short episode.** The
+transcripts were cut at pauses; lines have been rejoined into complete sentences, so the
+highlighted target is the full sentence(s) containing the original line.
 Use the context to *understand* the target, then decide:
 
-- The unit is the target line **plus the same participant's immediately
-  following line or two, provided no interviewer turn comes between them.**
-- Code **`yes`** when the target line is *part of* the contestation move — it
+- The unit is the target sentence **plus the same participant's next one or
+  two sentences, provided no interviewer turn comes between them.**
+- Code **`yes`** when the target sentence is *part of* the contestation move — it
   starts it, is its core, or runs straight into that continuation.
 - Code **`no`** when the target itself is neutral and the only pushback in the
   window is a *separate, unrelated* move, comes **only after an interviewer
   turn**, or is the **interviewer's** line (grey `speaker` rows are usually the
   task question → `no`).
 
-The test: *would you point to the target line (± its immediate continuation) as
+The test: *would you point to the target sentence (± its immediate continuation) as
 where the pushback is?* Do **not** code `yes` merely because some unrelated later
 line in the ±4 window contains a challenge — context windows overlap, so that
 would inflate everything. If you spot a genuine contestation the filter missed
@@ -191,6 +194,11 @@ Matched by the filter on question vocabulary.*
 ---
 
 ## 6. Changelog
+
+**v1.2 (31 Oct 2026).** The unit for the 256 episodes is a sentence: speech-recognition
+lines, cut at pauses, were rejoined into complete sentences; the target is the sentence(s)
+containing the original line; context is 3 sentences each side. The unit rule now says
+"sentence" where it said "line". Gold, practice set and Phase 1 stay line-based.
 
 **v1.1 (29 Oct 2026).** Added the second gate `explanation_request` (§1b).
 Rewrote the unit rule (§1): the unit is the target line plus the same

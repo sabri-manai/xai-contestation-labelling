@@ -1,0 +1,5 @@
+annotator_code,episode_id,version,created_at,is_skipped,time_spent_s,is_contestation,explanation_request,presence,target,interaction_act,grounds,expected_response,notes
+c_01534ba437,MZ_IT_05:166,1,2026-10-31 10:13:37,0,65.80457997322083,no,no,absent,,,,,
+c_01534ba437,MZ_IT_05:166,2,2026-10-31 10:13:46,1,,,,,,,,,
+c_01534ba437,MZ_IT_05:166,3,2026-10-31 10:14:02,0,5.481057167053223,no,no,absent,,,,,
+c_01534ba437,MZ_IT_05:166,4,2026-10-31 10:14:38,0,1.0454211235046387,no,no,absent,,,,,

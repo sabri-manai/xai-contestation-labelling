@@ -55,7 +55,7 @@ domagając się uzasadnienia, korekty lub przyznania się do niepewności.
 lub niekompletny*? Tylko to jest kontestacją. Krytyka wykresu jest kontestacją tylko wtedy,
 gdy uczestnik mówi, że *uniemożliwia lub zniekształca* poprawne odczytanie wyniku.
 
-**Jednostka:** linia docelowa plus bezpośrednio następujące 1–2 linie *tego samego* uczestnika,
+**Jednostka:** zdanie docelowe plus następne 1–2 zdania *tego samego* uczestnika,
 o ile nie ma między nimi wypowiedzi prowadzącego.
 """)
         st.subheader("Druga bramka: prośba o wyjaśnienie (explanation request)")
@@ -93,7 +93,7 @@ calling for justification, correction, or acknowledgment of uncertainty.
 or incomplete*? Only that is contestation. Criticism of the chart is contestation only
 when the participant says it *blocks or distorts* the correct reading of the output.
 
-**Unit:** the target line plus the *same* participant's immediately following 1–2 lines,
+**Unit:** the target sentence plus the *same* participant's next 1–2 sentences,
 provided no interviewer turn comes between them.
 """)
         st.subheader("Second gate: explanation request")
