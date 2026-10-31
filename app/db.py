@@ -140,11 +140,6 @@ def init_db():
         if "queue_pos" not in {r[1] for r in conn.execute("PRAGMA table_info(episodes)")}:
             conn.execute("ALTER TABLE episodes ADD COLUMN queue_pos INTEGER")
         import csv
-        order_file = Path(__file__).parent.parent / "data" / "queue_order.csv"
-        if order_file.exists():
-            with open(order_file, newline="", encoding="utf-8") as f:
-                conn.executemany("UPDATE episodes SET queue_pos=? WHERE episode_id=?",
-                                 [(int(r["queue_pos"]), r["episode_id"]) for r in csv.DictReader(f)])
         # episode text from data/episodes_to_label.csv (cleaned transcripts + the original ASR text),
         # re-applied on every start so databases seeded earlier show the current text
         cols = {r[1] for r in conn.execute("PRAGMA table_info(episodes)")}
@@ -156,12 +151,27 @@ def init_db():
             with open(work_file, newline="", encoding="utf-8") as f:
                 rows = list(csv.DictReader(f))
             if rows and "text_pl_asr" in rows[0]:
+                # episodes added after this database was seeded (e.g. replacements for unclear transcripts)
+                conn.executemany(
+                    "INSERT OR IGNORE INTO episodes (episode_id, transcript_id, participant_group, "
+                    "explanation_format, explanation_theme, speaker, text_pl, text_en, context_pl, "
+                    "context_en, en_source) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+                    [(r["episode_id"], r["transcript_id"], r["participant_group"], r["explanation_format"],
+                      r["explanation_theme"], r["speaker"], r["text_pl"], r["text_en"], r["context_pl"],
+                      r["context_en"], r["en_source"]) for r in rows],
+                )
                 conn.executemany(
                     "UPDATE episodes SET text_pl=?, text_en=?, context_pl=?, context_en=?, en_source=?, "
                     "text_pl_asr=?, context_pl_asr=? WHERE episode_id=?",
                     [(r["text_pl"], r["text_en"], r["context_pl"], r["context_en"], r["en_source"],
                       r["text_pl_asr"], r["context_pl_asr"], r["episode_id"]) for r in rows],
                 )
+        # labelling order (after any episode was added above)
+        order_file = Path(__file__).parent.parent / "data" / "queue_order.csv"
+        if order_file.exists():
+            with open(order_file, newline="", encoding="utf-8") as f:
+                conn.executemany("UPDATE episodes SET queue_pos=? WHERE episode_id=?",
+                                 [(int(r["queue_pos"]), r["episode_id"]) for r in csv.DictReader(f)])
 
 
 # ---------------------------------------------------------------------------
