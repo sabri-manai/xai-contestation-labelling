@@ -8,10 +8,13 @@ A small local app for labelling contestation in XAI think-aloud transcripts.
 git clone https://github.com/sabri-manai/xai-contestation-labelling.git
 cd xai-contestation-labelling
 python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt
+.venv/bin/python -m pip install -r requirements.txt
 ```
 
 Start the app with `.venv/bin/python -m streamlit run app/main.py` and open http://localhost:8501.
+
+`bad interpreter: ... no such file or directory` (the folder was moved or renamed after setup):
+the venv still points to the old path. Rebuild it: `rm -rf .venv`, then repeat the last two lines above.
 
 ## Steps
 
