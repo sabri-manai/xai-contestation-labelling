@@ -34,9 +34,29 @@ Never commit `labels.db`.
 **Already labelling?** `git pull`, restart, log in with the same email; nothing is lost. Episodes
 with a yellow warning need the new "explanation request" field.
 
+## Project structure
+
+```
+app/                    Streamlit labelling app (main.py, db.py = SQLite schema, sync.py = labels <-> csv,
+                        views/ = label, guide and examples tabs)
+data/
+  episodes_to_label.csv the 258 episodes: Polish text, English translation, context, metadata
+  queue_order.csv       labelling order; block = reliability_100 | rest | excluded_unclear_transcript
+  human_labels.csv      ALL labels of ALL coders, one row per (coder, episode, version);
+                        is_latest = 1 marks the current label. Built by export_labels.py.
+  cleaning_log.csv      per-line transcript corrections (ASR -> cleaned Polish, English)
+  gold_standard.csv     Phase 1 gold (76 episodes, older codebook); used for the practice examples only
+  sample_manifest.json  how the 250 episodes were drawn
+labels/<code>.csv       one file per coder, written by the app; the raw source of human_labels.csv
+taxonomy.json           the label categories (version inside)
+coding_guide.md         the codebook; practice.md = calibration exercise
+export_labels.py        joins labels/*.csv into data/human_labels.csv
+make_queue_order.py     builds data/queue_order.csv
+labels.db               your local database (ignored by git)
+```
+
 ## Project lead
 
-- Collect: `git pull && .venv/bin/python export_labels.py` writes `data/human_labels.csv`, one row per
-  (coder, episode, version) for all coders; `is_latest = 1` marks the label that counts. New coder:
+- Collect: `git pull && .venv/bin/python export_labels.py` rebuilds `data/human_labels.csv`. New coder:
   add their code (sidebar) and email to `CODERS` in `export_labels.py`.
-- Episode order: `data/queue_order.csv` (from `make_queue_order.py`); codebook changes: `coding_guide.md` §6.
+- Codebook changes: `coding_guide.md` §6 and `taxonomy.json`.
