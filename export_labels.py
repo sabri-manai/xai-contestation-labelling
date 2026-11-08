@@ -1,89 +1,62 @@
-"""Export human labels (labels/<email>.csv files + local labels.db) to CSV for the framework repo.
+"""Join every coder's labels/<code>.csv into one file: data/human_labels.csv.
 
 Usage:
-    .venv/bin/python export_labels.py [--out PATH] [--silver PATH]
+    .venv/bin/python export_labels.py
 
-Writes the latest non-skipped label per (annotator, episode), one row each, and prints
-per-annotator counts, human–human agreement on the overlap, and agreement with the Jev
-silver labels if a silver CSV is given. Run it whenever the coders have saved more work;
-the framework reads the CSV, never the database.
+One row per (coder, episode, version), so the history is kept; `is_latest` marks the row that
+counts. Coders are named by the email they log in with. Nothing is adjudicated here: reconciling
+disagreements is a separate step on top of this file.
 """
-from __future__ import annotations
-
-import argparse
-import sqlite3
 from pathlib import Path
 
 import pandas as pd
 
 ROOT = Path(__file__).parent
-DEFAULT_OUT = ROOT.parent / "xai-contestation-framework" / "data" / "human_labels.csv"
-DEFAULT_SILVER = ROOT.parent / "xai-contestation-framework" / "data" / "silver_250.csv"
-LABEL_COLS = ["is_contestation", "explanation_request", "presence", "target",
-              "interaction_act", "grounds", "expected_response", "notes"]
+OUT = ROOT / "data" / "human_labels.csv"
 
-
-def kappa(a: pd.Series, b: pd.Series) -> float:
-    from sklearn.metrics import cohen_kappa_score
-    return cohen_kappa_score(a, b) if len(a) > 1 and a.nunique() + b.nunique() > 2 else float("nan")
+# labels/<code>.csv -> coder (code = app/sync.py code_for(email))
+CODERS = {
+    "c_433b209090": "szymon.bobek@uj.edu.pl",
+    "c_bf6244ebdc": "magdalena.kiszka@student.uj.edu.pl",
+    "c_01534ba437": "maciej.szelazek@uj.edu.pl",
+    "c_b59a2c33e1": "maria.j.tyrpa@student.uj.edu.pl",
+}
+LABELS = ["is_contestation", "explanation_request", "presence", "target",
+          "interaction_act", "grounds", "expected_response", "notes"]
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--out", type=Path, default=DEFAULT_OUT)
-    ap.add_argument("--silver", type=Path, default=DEFAULT_SILVER)
-    args = ap.parse_args()
-
-    # Sources: every annotator's committed file labels/<email>.csv, plus the local labels.db
-    # (labels saved here but not yet written to a file). Same label in both → counted once.
-    # Annotators are identified by code only (app/sync.py); emails never reach the output.
-    from app.sync import code_for
     frames = []
-    for f in sorted((ROOT / "labels").glob("c_*.csv")):
-        d = pd.read_csv(f, keep_default_na=False, dtype=str)
-        frames.append(d.rename(columns={"annotator_code": "annotator"}))
-    db_path = ROOT / "labels.db"
-    if db_path.exists():
-        with sqlite3.connect(db_path) as conn:
-            d = pd.read_sql_query(
-                """SELECT lower(a.username) AS annotator, l.episode_id, l.version, l.created_at,
-                          l.time_spent_s, l.is_skipped, l.is_contestation, l.explanation_request,
-                          l.presence, l.target, l.interaction_act, l.grounds, l.expected_response, l.notes
-                   FROM labels l JOIN annotators a ON a.id = l.annotator_id""",
-                conn,
-            ).astype(object).where(lambda x: x.notna(), "").astype(str)
-        d["annotator"] = d["annotator"].map(code_for)
+    for code, coder in CODERS.items():
+        d = pd.read_csv(ROOT / "labels" / f"{code}.csv", dtype=str, keep_default_na=False)
+        d["coder"] = coder
         frames.append(d)
     df = pd.concat(frames, ignore_index=True)
-    df = df[df["is_skipped"].astype(str).isin(["0", "0.0", ""])]
-    df = (df.drop_duplicates(["annotator", "episode_id", "created_at"])
-            .sort_values(["annotator", "episode_id", "created_at"])
-            .drop_duplicates(["annotator", "episode_id"], keep="last")
-            .drop(columns=["is_skipped"]))
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    df.to_csv(args.out, index=False)
-    print(f"wrote {len(df)} labels to {args.out}")
-    print(df.groupby("annotator").size().rename("labels").to_string())
 
-    coders = [c for c in df.annotator.unique()]
-    for i, c1 in enumerate(coders):
-        for c2 in coders[i + 1:]:
-            m = df[df.annotator == c1].merge(df[df.annotator == c2], on="episode_id", suffixes=("_1", "_2"))
-            if len(m):
-                print(f"{c1} vs {c2}: n={len(m)} "
-                      f"contestation acc={(m.is_contestation_1 == m.is_contestation_2).mean():.2f} "
-                      f"kappa={kappa(m.is_contestation_1, m.is_contestation_2):.2f} | "
-                      f"request acc={(m.explanation_request_1 == m.explanation_request_2).mean():.2f} "
-                      f"kappa={kappa(m.explanation_request_1, m.explanation_request_2):.2f}")
+    order = pd.read_csv(ROOT / "data" / "queue_order.csv", dtype={"queue_pos": int})
+    df = df.merge(order, on="episode_id", how="left")
 
-    if args.silver.exists():
-        s = pd.read_csv(args.silver, keep_default_na=False)
-        for c in coders:
-            m = df[df.annotator == c].merge(s, on="episode_id", suffixes=("_h", "_s"))
-            if len(m):
-                print(f"{c} vs silver (Jev): n={len(m)} "
-                      f"contestation kappa={kappa(m.is_contestation_h, m.is_contestation_s):.2f} "
-                      f"request kappa={kappa(m.explanation_request_h, m.explanation_request_s):.2f}")
+    df["is_skipped"] = df["is_skipped"].isin(["1", "1.0"]).astype(int)
+    df["version"] = df["version"].astype(int)
+    df = df.sort_values(["coder", "episode_id", "version"])
+    latest = (df[df.is_skipped == 0].groupby(["coder", "episode_id"]).version.max()
+              .rename("latest").reset_index())
+    df = df.merge(latest, on=["coder", "episode_id"], how="left")
+    df["is_latest"] = ((df.is_skipped == 0) & (df.version == df.latest)).astype(int)
+    # codebook v1.1 added explanation_request; rows saved before it have the field empty
+    df["codebook"] = df.apply(
+        lambda r: "" if r.is_skipped else ("v1.0" if r.explanation_request == "" else "v1.2"), axis=1)
+
+    cols = (["coder", "episode_id", "block", "queue_pos", "version", "is_latest", "is_skipped",
+             "created_at", "time_spent_s"] + LABELS + ["codebook"])
+    df = df[cols].sort_values(["queue_pos", "coder", "version"])
+    df.to_csv(OUT, index=False)
+
+    cur = df[df.is_latest == 1]
+    print(f"wrote {len(df)} rows ({len(cur)} current labels) to {OUT}")
+    print(cur.groupby("coder").size().rename("episodes").to_string())
+    k = cur.groupby("episode_id").coder.nunique().value_counts().sort_index()
+    print("episodes by number of coders:\n" + k.rename("episodes").to_string())
 
 
 if __name__ == "__main__":

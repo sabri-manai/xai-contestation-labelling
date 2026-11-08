@@ -1,0 +1,803 @@
+coder,episode_id,block,queue_pos,version,is_latest,is_skipped,created_at,time_spent_s,is_contestation,explanation_request,presence,target,interaction_act,grounds,expected_response,notes,codebook
+maciej.szelazek@uj.edu.pl,MZ_IT_05:166,reliability_100,1,1,0,0,2026-10-31 10:13:37,65.80457997322083,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_IT_05:166,reliability_100,1,2,0,1,2026-10-31 10:13:46,,,,,,,,,,
+maciej.szelazek@uj.edu.pl,MZ_IT_05:166,reliability_100,1,3,0,0,2026-10-31 10:14:02,5.481057167053223,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_IT_05:166,reliability_100,1,4,0,0,2026-10-31 10:14:38,1.0454211235046387,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_IT_05:166,reliability_100,1,5,1,0,2026-10-31 11:36:49,226.44059538841248,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_IT_05:166,reliability_100,1,1,1,0,2026-11-02 19:40:15,40.11314415931702,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_05:166,reliability_100,1,1,1,0,2026-11-02 15:14:25,168.151700258255,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_05:166,reliability_100,1,1,1,0,2026-10-31 07:38:32,242.27047562599182,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_04:216,reliability_100,2,1,0,0,2026-10-31 11:38:26,96.86294984817505,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_04:216,reliability_100,2,2,1,0,2026-10-31 23:54:04,922.8243088722229,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_04:216,reliability_100,2,1,1,0,2026-11-02 19:40:37,21.173407316207886,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_04:216,reliability_100,2,1,1,0,2026-11-02 15:15:53,48.729116678237915,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_04:216,reliability_100,2,1,1,0,2026-10-31 07:39:14,41.63548731803894,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_SSH_02:438,reliability_100,3,1,0,0,2026-10-31 11:39:22,55.48051309585571,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_SSH_02:438,reliability_100,3,2,1,0,2026-10-31 23:54:13,9.347095489501953,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_02:438,reliability_100,3,1,1,0,2026-11-02 19:40:52,15.114413022994995,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_02:438,reliability_100,3,1,1,0,2026-11-02 15:16:06,13.094837188720703,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_02:438,reliability_100,3,1,1,0,2026-10-31 07:40:09,54.521212100982666,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_01:117,reliability_100,4,1,1,0,2026-10-31 11:49:20,597.2839996814728,no,yes,absent,explanation representation,request for justification,domain knowledge,provide additional information,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_01:117,reliability_100,4,1,1,0,2026-11-02 19:41:53,60.728254556655884,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_01:117,reliability_100,4,1,1,0,2026-11-02 15:18:40,153.6498622894287,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_01:117,reliability_100,4,1,1,0,2026-10-31 07:40:20,11.483580589294434,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_07:119,reliability_100,5,1,1,0,2026-10-31 11:53:43,262.90647149086,yes,no,explicit,reasoning,request to acknowledge uncertainty,domain knowledge,acknowledge uncertainty,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_07:119,reliability_100,5,1,1,0,2026-11-02 19:43:39,105.3072099685669,yes,no,implicit,reasoning,direct challenge,domain knowledge,justify,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_07:119,reliability_100,5,1,1,0,2026-11-02 15:19:54,73.81877946853638,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_07:119,reliability_100,5,1,1,0,2026-10-31 07:43:26,185.9155557155609,yes,no,explicit,reasoning,direct challenge,domain knowledge,revise,The expert explicitely expressed objection that the prediction of the model provided by the explanation is not aligned with the expert knoeldge,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_08:20,reliability_100,6,1,1,0,2026-10-31 11:56:15,152.0462806224823,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_08:20,reliability_100,6,1,1,0,2026-11-02 19:44:25,45.66309142112732,yes,no,implicit,input data,alternative proposal,domain knowledge,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_08:20,reliability_100,6,1,1,0,2026-11-02 15:24:47,291.7476370334625,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_08:20,reliability_100,6,1,0,0,2026-10-31 07:49:00,333.86348032951355,yes,no,ambiguous,evidence,request for justification,domain knowledge,provide additional information,"The overall reasoning behind the explanation seems to be right, but the user requested more infromation because based on the  evidences provided by the XAI it is not possible to decide if the internal reasoing is correct.",v1.2
+szymon.bobek@uj.edu.pl,PK_DE_08:20,reliability_100,6,2,1,0,2026-10-31 11:03:28,43.87730956077576,yes,no,ambiguous,evidence,request for justification,domain knowledge,provide additional information,"The overall reasoning behind the explanation seems to be right, but the user requested more infromation because based on the  evidences provided by the XAI it is not possible to decide if the internal reasoing is correct.",v1.2
+maciej.szelazek@uj.edu.pl,DR_IT_05:340,reliability_100,7,1,1,0,2026-10-31 11:56:55,39.813939332962036,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_IT_05:340,reliability_100,7,1,0,0,2026-10-29 18:53:34,21.007391452789307,no,,absent,,,,,,v1.0
+magdalena.kiszka@student.uj.edu.pl,DR_IT_05:340,reliability_100,7,2,1,0,2026-11-02 19:44:34,9.124633550643921,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:340,reliability_100,7,1,0,0,2026-10-27 08:21:37,9.41512155532837,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:340,reliability_100,7,2,1,0,2026-11-02 15:25:16,28.770967483520508,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_IT_05:340,reliability_100,7,1,0,0,2026-10-31 07:49:41,40.10484743118286,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_IT_05:340,reliability_100,7,2,1,0,2026-10-31 11:03:34,5.197976589202881,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MW_SSH_05:101,reliability_100,8,1,0,0,2026-10-31 11:59:32,155.93415522575378,no,no,absent,reasoning,request for justification,domain knowledge,provide additional information,,v1.2
+maciej.szelazek@uj.edu.pl,MW_SSH_05:101,reliability_100,8,2,1,0,2026-10-31 12:00:03,12.73819875717163,yes,yes,explicit,reasoning,request for justification,domain knowledge,provide additional information,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_05:101,reliability_100,8,1,1,0,2026-11-02 19:45:54,79.04387664794922,yes,yes,explicit,explanation representation,direct challenge,presentation ambiguity,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_05:101,reliability_100,8,1,1,0,2026-11-02 15:27:37,128.29330444335938,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_05:101,reliability_100,8,1,1,0,2026-10-31 11:12:10,515.8299214839935,no,yes,absent,,,,,Incomprhensibility; clear confusion about what colors mean in the provided explanation.,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_07:143,reliability_100,9,1,1,0,2026-10-31 12:01:17,73.7374095916748,yes,no,explicit,prediction,correction,domain knowledge,revise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_07:143,reliability_100,9,1,1,0,2026-11-02 19:46:59,64.74306035041809,yes,no,explicit,prediction,rejection,domain knowledge,defer to human expertise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_07:143,reliability_100,9,1,1,0,2026-11-02 15:32:08,270.4878361225128,yes,no,implicit,system competence,rejection,domain knowledge,defer to human expertise,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_07:143,reliability_100,9,1,0,0,2026-10-31 07:57:38,105.21751856803894,yes,no,implicit,evidence,rejection,domain knowledge,incorporate correction,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_07:143,reliability_100,9,2,1,0,2026-10-31 11:12:27,16.578227281570435,yes,no,implicit,evidence,rejection,domain knowledge,incorporate correction,,v1.2
+maciej.szelazek@uj.edu.pl,MK_SSH_05:78,reliability_100,10,1,1,0,2026-10-31 12:02:13,54.96097660064697,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_05:78,reliability_100,10,1,1,0,2026-11-02 19:47:23,23.80058765411377,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_05:78,reliability_100,10,1,1,0,2026-11-02 15:32:25,17.28483247756958,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_05:78,reliability_100,10,1,1,0,2026-10-31 11:13:57,89.58782362937927,no,no,absent,,,,,"The user confirmed that explanation is aligned with his knowledge, but admitted also that his knowledge is more detailed and broad compared to what was provided by XAI",v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_07:248,reliability_100,11,1,1,0,2026-10-31 12:03:40,87.64888954162598,no,yes,absent,reasoning,request for justification,domain knowledge,provide additional information,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_07:248,reliability_100,11,1,1,0,2026-11-02 19:47:56,32.78338694572449,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_07:248,reliability_100,11,1,1,0,2026-11-02 15:33:21,55.65939140319824,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_07:248,reliability_100,11,1,1,0,2026-10-31 08:02:00,129.34987831115723,no,yes,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MW_SSH_05:95,reliability_100,12,1,1,0,2026-10-31 12:07:24,223.5393190383911,no,yes,absent,reasoning,request for justification,internal inconsistency,provide additional information,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_05:95,reliability_100,12,1,1,0,2026-11-02 19:50:12,135.99925303459167,yes,yes,explicit,explanation representation,direct challenge,presentation ambiguity,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_05:95,reliability_100,12,1,1,0,2026-11-02 15:34:41,79.18847393989563,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_05:95,reliability_100,12,1,1,0,2026-10-31 11:18:00,60.400200605392456,no,yes,absent,,,,,Clear problems with understanding how to read the presented explanation.,v1.2
+maciej.szelazek@uj.edu.pl,MW_IT_02:35,reliability_100,13,1,1,0,2026-10-31 12:08:37,72.18256759643555,no,yes,absent,explanation representation,request for justification,technical knowledge,provide additional information,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_IT_02:35,reliability_100,13,1,1,0,2026-11-02 19:52:19,126.60661101341248,yes,yes,explicit,explanation representation,rejection,presentation ambiguity,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_IT_02:35,reliability_100,13,1,1,0,2026-11-02 15:36:54,132.3529531955719,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_IT_02:35,reliability_100,13,1,1,0,2026-10-31 11:18:34,33.32306981086731,no,yes,absent,,,,,Clear incomprehension  of how to read the presented explanatio due to lack of technical skills,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_05:128,reliability_100,14,1,1,0,2026-10-31 12:10:01,83.86624121665955,yes,no,explicit,prediction,rejection,prior experience,revise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_05:128,reliability_100,14,1,1,0,2026-11-02 19:53:03,43.51417279243469,yes,no,explicit,reasoning,counterexample,domain knowledge,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_05:128,reliability_100,14,1,1,0,2026-11-02 15:42:23,328.84700632095337,yes,no,explicit,reasoning,direct challenge,domain knowledge,revise,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_05:128,reliability_100,14,1,0,0,2026-10-31 08:47:41,114.41347551345825,yes,yes,implicit,evidence,counterexample,domain knowledge,revise,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_05:128,reliability_100,14,2,1,0,2026-10-31 11:18:54,19.550134658813477,yes,yes,implicit,evidence,counterexample,domain knowledge,revise,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_02:87,reliability_100,15,1,1,0,2026-10-31 12:10:09,8.005138635635376,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_02:87,reliability_100,15,1,1,0,2026-11-02 19:53:40,36.956538677215576,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:87,reliability_100,15,1,1,0,2026-11-02 15:43:18,54.90579104423523,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_02:87,reliability_100,15,1,0,0,2026-10-31 08:48:00,18.04875683784485,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_02:87,reliability_100,15,2,1,0,2026-10-31 11:19:23,29.484573364257812,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_IT_05:209,reliability_100,16,1,1,0,2026-10-31 12:25:52,942.4776425361633,yes,no,explicit,prediction,rejection,domain knowledge,revise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_IT_05:209,reliability_100,16,1,1,0,2026-11-02 19:54:46,66.06904554367065,yes,no,explicit,reasoning,direct challenge,prior experience,justify,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_05:209,reliability_100,16,1,1,0,2026-11-02 15:47:12,233.4303286075592,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_05:209,reliability_100,16,1,0,0,2026-10-31 08:48:45,45.312559843063354,no,no,absent,,,,,it is more of an incomprehension,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_05:209,reliability_100,16,2,1,0,2026-10-31 11:21:17,113.07967925071716,yes,no,ambiguous,evidence,alternative proposal,prior experience,provide additional information,The user has doubts if the predictins of the model are based on correct assumptios and evidences,v1.2
+maciej.szelazek@uj.edu.pl,MZ_SSH_04:188,reliability_100,17,1,1,0,2026-10-31 12:27:07,75.05512475967407,yes,yes,explicit,explanation representation,request for justification,technical knowledge,provide additional information,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_04:188,reliability_100,17,1,1,0,2026-11-02 19:55:27,40.25267434120178,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_04:188,reliability_100,17,1,1,0,2026-11-02 15:47:31,19.249039888381958,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_04:188,reliability_100,17,1,0,0,2026-10-31 08:49:16,30.220096111297607,no,yes,absent,,,,,Incomprehension of the format of explanation,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_04:188,reliability_100,17,2,1,0,2026-10-31 11:23:49,151.93400931358337,no,yes,absent,,,,,Incomprehension of the format of explanation,v1.2
+maciej.szelazek@uj.edu.pl,MK_SSH_04:109,reliability_100,18,1,1,0,2026-10-31 12:31:01,233.00518131256104,yes,yes,explicit,prediction,rejection,presentation ambiguity,provide additional information,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_04:109,reliability_100,18,1,1,0,2026-11-02 19:55:45,18.14575219154358,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_04:109,reliability_100,18,1,1,0,2026-11-02 15:47:47,15.275708675384521,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_04:109,reliability_100,18,1,0,0,2026-10-31 08:49:46,30.075452089309692,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_04:109,reliability_100,18,2,1,0,2026-10-31 11:24:05,15.674661636352539,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MW_SSH_03:52,reliability_100,19,1,1,0,2026-10-31 12:34:06,185.1591727733612,yes,no,explicit,evidence,direct challenge,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_03:52,reliability_100,19,1,1,0,2026-11-02 19:57:03,76.96371555328369,yes,no,explicit,reasoning,direct challenge,prior experience,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_03:52,reliability_100,19,1,0,0,2026-11-02 15:59:58,731.5098412036896,yes,no,ambiguous,evidence,alternative proposal,prior experience,justify,"The participant explicitly questions whether cap colour is relevant to mushroom edibility (""it seems to me that cap colour does not actually influence whether a mushroom is poisonous or edible""), but uses tentative expressions such as ""it seems to me"" and ""I would be more inclined to think"", rather than directly stating that the system is wrong. Therefore, it is unclear whether this should be considered explicit or implicit contestation.",v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_03:52,reliability_100,19,2,1,0,2026-11-03 09:26:39,27.232954263687134,yes,no,ambiguous,evidence,alternative proposal,prior experience,revise,"The participant explicitly questions whether cap colour is relevant to mushroom edibility (""it seems to me that cap colour does not actually influence whether a mushroom is poisonous or edible""), but uses tentative expressions such as ""it seems to me"" and ""I would be more inclined to think"", rather than directly stating that the system is wrong. Therefore, it is unclear whether this should be considered explicit or implicit contestation.",v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_03:52,reliability_100,19,1,0,0,2026-10-31 08:51:02,75.79879307746887,yes,no,implicit,evidence,alternative proposal,prior experience,revise,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_03:52,reliability_100,19,2,1,0,2026-10-31 11:24:25,20.169569969177246,yes,no,implicit,evidence,alternative proposal,prior experience,revise,,v1.2
+maciej.szelazek@uj.edu.pl,MK_SSH_07:19,reliability_100,20,1,1,0,2026-10-31 12:35:20,73.45483136177063,no,yes,absent,explanation representation,request for justification,domain knowledge,provide additional information,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_07:19,reliability_100,20,1,1,0,2026-11-02 19:57:25,22.24082660675049,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_07:19,reliability_100,20,1,1,0,2026-11-02 16:00:22,23.051676511764526,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_07:19,reliability_100,20,1,0,0,2026-10-31 08:52:54,112.34053468704224,no,yes,absent,,,,,Names of the features were not understandable in all of the cases,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_07:19,reliability_100,20,2,1,0,2026-10-31 11:24:40,14.313090085983276,no,yes,absent,,,,,Names of the features were not understandable in all of the cases,v1.2
+maciej.szelazek@uj.edu.pl,MK_SSH_05:77,reliability_100,21,1,1,0,2026-10-31 13:09:25,2044.5182898044586,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_05:77,reliability_100,21,1,0,0,2026-11-02 13:57:34,24.50994110107422,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_05:77,reliability_100,21,2,1,0,2026-11-02 19:57:40,14.785224676132202,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_05:77,reliability_100,21,1,1,0,2026-11-02 16:00:29,6.698504686355591,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_05:77,reliability_100,21,1,0,0,2026-10-31 08:56:08,193.86058926582336,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_05:77,reliability_100,21,2,1,0,2026-10-31 11:25:23,42.98220610618591,no,no,absent,,,,,The target sentence is just a question that the user read  out loud.,v1.2
+maciej.szelazek@uj.edu.pl,MK_SSH_04:158,reliability_100,22,1,1,0,2026-10-31 13:10:18,52.417545557022095,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_04:158,reliability_100,22,1,0,0,2026-11-02 14:01:27,232.20617604255676,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_04:158,reliability_100,22,2,1,0,2026-11-02 19:57:58,17.19249987602234,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_04:158,reliability_100,22,1,1,0,2026-11-02 16:00:42,13.249505519866943,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_04:158,reliability_100,22,1,1,0,2026-10-31 11:26:16,52.924195528030396,no,no,absent,,,,,the user agreed with the model prediciton and explanation,v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_03:326,reliability_100,23,1,1,0,2026-10-31 13:12:17,119.20603108406067,no,yes,absent,evidence,correction,domain knowledge,acknowledge uncertainty,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_03:326,reliability_100,23,1,1,0,2026-11-02 14:02:23,55.821754455566406,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_03:326,reliability_100,23,1,1,0,2026-11-02 16:01:08,25.63848352432251,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_03:326,reliability_100,23,1,0,0,2026-10-31 08:56:49,14.715299606323242,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_03:326,reliability_100,23,2,1,0,2026-10-31 11:27:16,59.299967527389526,no,yes,absent,,,,,"For the user it is not clear how to interpret colors. He/She correctly deduced it, but seems that there is some kind of uncertainty there.",v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_05:112,reliability_100,24,1,1,0,2026-10-31 13:13:46,88.54067587852478,yes,no,explicit,reasoning,rejection,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_05:112,reliability_100,24,1,1,0,2026-11-02 14:04:23,120.21434116363525,yes,yes,explicit,reasoning,direct challenge,domain knowledge,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_05:112,reliability_100,24,1,1,0,2026-11-02 16:11:11,602.3847367763519,yes,no,explicit,evidence,direct challenge,missing evidence,provide additional information,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_05:112,reliability_100,24,1,0,0,2026-10-31 08:59:25,154.87653803825378,yes,yes,ambiguous,evidence,request to acknowledge uncertainty,domain knowledge,provide additional information,"The features were considered only additional ones, that should not be used as solo predictors",v1.2
+szymon.bobek@uj.edu.pl,PK_DE_05:112,reliability_100,24,2,1,0,2026-10-31 11:27:22,5.668452024459839,yes,yes,ambiguous,evidence,request to acknowledge uncertainty,domain knowledge,provide additional information,"The features were considered only additional ones, that should not be used as solo predictors",v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_02:87,reliability_100,25,1,1,0,2026-10-31 13:14:33,46.94833064079285,no,yes,absent,explanation representation,alternative proposal,technical knowledge,revise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:87,reliability_100,25,1,1,0,2026-11-02 14:06:08,104.07350540161133,yes,yes,explicit,explanation representation,alternative proposal,presentation ambiguity,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:87,reliability_100,25,1,1,0,2026-11-02 16:12:35,84.00080752372742,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_02:87,reliability_100,25,1,0,0,2026-10-31 09:00:42,77.26521897315979,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_02:87,reliability_100,25,2,1,0,2026-10-31 11:28:04,41.62643575668335,no,no,absent,,,,,Suggestion related to the format of the explanation,v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_03:180,reliability_100,26,1,1,0,2026-10-31 13:14:43,9.17980694770813,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_03:180,reliability_100,26,1,1,0,2026-11-02 14:06:26,18.02627444267273,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_03:180,reliability_100,26,1,1,0,2026-11-02 16:12:43,7.171107053756714,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_03:180,reliability_100,26,1,0,0,2026-10-31 09:00:53,10.849225521087646,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_03:180,reliability_100,26,2,1,0,2026-10-31 11:28:28,23.4181067943573,no,no,absent,,,,,The user simply comments on their domain knowlwedge about mushrooms,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_03:68,reliability_100,27,1,1,0,2026-10-31 13:15:26,43.1714391708374,yes,no,explicit,prediction,rejection,domain knowledge,revise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_03:68,reliability_100,27,1,1,0,2026-11-02 14:09:53,206.61650967597961,yes,no,explicit,reasoning,rejection,domain knowledge,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_03:68,reliability_100,27,1,1,0,2026-11-02 16:19:56,433.0530934333801,yes,no,explicit,system competence,rejection,internal inconsistency,defer to human expertise,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_03:68,reliability_100,27,1,0,0,2026-10-31 09:03:06,132.827130317688,yes,no,explicit,reasoning,direct challenge,domain knowledge,defer to human expertise,The participant challenged the features used by the model. ,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_03:68,reliability_100,27,2,1,0,2026-10-31 11:28:31,2.6994681358337402,yes,no,explicit,reasoning,direct challenge,domain knowledge,defer to human expertise,The participant challenged the features used by the model. ,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_02:202,reliability_100,28,1,1,0,2026-10-31 13:16:13,46.162436723709106,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_02:202,reliability_100,28,1,1,0,2026-11-02 14:10:53,59.45486545562744,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:202,reliability_100,28,1,1,0,2026-11-02 16:21:16,79.70856666564941,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_02:202,reliability_100,28,1,0,0,2026-10-31 09:06:01,175.1413872241974,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_02:202,reliability_100,28,2,1,0,2026-10-31 11:28:59,27.840123653411865,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MW_SSH_01:39,reliability_100,29,1,1,0,2026-10-31 13:17:36,82.94395184516907,yes,no,explicit,reasoning,request for justification,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_01:39,reliability_100,29,1,1,0,2026-11-02 14:12:41,107.77889370918274,yes,no,explicit,reasoning,direct challenge,prior experience,justify,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_01:39,reliability_100,29,1,1,0,2026-11-02 16:27:23,366.1728985309601,yes,no,explicit,evidence,rejection,prior experience,justify,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_01:39,reliability_100,29,1,0,0,2026-10-31 09:07:17,75.04176664352417,yes,no,explicit,evidence,direct challenge,domain knowledge,justify,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_01:39,reliability_100,29,2,1,0,2026-10-31 11:29:05,5.578208923339844,yes,no,explicit,evidence,direct challenge,domain knowledge,justify,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_03:89,reliability_100,30,1,1,0,2026-10-31 13:17:54,17.808513402938843,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_03:89,reliability_100,30,1,1,0,2026-11-02 14:14:14,92.84144568443298,yes,yes,explicit,input data,direct challenge,missing evidence,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_03:89,reliability_100,30,1,1,0,2026-11-02 16:27:57,34.13529658317566,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_03:89,reliability_100,30,1,0,0,2026-10-31 09:12:19,302.74020433425903,no,yes,absent,,,,,The participant did not understand how the ML model works and assumed that more features in the explanation the more confidence.,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_03:89,reliability_100,30,2,1,0,2026-10-31 11:29:07,1.538240671157837,no,yes,absent,,,,,The participant did not understand how the ML model works and assumed that more features in the explanation the more confidence.,v1.2
+maciej.szelazek@uj.edu.pl,MW_SSH_05:75,reliability_100,31,1,1,0,2026-10-31 13:19:24,88.93869614601135,yes,no,explicit,input data,rejection,domain knowledge,incorporate correction,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_05:75,reliability_100,31,1,1,0,2026-11-02 14:16:37,142.50316977500916,yes,yes,explicit,input data,direct challenge,data-quality concern,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_05:75,reliability_100,31,1,1,0,2026-11-02 16:30:04,126.47214555740356,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_05:75,reliability_100,31,1,0,0,2026-10-31 09:15:01,161.45541667938232,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_05:75,reliability_100,31,2,1,0,2026-10-31 11:30:12,65.22981667518616,no,no,absent,,,,,"Some dounds about quality of data, which were generated",v1.2
+maciej.szelazek@uj.edu.pl,MW_SSH_04:108,reliability_100,32,1,1,0,2026-11-03 09:58:08,104.29222297668457,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_04:108,reliability_100,32,1,1,0,2026-11-02 14:17:36,58.311453104019165,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_04:108,reliability_100,32,1,1,0,2026-11-02 16:32:11,127.45060133934021,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_04:108,reliability_100,32,2,0,1,2026-11-02 16:33:50,,,,,,,,,,
+szymon.bobek@uj.edu.pl,MW_SSH_04:108,reliability_100,32,1,0,0,2026-10-31 09:15:26,24.96235227584839,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_04:108,reliability_100,32,2,1,0,2026-10-31 11:32:08,115.61546778678894,yes,no,implicit,reasoning,request for justification,domain knowledge,provide additional information,,v1.2
+maciej.szelazek@uj.edu.pl,MK_IT_06:75,reliability_100,33,1,1,0,2026-11-03 10:00:05,117.1665358543396,yes,no,ambiguous,evidence,request for justification,domain knowledge,provide additional information,it's not very clear and direct,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_IT_06:75,reliability_100,33,1,1,0,2026-11-02 14:19:17,100.86092209815979,yes,no,implicit,reasoning,direct challenge,prior experience,justify,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_06:75,reliability_100,33,1,1,0,2026-11-02 16:39:21,331.12222695350647,yes,no,ambiguous,evidence,alternative proposal,domain knowledge,justify,"The participant partially agrees with the explanation provided, but at the same time suggests that colors should be given greater importance when assessing the edibility of mushrooms.",v1.2
+szymon.bobek@uj.edu.pl,MK_IT_06:75,reliability_100,33,1,1,0,2026-10-31 11:33:35,86.91804575920105,yes,no,ambiguous,evidence,request for justification,domain knowledge,provide additional information,The user contest implicitelly the reasoning because it is not fully consistent with his/hre beliefs,v1.2
+maciej.szelazek@uj.edu.pl,MZ_IT_05:338,reliability_100,34,1,1,0,2026-11-03 10:00:15,10.008709192276001,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_IT_05:338,reliability_100,34,1,1,0,2026-11-02 14:19:52,34.32466673851013,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_05:338,reliability_100,34,1,1,0,2026-11-02 16:39:35,13.928212404251099,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_05:338,reliability_100,34,1,1,0,2026-10-31 11:34:09,33.525249004364014,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MK_SSH_02:317,reliability_100,35,1,1,0,2026-11-02 22:21:50,80.63780570030212,yes,no,implicit,reasoning,request for justification,prior experience,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_02:317,reliability_100,35,1,1,0,2026-11-02 14:21:34,102.13523054122925,yes,yes,implicit,reasoning,direct challenge,internal inconsistency,justify,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_02:317,reliability_100,35,1,1,0,2026-11-02 17:51:10,8.3904128074646,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_02:317,reliability_100,35,1,0,0,2026-10-31 09:21:31,189.28461360931396,yes,no,ambiguous,evidence,counterexample,internal inconsistency,justify,"The contestation is not direct, but refers to inconsistncies with previously seen explanations",v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_02:317,reliability_100,35,2,1,0,2026-10-31 11:34:19,9.900354862213135,yes,no,ambiguous,evidence,counterexample,internal inconsistency,justify,"The contestation is not direct, but refers to inconsistncies with previously seen explanations",v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_03:115,reliability_100,36,1,1,0,2026-11-02 22:22:19,29.497761487960815,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_03:115,reliability_100,36,1,1,0,2026-11-02 14:22:42,67.14061212539673,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_03:115,reliability_100,36,1,1,0,2026-11-02 17:51:24,13.783175706863403,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_03:115,reliability_100,36,1,0,0,2026-10-31 09:26:34,302.86725306510925,yes,no,ambiguous,input data,request to acknowledge uncertainty,missing evidence,provide additional information,The user was not sure how the data was coleteced and measured,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_03:115,reliability_100,36,2,1,0,2026-10-31 11:34:22,2.7959487438201904,yes,no,ambiguous,input data,request to acknowledge uncertainty,missing evidence,provide additional information,The user was not sure how the data was coleteced and measured,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_02:97,reliability_100,37,1,1,0,2026-11-02 22:23:44,85.04993844032288,yes,no,implicit,reasoning,request for justification,technical knowledge,provide additional information,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_02:97,reliability_100,37,1,1,0,2026-11-02 14:25:25,163.34355640411377,yes,yes,implicit,explanation representation,direct challenge,technical knowledge,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:97,reliability_100,37,1,1,0,2026-11-02 17:52:09,44.84511375427246,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_02:97,reliability_100,37,1,1,0,2026-10-31 11:35:15,52.58138990402222,no,yes,absent,,,,,User has difficulties in interpretin plot and it is annoying.,v1.2
+maciej.szelazek@uj.edu.pl,MZ_IT_05:236,reliability_100,38,1,1,0,2026-11-02 22:28:48,303.07313537597656,no,yes,absent,reasoning,request for justification,internal inconsistency,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_IT_05:236,reliability_100,38,1,1,0,2026-11-02 14:25:43,16.82387685775757,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_05:236,reliability_100,38,1,1,0,2026-11-02 17:52:18,8.977376461029053,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_05:236,reliability_100,38,1,1,0,2026-10-31 11:35:32,16.733774662017822,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_07:374,reliability_100,39,1,1,0,2026-11-02 22:30:22,94.4718689918518,no,yes,absent,reasoning,request for justification,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_07:374,reliability_100,39,1,1,0,2026-11-02 14:26:39,55.96027851104736,yes,yes,explicit,reasoning,direct challenge,prior experience,justify,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_07:374,reliability_100,39,1,1,0,2026-11-02 17:55:21,182.56218004226685,yes,no,implicit,input data,request for justification,domain knowledge,justify,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_07:374,reliability_100,39,1,1,0,2026-10-31 11:36:59,85.985271692276,yes,no,ambiguous,evidence,alternative proposal,domain knowledge,justify,The user doubts the correctness of th eevidence which are not aligned perfectly with his/her domain konwledge,v1.2
+maciej.szelazek@uj.edu.pl,MZ_IT_05:288,reliability_100,40,1,1,0,2026-11-02 22:46:58,995.0692064762115,no,yes,absent,reasoning,request for justification,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_IT_05:288,reliability_100,40,1,1,0,2026-11-02 14:28:04,85.32209205627441,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_05:288,reliability_100,40,1,1,0,2026-11-02 17:56:37,75.98123502731323,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_05:288,reliability_100,40,1,1,0,2026-10-31 11:37:11,12.530450582504272,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MW_IT_07:105,reliability_100,41,1,1,0,2026-11-02 22:48:10,72.40635323524475,yes,no,implicit,reasoning,request for justification,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_IT_07:105,reliability_100,41,1,1,0,2026-11-02 14:29:15,70.3522515296936,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_IT_07:105,reliability_100,41,1,0,0,2026-11-02 18:01:01,263.14322662353516,yes,no,explicit,prediction,rejection,prior experience,acknowledge uncertainty,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_IT_07:105,reliability_100,41,2,1,0,2026-11-03 09:23:28,41.020848989486694,yes,no,explicit,prediction,rejection,prior experience,expose conflicting evidence,,v1.2
+szymon.bobek@uj.edu.pl,MW_IT_07:105,reliability_100,41,1,1,0,2026-10-31 11:38:07,54.85329508781433,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_10:56,reliability_100,42,1,1,0,2026-11-02 22:48:37,27.030673503875732,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_10:56,reliability_100,42,1,1,0,2026-11-02 14:30:53,97.5995888710022,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_10:56,reliability_100,42,1,1,0,2026-11-02 18:02:37,95.67624163627625,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_10:56,reliability_100,42,1,1,0,2026-10-31 11:40:30,143.52308869361877,yes,no,ambiguous,evidence,alternative proposal,domain knowledge,defer to human expertise,The user challenge the way the classification is made. ,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_04:160,reliability_100,43,1,1,0,2026-11-02 22:49:12,34.51332116127014,yes,no,explicit,prediction,direct challenge,domain knowledge,revise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_04:160,reliability_100,43,1,1,0,2026-11-02 14:33:13,139.21068215370178,yes,no,explicit,explanation representation,rejection,domain knowledge,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:160,reliability_100,43,1,1,0,2026-11-02 18:08:07,329.78139209747314,yes,yes,explicit,system competence,rejection,causal implausibility,expose conflicting evidence,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_04:160,reliability_100,43,1,1,0,2026-10-31 11:41:52,80.87679719924927,yes,no,explicit,reasoning,direct challenge,causal implausibility,provide additional information,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_05:71,reliability_100,44,1,1,0,2026-11-02 22:50:26,73.75543570518494,yes,no,explicit,input data,direct challenge,domain knowledge,revise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_05:71,reliability_100,44,1,1,0,2026-11-02 14:35:54,161.10222864151,yes,yes,explicit,input data,correction,data-quality concern,incorporate correction,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_05:71,reliability_100,44,1,1,0,2026-11-02 18:10:47,160.0481939315796,yes,yes,explicit,input data,rejection,data-quality concern,incorporate correction,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_05:71,reliability_100,44,1,1,0,2026-10-31 11:43:19,87.1405713558197,yes,no,explicit,input data,direct challenge,domain knowledge,incorporate correction,The user argues about the wuality of data and corretness (some features should be renamed),v1.2
+maciej.szelazek@uj.edu.pl,MZ_IT_05:294,reliability_100,45,1,1,0,2026-11-02 22:50:33,7.237752199172974,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_IT_05:294,reliability_100,45,1,1,0,2026-11-02 14:36:02,7.597742795944214,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_05:294,reliability_100,45,1,1,0,2026-11-02 18:10:58,10.267215967178345,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_05:294,reliability_100,45,1,1,0,2026-10-31 11:46:13,173.40878033638,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MK_SSH_04:70,reliability_100,46,1,1,0,2026-11-02 22:51:11,38.07096600532532,yes,no,explicit,explanation representation,direct challenge,technical knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_04:70,reliability_100,46,1,1,0,2026-11-02 14:37:02,59.91944718360901,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_04:70,reliability_100,46,1,1,0,2026-11-02 18:11:46,48.53310585021973,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_04:70,reliability_100,46,1,1,0,2026-10-31 11:46:48,35.30771350860596,no,yes,absent,,,,,The user doe snot know how to inpretre provided explanation,v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_02:172,reliability_100,47,1,1,0,2026-11-02 22:51:17,5.0527520179748535,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:172,reliability_100,47,1,0,0,2026-10-29 18:57:23,18.928934335708618,no,,absent,,,,,,v1.0
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:172,reliability_100,47,2,1,0,2026-11-02 14:38:57,19.490997314453125,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:172,reliability_100,47,1,0,0,2026-10-27 08:41:10,668.5828907489777,yes,,implicit,reasoning,counterexample,internal inconsistency,expose conflicting evidence,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:172,reliability_100,47,2,1,0,2026-11-02 18:13:41,114.49931240081787,yes,no,implicit,reasoning,counterexample,internal inconsistency,expose conflicting evidence,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_02:172,reliability_100,47,1,1,0,2026-10-31 11:47:39,49.77870416641235,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_01:177,reliability_100,48,1,1,0,2026-11-02 22:52:11,54.639676570892334,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_01:177,reliability_100,48,1,0,0,2026-10-29 18:54:20,37.68477773666382,no,,absent,,,,,,v1.0
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_01:177,reliability_100,48,2,1,0,2026-11-02 14:40:09,37.75893044471741,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_01:177,reliability_100,48,1,0,0,2026-10-27 08:22:12,34.40056371688843,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_01:177,reliability_100,48,2,1,0,2026-11-02 18:13:59,17.18753695487976,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_01:177,reliability_100,48,1,1,0,2026-10-31 11:48:37,58.173038482666016,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_02:284,reliability_100,49,1,1,0,2026-11-02 22:52:47,35.08040142059326,yes,no,explicit,input data,rejection,data-quality concern,revise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:284,reliability_100,49,1,0,0,2026-10-29 19:11:12,248.24582767486572,yes,,explicit,input data,rejection,data-quality concern,revise,,v1.0
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:284,reliability_100,49,2,1,0,2026-11-02 14:40:40,30.845884084701538,yes,no,explicit,input data,rejection,data-quality concern,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:284,reliability_100,49,1,0,0,2026-11-02 14:51:58,526.5046331882477,yes,,explicit,input data,rejection,data-quality concern,defer to human expertise,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:284,reliability_100,49,2,1,0,2026-11-02 18:14:28,28.70781683921814,yes,no,explicit,input data,rejection,data-quality concern,defer to human expertise,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_02:284,reliability_100,49,1,1,0,2026-10-31 11:49:30,52.26566743850708,yes,no,explicit,input data,direct challenge,data-quality concern,incorporate correction,direct concern about quality of gnerated data,v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_04:87,reliability_100,50,1,1,0,2026-11-02 22:53:04,16.78391456604004,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_04:87,reliability_100,50,1,1,0,2026-11-02 14:41:28,47.40255093574524,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_04:87,reliability_100,50,1,1,0,2026-11-02 18:15:05,36.984323263168335,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_04:87,reliability_100,50,1,1,0,2026-10-31 11:49:40,10.434270143508911,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_09:107,reliability_100,51,1,1,0,2026-11-02 22:54:06,62.344698429107666,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_09:107,reliability_100,51,1,1,0,2026-11-02 14:44:19,170.35346341133118,yes,no,explicit,input data,alternative proposal,data-quality concern,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_09:107,reliability_100,51,1,1,0,2026-11-02 18:20:45,339.52868604660034,yes,no,ambiguous,system competence,alternative proposal,data-quality concern,defer to human expertise,The participant primarily expresses concerns regarding the potential application of the software and the quality of the data used to train the model. They warn of the possibility that the database could be corrupted by incorrect user confirmations.,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_09:107,reliability_100,51,1,1,0,2026-10-31 11:51:34,113.07234048843384,yes,no,explicit,system competence,direct challenge,technical knowledge,incorporate correction,,v1.2
+maciej.szelazek@uj.edu.pl,MK_IT_03:134,reliability_100,52,1,1,0,2026-11-02 22:54:52,45.77298879623413,no,yes,absent,explanation representation,request for justification,presentation ambiguity,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_IT_03:134,reliability_100,52,1,1,0,2026-11-02 14:44:39,20.308869123458862,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_03:134,reliability_100,52,1,1,0,2026-11-02 18:20:57,12.183599948883057,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_IT_03:134,reliability_100,52,1,1,0,2026-10-31 11:51:57,22.88337540626526,no,no,absent,,,,,target is just reding the questino out loud,v1.2
+maciej.szelazek@uj.edu.pl,MK_IT_06:26,reliability_100,53,1,1,0,2026-11-02 22:54:56,3.984920024871826,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_IT_06:26,reliability_100,53,1,1,0,2026-11-02 14:45:01,21.18707799911499,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_06:26,reliability_100,53,1,1,0,2026-11-02 22:00:47,7.987921476364136,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_IT_06:26,reliability_100,53,1,1,0,2026-10-31 11:53:20,82.71139430999756,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_SSH_03:106,reliability_100,54,1,1,0,2026-11-02 22:56:08,71.06084513664246,no,yes,absent,evidence,request for justification,internal inconsistency,provide additional information,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_03:106,reliability_100,54,1,1,0,2026-11-02 14:47:08,126.70852327346802,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_03:106,reliability_100,54,1,1,0,2026-11-02 22:01:14,25.87703585624695,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_03:106,reliability_100,54,1,1,0,2026-10-31 11:53:43,22.988599061965942,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MK_IT_06:32,reliability_100,55,1,1,0,2026-11-02 22:56:32,24.274574518203735,no,yes,absent,evidence,request for justification,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_IT_06:32,reliability_100,55,1,1,0,2026-11-02 14:47:49,41.03775215148926,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_06:32,reliability_100,55,1,1,0,2026-11-02 22:02:57,103.3151342868805,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_IT_06:32,reliability_100,55,1,1,0,2026-10-31 11:54:14,30.329137802124023,no,yes,absent,,,,,The user admits that is confused about the form of explanation,v1.2
+maciej.szelazek@uj.edu.pl,MW_SSH_04:45,reliability_100,56,1,1,0,2026-11-02 22:56:45,12.834804058074951,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_04:45,reliability_100,56,1,1,0,2026-11-02 14:48:20,29.820603847503662,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_04:45,reliability_100,56,1,1,0,2026-11-03 06:30:32,304.6733293533325,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_04:45,reliability_100,56,1,1,0,2026-10-31 11:54:39,25.11270523071289,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MW_IT_07:56,reliability_100,57,1,1,0,2026-11-02 22:56:55,9.786815404891968,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_IT_07:56,reliability_100,57,1,1,0,2026-11-02 14:48:41,21.030832767486572,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_IT_07:56,reliability_100,57,1,1,0,2026-11-03 06:30:57,25.049798011779785,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_IT_07:56,reliability_100,57,1,1,0,2026-10-31 11:55:13,33.432294845581055,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MK_SSH_07:94,reliability_100,58,1,1,0,2026-11-02 23:03:03,367.9604344367981,yes,yes,implicit,explanation representation,request for justification,prior experience,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_07:94,reliability_100,58,1,1,0,2026-11-02 14:50:09,87.47674870491028,yes,yes,implicit,explanation representation,direct challenge,presentation ambiguity,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_07:94,reliability_100,58,1,1,0,2026-11-03 06:31:22,24.807084321975708,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_07:94,reliability_100,58,1,1,0,2026-10-31 11:55:38,24.26004695892334,no,yes,absent,,,,,the user admitsw that the form of presentation is complicated,v1.2
+maciej.szelazek@uj.edu.pl,MZ_SSH_04:147,reliability_100,59,1,1,0,2026-11-02 23:03:07,4.217646598815918,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_04:147,reliability_100,59,1,1,0,2026-11-02 14:50:35,26.31107258796692,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_04:147,reliability_100,59,1,0,0,2026-11-03 06:35:25,242.05887413024902,yes,no,explicit,reasoning,rejection,prior experience,acknowledge uncertainty,I am not sure how to fill dimensions in this case.,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_04:147,reliability_100,59,2,1,0,2026-11-03 09:15:58,50.41716003417969,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_04:147,reliability_100,59,1,1,0,2026-10-31 11:55:54,16.184401035308838,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MK_SSH_02:80,reliability_100,60,1,1,0,2026-11-02 23:03:14,6.4771342277526855,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_02:80,reliability_100,60,1,1,0,2026-11-02 14:50:57,21.71085786819458,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_02:80,reliability_100,60,1,1,0,2026-11-03 06:37:17,111.9720528125763,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_02:80,reliability_100,60,1,1,0,2026-10-31 11:56:06,11.79769515991211,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_05:101,reliability_100,61,1,0,0,2026-11-02 23:03:43,28.29512310028076,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_05:101,reliability_100,61,2,1,0,2026-11-02 23:04:21,22.661728620529175,no,yes,absent,reasoning,request for justification,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_05:101,reliability_100,61,1,1,0,2026-11-02 14:52:22,84.23266983032227,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_05:101,reliability_100,61,1,1,0,2026-11-03 06:40:35,197.81318831443787,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_05:101,reliability_100,61,1,1,0,2026-10-31 11:56:47,40.91423845291138,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_IT_05:149,reliability_100,62,1,1,0,2026-11-02 23:04:51,29.64109992980957,no,no,absent,explanation representation,request for justification,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_IT_05:149,reliability_100,62,1,1,0,2026-11-02 14:53:29,66.84587001800537,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_05:149,reliability_100,62,1,1,0,2026-11-03 06:42:11,24.964179515838623,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_05:149,reliability_100,62,1,1,0,2026-10-31 11:56:56,8.102569103240967,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_IT_06:615,reliability_100,63,1,1,0,2026-11-02 23:05:00,8.933955907821655,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_IT_06:615,reliability_100,63,1,1,0,2026-11-02 14:55:40,130.33533000946045,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_06:615,reliability_100,63,1,1,0,2026-11-03 06:42:45,33.72301387786865,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_06:615,reliability_100,63,1,1,0,2026-10-31 11:57:08,11.564043521881104,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MK_IT_06:66,reliability_100,64,1,1,0,2026-11-02 23:05:05,4.8584911823272705,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_IT_06:66,reliability_100,64,1,1,0,2026-11-02 14:57:15,95.01330971717834,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_06:66,reliability_100,64,1,1,0,2026-11-03 06:43:05,20.026789903640747,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_IT_06:66,reliability_100,64,1,1,0,2026-10-31 11:57:26,18.159292936325073,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_SSH_04:212,reliability_100,65,1,1,0,2026-11-02 23:05:19,14.150036096572876,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_04:212,reliability_100,65,1,1,0,2026-11-02 14:58:51,95.17054462432861,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_04:212,reliability_100,65,1,1,0,2026-11-03 06:43:20,14.923102140426636,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_04:212,reliability_100,65,1,1,0,2026-10-31 11:57:41,14.384482622146606,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_SSH_04:95,reliability_100,66,1,1,0,2026-11-02 23:05:39,19.463565349578857,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_04:95,reliability_100,66,1,1,0,2026-11-02 14:59:53,61.470276832580566,yes,yes,explicit,explanation representation,alternative proposal,presentation ambiguity,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_04:95,reliability_100,66,1,1,0,2026-11-03 06:45:58,157.17700719833374,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_04:95,reliability_100,66,1,1,0,2026-10-31 11:58:21,40.22347640991211,no,yes,absent,,,,,expliicit suggestin on how to improve the explanation form the layout aesthetic perspective,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_13:76,reliability_100,67,1,1,0,2026-11-02 23:27:16,1297.3856847286224,yes,no,explicit,prediction,direct challenge,data-quality concern,acknowledge uncertainty,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_13:76,reliability_100,67,1,1,0,2026-11-02 15:00:58,65.17417645454407,yes,yes,explicit,reasoning,direct challenge,domain knowledge,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_13:76,reliability_100,67,1,0,0,2026-11-03 06:54:05,486.71396255493164,yes,yes,explicit,reasoning,request for justification,causal implausibility,justify,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_13:76,reliability_100,67,2,1,0,2026-11-03 09:14:24,96.19094491004944,yes,yes,explicit,reasoning,request for justification,causal implausibility,incorporate correction,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_13:76,reliability_100,67,1,1,0,2026-10-31 12:04:31,369.1926305294037,yes,yes,explicit,evidence,direct challenge,domain knowledge,revise,"incorrect eveidence for reasoinig, not consistent with domain konwledge. also difficulties with interpreting explanation",v1.2
+maciej.szelazek@uj.edu.pl,MZ_IT_06:606,reliability_100,68,1,1,0,2026-11-02 23:27:23,6.634647846221924,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_IT_06:606,reliability_100,68,1,1,0,2026-11-02 15:01:21,22.073341369628906,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_06:606,reliability_100,68,1,1,0,2026-11-03 06:56:00,114.61679267883301,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_06:606,reliability_100,68,1,1,0,2026-10-31 12:19:06,874.5380756855011,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_02:214,reliability_100,69,1,0,0,2026-11-02 23:27:34,11.108327865600586,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_02:214,reliability_100,69,2,1,0,2026-11-02 23:28:10,33.29498767852783,yes,no,explicit,explanation representation,correction,technical knowledge,incorporate correction,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:214,reliability_100,69,1,0,0,2026-10-29 19:02:08,115.632493019104,yes,,explicit,explanation representation,alternative proposal,presentation ambiguity,revise,,v1.0
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:214,reliability_100,69,2,1,0,2026-11-02 15:01:40,19.10207462310791,yes,yes,explicit,explanation representation,alternative proposal,presentation ambiguity,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:214,reliability_100,69,1,0,0,2026-10-27 11:53:06,146.10006713867188,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:214,reliability_100,69,2,1,0,2026-11-03 07:00:26,265.682336807251,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_02:214,reliability_100,69,1,1,0,2026-10-31 12:19:46,40.176676511764526,no,yes,absent,,,,,clear recommendations regarding the aesthetics and formatting,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_10:87,reliability_100,70,1,1,0,2026-11-02 23:28:44,33.90176963806152,no,yes,absent,explanation representation,request for justification,technical knowledge,provide additional information,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_10:87,reliability_100,70,1,1,0,2026-11-02 15:03:58,137.15634441375732,yes,yes,implicit,explanation representation,request to acknowledge uncertainty,presentation ambiguity,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_10:87,reliability_100,70,1,1,0,2026-11-03 07:08:50,504.3342249393463,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_10:87,reliability_100,70,1,1,0,2026-10-31 12:21:47,120.65440320968628,no,no,absent,,,,,Clear incomprehension on how to read the plot,v1.2
+maciej.szelazek@uj.edu.pl,MZ_IT_06:500,reliability_100,71,1,1,0,2026-11-02 23:29:53,68.42809700965881,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_IT_06:500,reliability_100,71,1,1,0,2026-11-02 15:04:32,33.86847257614136,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_06:500,reliability_100,71,1,1,0,2026-11-03 07:10:29,98.13519883155823,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_06:500,reliability_100,71,1,1,0,2026-10-31 12:22:13,25.696592330932617,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_SSH_04:144,reliability_100,72,1,0,0,2026-11-02 23:29:57,4.69132924079895,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_SSH_04:144,reliability_100,72,2,1,0,2026-11-02 23:30:16,14.542760848999023,no,no,absent,,,,,"it is question, not answer",v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_04:144,reliability_100,72,1,1,0,2026-11-02 15:04:54,21.692327737808228,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_04:144,reliability_100,72,1,1,0,2026-11-03 07:10:36,6.651914119720459,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_04:144,reliability_100,72,1,1,0,2026-10-31 12:23:07,53.59251809120178,no,no,absent,,,,,Just reading the question out loud,v1.2
+maciej.szelazek@uj.edu.pl,MW_SSH_05:50,reliability_100,73,1,1,0,2026-11-02 23:30:32,16.127016067504883,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_05:50,reliability_100,73,1,1,0,2026-11-02 15:05:54,59.81677865982056,yes,yes,implicit,input data,direct challenge,data-quality concern,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_05:50,reliability_100,73,1,1,0,2026-11-03 07:23:43,787.6417853832245,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_05:50,reliability_100,73,1,1,0,2026-10-31 12:23:38,30.58057951927185,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_13:125,reliability_100,74,1,1,0,2026-11-02 23:31:31,58.71480107307434,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_13:125,reliability_100,74,1,1,0,2026-11-02 15:06:31,36.9502649307251,yes,yes,explicit,explanation representation,alternative proposal,prior experience,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_13:125,reliability_100,74,1,1,0,2026-11-03 07:29:33,349.128586769104,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_13:125,reliability_100,74,1,1,0,2026-10-31 12:25:51,132.95379209518433,yes,yes,implicit,evidence,alternative proposal,domain knowledge,provide additional information,"The suer tells that he classifies mushrooms differnetly, not using this features that are showsn in explanations.",v1.2
+maciej.szelazek@uj.edu.pl,MK_SSH_04:172,reliability_100,75,1,1,0,2026-11-02 23:32:15,43.776596784591675,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_04:172,reliability_100,75,1,1,0,2026-11-02 15:06:51,19.716074466705322,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_04:172,reliability_100,75,1,0,0,2026-11-03 07:37:17,464.2640290260315,yes,no,explicit,explanation representation,rejection,presentation ambiguity,acknowledge uncertainty,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_04:172,reliability_100,75,2,1,0,2026-11-03 09:12:06,89.46365356445312,yes,no,explicit,explanation representation,rejection,presentation ambiguity,justify,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_04:172,reliability_100,75,1,1,0,2026-10-31 12:26:40,48.49823999404907,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_IT_06:396,reliability_100,76,1,1,0,2026-11-02 23:32:30,14.904717445373535,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_IT_06:396,reliability_100,76,1,1,0,2026-11-02 15:07:00,8.176196575164795,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_06:396,reliability_100,76,1,1,0,2026-11-03 07:37:53,35.733147382736206,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_06:396,reliability_100,76,1,1,0,2026-10-31 12:26:55,15.020194292068481,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MZ_SSH_03:717,reliability_100,77,1,1,0,2026-11-02 23:32:38,7.864019155502319,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_03:717,reliability_100,77,1,1,0,2026-11-02 15:07:21,20.618128299713135,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_03:717,reliability_100,77,1,1,0,2026-11-03 07:38:35,40.900285720825195,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_03:717,reliability_100,77,1,1,0,2026-10-31 12:27:13,17.268743753433228,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_08:85,reliability_100,78,1,1,0,2026-11-02 23:32:52,13.906494140625,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_08:85,reliability_100,78,1,1,0,2026-11-02 15:07:46,25.20563006401062,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_08:85,reliability_100,78,1,1,0,2026-11-03 07:39:18,43.59600019454956,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_08:85,reliability_100,78,1,1,0,2026-10-31 12:28:32,78.6869375705719,yes,no,implicit,evidence,counterexample,domain knowledge,justify,,v1.2
+maciej.szelazek@uj.edu.pl,MK_IT_03:136,reliability_100,79,1,1,0,2026-11-02 23:32:58,5.344080209732056,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_IT_03:136,reliability_100,79,1,1,0,2026-11-02 15:08:04,16.872457265853882,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_03:136,reliability_100,79,1,1,0,2026-11-03 07:39:44,25.074254751205444,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_IT_03:136,reliability_100,79,1,1,0,2026-10-31 12:28:37,4.852049112319946,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MK_SSH_02:288,reliability_100,80,1,1,0,2026-11-02 23:33:16,18.4603111743927,no,no,absent,,,,,"its question, not response",v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_02:288,reliability_100,80,1,1,0,2026-11-02 15:09:00,56.43838310241699,yes,no,implicit,reasoning,direct challenge,prior experience,justify,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_02:288,reliability_100,80,1,1,0,2026-11-03 07:39:57,13.21047306060791,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_02:288,reliability_100,80,1,1,0,2026-10-31 12:28:47,9.512104988098145,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_07:105,reliability_100,81,1,1,0,2026-11-02 23:33:33,16.056063890457153,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_07:105,reliability_100,81,1,1,0,2026-11-02 15:10:03,61.885459899902344,yes,no,implicit,reasoning,direct challenge,domain knowledge,justify,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_07:105,reliability_100,81,1,1,0,2026-11-03 07:42:28,150.1027011871338,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_07:105,reliability_100,81,1,1,0,2026-10-31 12:30:41,113.98132848739624,yes,no,ambiguous,reasoning,counterexample,domain knowledge,provide additional information,"The user admits that it is something you may expect, but later tell that it is not consistent with the domain knwoledge in general sense",v1.2
+maciej.szelazek@uj.edu.pl,MZ_SSH_02:209,reliability_100,82,1,1,0,2026-11-02 23:33:55,22.47506856918335,no,yes,absent,evidence,request for justification,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_02:209,reliability_100,82,1,1,0,2026-11-02 15:10:34,30.937159538269043,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_02:209,reliability_100,82,1,1,0,2026-11-03 07:43:47,62.581772804260254,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_02:209,reliability_100,82,1,1,0,2026-10-31 12:31:07,25.40266489982605,no,no,absent,,,,,"Clear incomprehensibility, lack of knowledge on how to read the plot",v1.2
+maciej.szelazek@uj.edu.pl,MK_IT_03:210,reliability_100,83,1,1,0,2026-11-02 23:34:23,27.360963344573975,no,no,absent,,,,,"its question, not answer",v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_IT_03:210,reliability_100,83,1,1,0,2026-11-02 15:11:07,32.64597964286804,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_03:210,reliability_100,83,1,1,0,2026-11-03 07:44:24,36.20304250717163,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_IT_03:210,reliability_100,83,1,1,0,2026-10-31 12:44:14,786.7131581306458,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MW_SSH_04:75,reliability_100,84,1,1,0,2026-11-03 00:13:47,2364.1522994041443,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_04:75,reliability_100,84,1,1,0,2026-11-02 15:12:21,73.89876985549927,yes,yes,explicit,evidence,request for justification,missing evidence,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_04:75,reliability_100,84,1,0,0,2026-11-03 07:50:26,362.1293611526489,yes,no,ambiguous,input data,request to acknowledge uncertainty,data-quality concern,acknowledge uncertainty,"The participant questions the reliability and trustworthiness of the presented data, expressing concern that it may be false and stating the need to verify it against an independent, trusted source.",v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_04:75,reliability_100,84,2,1,0,2026-11-03 09:09:43,14.145446062088013,yes,no,ambiguous,input data,request to acknowledge uncertainty,data-quality concern,justify,"The participant questions the reliability and trustworthiness of the presented data, expressing concern that it may be false and stating the need to verify it against an independent, trusted source.",v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_04:75,reliability_100,84,1,1,0,2026-10-31 12:54:41,626.3158719539642,yes,no,implicit,input data,request for justification,data-quality concern,provide additional information,,v1.2
+maciej.szelazek@uj.edu.pl,MW_SSH_03:46,reliability_100,85,1,1,0,2026-11-03 00:14:23,35.35060787200928,no,yes,absent,explanation representation,request for justification,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_03:46,reliability_100,85,1,1,0,2026-11-02 15:14:52,149.93818473815918,yes,yes,implicit,explanation representation,direct challenge,presentation ambiguity,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_03:46,reliability_100,85,1,1,0,2026-11-03 07:50:55,28.662392616271973,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_03:46,reliability_100,85,1,1,0,2026-10-31 12:56:28,106.5571014881134,yes,no,ambiguous,prediction,direct challenge,missing evidence,provide additional information,The user is not sure about the correctness of the prediction or explanaiton based on ambiguous plots,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_05:56,reliability_100,86,1,1,0,2026-11-03 00:15:25,61.92157292366028,yes,no,implicit,explanation representation,direct challenge,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_05:56,reliability_100,86,1,1,0,2026-11-02 15:15:58,66.00845718383789,yes,yes,explicit,input data,direct challenge,data-quality concern,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_05:56,reliability_100,86,1,1,0,2026-11-03 07:53:44,168.1818084716797,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_05:56,reliability_100,86,1,1,0,2026-10-31 12:57:26,57.91132736206055,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_03:26,reliability_100,87,1,1,0,2026-11-03 00:15:38,12.71931266784668,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_03:26,reliability_100,87,1,1,0,2026-11-02 15:17:47,108.3293673992157,yes,no,explicit,reasoning,direct challenge,domain knowledge,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_03:26,reliability_100,87,1,1,0,2026-11-03 07:57:37,232.98222970962524,yes,no,implicit,reasoning,rejection,domain knowledge,incorporate correction,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_03:26,reliability_100,87,1,1,0,2026-10-31 12:58:26,60.12951898574829,yes,no,explicit,evidence,correction,domain knowledge,revise,The user explicitelly corrected the important of the feature color,v1.2
+maciej.szelazek@uj.edu.pl,MW_IT_06:79,reliability_100,88,1,1,0,2026-11-03 00:15:45,7.408810138702393,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_IT_06:79,reliability_100,88,1,1,0,2026-11-02 15:17:53,6.037213325500488,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_IT_06:79,reliability_100,88,1,1,0,2026-11-03 07:58:27,49.69314098358154,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_IT_06:79,reliability_100,88,1,1,0,2026-10-31 13:00:08,101.74731254577637,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_02:365,reliability_100,89,1,1,0,2026-11-03 00:16:17,32.048441886901855,yes,no,explicit,prediction,direct challenge,missing evidence,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:365,reliability_100,89,1,0,0,2026-10-29 19:20:34,298.648633480072,no,,absent,input data,direct challenge,missing evidence,provide additional information,,v1.0
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:365,reliability_100,89,2,1,0,2026-11-02 15:18:36,42.982229471206665,yes,yes,explicit,input data,direct challenge,missing evidence,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:365,reliability_100,89,1,1,0,2026-11-03 08:05:49,441.80218291282654,yes,no,explicit,input data,request for justification,internal inconsistency,revise,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_02:365,reliability_100,89,1,1,0,2026-10-31 13:00:59,50.01849436759949,yes,no,explicit,evidence,rejection,internal inconsistency,revise,,v1.2
+maciej.szelazek@uj.edu.pl,DR_SSH_02:332,reliability_100,90,1,1,0,2026-11-03 00:16:51,33.33104681968689,no,yes,absent,explanation representation,request for justification,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:332,reliability_100,90,1,0,0,2026-10-29 19:13:28,135.55383586883545,no,,absent,explanation representation,direct challenge,presentation ambiguity,provide additional information,,v1.0
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:332,reliability_100,90,2,1,0,2026-11-02 15:19:17,40.61759614944458,yes,yes,explicit,explanation representation,direct challenge,presentation ambiguity,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:332,reliability_100,90,1,1,0,2026-11-03 08:06:21,31.66367197036743,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_02:332,reliability_100,90,1,1,0,2026-10-31 13:02:43,103.67978930473328,no,yes,absent,,,,,The plots were incorrctly labelled ,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_02:133,reliability_100,91,1,1,0,2026-11-03 00:17:11,19.9864821434021,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_02:133,reliability_100,91,1,1,0,2026-11-02 15:19:36,18.658859968185425,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:133,reliability_100,91,1,1,0,2026-11-03 08:07:20,59.164955854415894,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_02:133,reliability_100,91,1,1,0,2026-10-31 13:03:21,37.51107954978943,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MW_SSH_01:37,reliability_100,92,1,1,0,2026-11-03 00:18:25,73.55277395248413,no,yes,absent,reasoning,request for justification,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_01:37,reliability_100,92,1,1,0,2026-11-02 15:20:19,41.95847415924072,yes,yes,explicit,explanation representation,alternative proposal,presentation ambiguity,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_01:37,reliability_100,92,1,1,0,2026-11-03 08:36:57,1776.1967117786407,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_01:37,reliability_100,92,1,1,0,2026-10-31 13:05:12,111.23082566261292,no,yes,absent,,,,,recommendations regarding the way the explanation is presented to be more understandable,v1.2
+maciej.szelazek@uj.edu.pl,MZ_IT_05:314,reliability_100,93,1,1,0,2026-11-03 00:18:31,5.7440338134765625,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_IT_05:314,reliability_100,93,1,1,0,2026-11-02 15:21:18,59.08597946166992,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_05:314,reliability_100,93,1,1,0,2026-11-03 08:37:17,19.499047994613647,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_05:314,reliability_100,93,1,1,0,2026-10-31 13:05:25,13.084820032119751,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_04:161,reliability_100,94,1,1,0,2026-11-03 00:19:11,39.95407223701477,yes,no,explicit,explanation representation,direct challenge,domain knowledge,revise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_04:161,reliability_100,94,1,1,0,2026-11-02 15:23:35,136.64809560775757,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:161,reliability_100,94,1,1,0,2026-11-03 08:37:32,15.483032941818237,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_04:161,reliability_100,94,1,1,0,2026-10-31 13:06:09,43.60167574882507,yes,no,explicit,explanation representation,rejection,domain knowledge,revise,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_03:43,reliability_100,95,1,1,0,2026-11-03 00:19:44,33.00924015045166,yes,no,explicit,reasoning,direct challenge,domain knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_03:43,reliability_100,95,1,1,0,2026-11-02 15:25:09,93.41202902793884,yes,no,explicit,reasoning,alternative proposal,domain knowledge,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_03:43,reliability_100,95,1,1,0,2026-11-03 08:43:21,348.21188163757324,yes,no,explicit,evidence,alternative proposal,domain knowledge,revise,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_03:43,reliability_100,95,1,1,0,2026-10-31 13:07:02,52.15649437904358,yes,no,explicit,evidence,correction,domain knowledge,revise,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_02:162,reliability_100,96,1,1,0,2026-11-03 00:20:36,52.046149492263794,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_02:162,reliability_100,96,1,1,0,2026-11-02 15:26:34,85.22953653335571,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:162,reliability_100,96,1,1,0,2026-11-03 08:56:09,767.9795007705688,yes,no,implicit,evidence,request to acknowledge uncertainty,domain knowledge,provide additional information,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_02:162,reliability_100,96,1,1,0,2026-10-31 13:07:42,40.13292646408081,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MK_SSH_04:208,reliability_100,97,1,1,0,2026-11-03 00:21:04,27.410765171051025,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_04:208,reliability_100,97,1,1,0,2026-11-02 15:27:19,44.18386912345886,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_04:208,reliability_100,97,1,1,0,2026-11-03 08:57:14,64.18866300582886,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_04:208,reliability_100,97,1,1,0,2026-10-31 13:07:57,14.079050064086914,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_07:75,reliability_100,98,1,1,0,2026-11-03 00:21:52,47.53143239021301,yes,no,implicit,explanation representation,correction,technical knowledge,incorporate correction,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_07:75,reliability_100,98,1,1,0,2026-11-02 15:30:07,167.24593353271484,yes,no,implicit,input data,alternative proposal,technical knowledge,incorporate correction,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_07:75,reliability_100,98,1,1,0,2026-11-03 09:04:36,442.05437207221985,yes,yes,explicit,explanation representation,alternative proposal,data-quality concern,revise,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_07:75,reliability_100,98,1,1,0,2026-11-02 07:52:58,69.96196389198303,no,yes,absent,,,,,Suggestion to change the type of the features from categorical to numerical/ordinal,v1.2
+maciej.szelazek@uj.edu.pl,MZ_SSH_07:179,reliability_100,99,1,1,0,2026-11-03 00:22:03,11.05173110961914,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_07:179,reliability_100,99,1,1,0,2026-11-02 15:31:24,77.41491055488586,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_07:179,reliability_100,99,1,1,0,2026-11-03 09:04:43,7.1184306144714355,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_07:179,reliability_100,99,1,1,0,2026-11-02 07:53:07,8.296290397644043,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MK_SSH_04:91,reliability_100,100,1,1,0,2026-11-03 00:22:49,45.92172145843506,no,yes,absent,evidence,request for justification,technical knowledge,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_04:91,reliability_100,100,1,1,0,2026-11-02 15:32:23,57.918558835983276,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_04:91,reliability_100,100,1,0,0,2026-11-03 09:06:02,78.3828375339508,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_04:91,reliability_100,100,2,1,0,2026-11-03 09:29:00,14.595828771591187,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_04:91,reliability_100,100,1,1,0,2026-11-02 07:53:49,41.798887968063354,no,yes,absent,,,,,The user is not sure how to interoret the sahp plot,v1.2
+maciej.szelazek@uj.edu.pl,MZ_SSH_07:190,rest,101,1,1,0,2026-11-03 00:22:56,6.960478782653809,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_07:190,rest,101,1,1,0,2026-11-02 15:32:45,21.894234657287598,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_07:190,rest,101,1,1,0,2026-11-03 09:29:11,10.714644432067871,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_07:190,rest,101,1,1,0,2026-11-02 07:54:10,20.14353656768799,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_09:62,rest,102,1,1,0,2026-11-03 00:23:59,62.71656823158264,yes,no,explicit,reasoning,direct challenge,domain knowledge,revise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_09:62,rest,102,1,1,0,2026-11-02 15:35:58,192.5489866733551,yes,no,explicit,reasoning,direct challenge,domain knowledge,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_09:62,rest,102,1,1,0,2026-11-03 09:32:04,172.8989863395691,yes,no,explicit,reasoning,alternative proposal,domain knowledge,incorporate correction,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_09:62,rest,102,1,1,0,2026-11-02 07:55:44,93.6945252418518,yes,no,explicit,evidence,direct challenge,domain knowledge,revise,The user challenged the correctnes of certain features used in explanation as being irrelevant in real life,v1.2
+maciej.szelazek@uj.edu.pl,PK_DE_02:160,rest,103,1,1,0,2026-11-03 00:24:32,33.4714789390564,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_02:160,rest,103,1,1,0,2026-11-02 15:36:30,31.939512252807617,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:160,rest,103,1,1,0,2026-11-03 09:33:48,104.0236268043518,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_02:160,rest,103,1,1,0,2026-11-02 07:56:07,23.52689504623413,no,no,absent,,,,,,v1.2
+maciej.szelazek@uj.edu.pl,MW_SSH_05:40,rest,104,1,1,0,2026-11-03 00:25:18,45.185078620910645,no,yes,absent,evidence,request for justification,domain knowledge,provide additional information,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_05:40,rest,104,1,1,0,2026-11-02 15:37:00,29.853015899658203,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_05:40,rest,104,1,1,0,2026-11-03 09:34:21,32.70185422897339,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_05:40,rest,104,1,1,0,2026-11-02 07:57:11,63.31119179725647,no,no,absent,,,,,The user is changing his decision based on the evidenve from xai,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_IT_06:34,rest,105,1,1,0,2026-11-02 15:38:17,76.45201468467712,yes,yes,implicit,explanation representation,direct challenge,internal inconsistency,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_06:34,rest,105,1,1,0,2026-11-03 09:34:56,34.51664853096008,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_IT_06:34,rest,105,1,1,0,2026-11-02 07:57:49,37.9089629650116,no,yes,absent,,,,,The user has difficulties in interpreting the plot,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_02:182,rest,106,1,1,0,2026-11-02 15:38:38,20.780221223831177,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:182,rest,106,1,1,0,2026-11-03 09:37:16,140.27056860923767,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_02:182,rest,106,1,1,0,2026-11-02 07:59:13,83.21471309661865,yes,no,implicit,system competence,direct challenge,technical knowledge,acknowledge uncertainty,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_03:22,rest,107,1,1,0,2026-11-02 15:40:04,85.07096529006958,yes,no,explicit,prediction,alternative proposal,domain knowledge,incorporate correction,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_03:22,rest,107,1,1,0,2026-11-03 09:40:15,178.77849292755127,yes,no,explicit,system competence,alternative proposal,domain knowledge,incorporate correction,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_03:22,rest,107,1,1,0,2026-11-02 08:00:29,75.78923797607422,yes,no,implicit,system competence,correction,presentation ambiguity,incorporate correction,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_04:87,rest,108,1,1,0,2026-11-02 21:28:55,137.67041444778442,yes,no,explicit,input data,alternative proposal,domain knowledge,incorporate correction,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:87,rest,108,1,1,0,2026-11-03 09:43:29,193.8341600894928,yes,no,implicit,input data,alternative proposal,missing evidence,incorporate correction,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_04:87,rest,108,1,1,0,2026-11-02 08:02:23,113.58446216583252,yes,no,implicit,evidence,correction,domain knowledge,incorporate correction,The user provides specific causal relations that can be used to classify mushroom as poisonous (like season in which it grows),v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_02:414,rest,109,1,1,0,2026-11-02 21:30:06,70.30395913124084,yes,yes,explicit,explanation representation,direct challenge,presentation ambiguity,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_02:414,rest,109,1,1,0,2026-11-03 09:49:04,334.45284819602966,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_02:414,rest,109,1,1,0,2026-11-02 08:02:51,27.655949115753174,no,yes,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_03:47,rest,110,1,1,0,2026-11-02 21:31:45,98.4620361328125,yes,no,explicit,reasoning,alternative proposal,domain knowledge,incorporate correction,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_03:47,rest,110,1,1,0,2026-11-03 09:52:15,190.32735896110535,yes,no,explicit,explanation representation,correction,domain knowledge,incorporate correction,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_03:47,rest,110,1,1,0,2026-11-02 08:03:25,33.643634557724,yes,no,explicit,evidence,correction,domain knowledge,incorporate correction,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_05:66,rest,111,1,1,0,2026-11-02 21:34:02,136.3785002231598,yes,yes,explicit,input data,request for justification,internal inconsistency,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_05:66,rest,111,1,0,0,2026-11-03 09:55:02,166.7851357460022,yes,no,explicit,input data,request for justification,data-quality concern,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_05:66,rest,111,2,1,0,2026-11-03 09:56:42,6.279523611068726,yes,no,explicit,input data,request for justification,data-quality concern,provide additional information,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_05:66,rest,111,1,1,0,2026-11-02 08:04:04,38.63979506492615,no,yes,absent,,,,,The user has difficulties in correctly interpreting missing data,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_04:142,rest,112,1,1,0,2026-11-02 21:34:27,24.325618982315063,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_04:142,rest,112,1,0,0,2026-11-03 09:56:32,90.4067862033844,yes,yes,explicit,explanation representation,rejection,technical knowledge,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_04:142,rest,112,2,1,0,2026-11-03 09:56:45,2.300795316696167,yes,yes,explicit,explanation representation,rejection,technical knowledge,provide additional information,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_04:142,rest,112,1,1,0,2026-11-02 08:04:17,13.154793977737427,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:240,rest,113,1,0,0,2026-10-29 19:02:31,22.711166620254517,no,,absent,,,,,,v1.0
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:240,rest,113,2,1,0,2026-11-02 21:34:37,9.756926774978638,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:240,rest,113,1,0,0,2026-10-27 11:55:39,152.4376151561737,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:240,rest,113,2,1,0,2026-11-03 09:57:57,71.90060591697693,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_02:240,rest,113,1,1,0,2026-11-02 08:04:22,5.025760650634766,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_01:105,rest,114,1,1,0,2026-11-02 21:36:39,122.1945149898529,yes,no,implicit,system competence,request to acknowledge uncertainty,domain knowledge,acknowledge uncertainty,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_01:105,rest,114,1,1,0,2026-11-03 10:02:04,246.6925609111786,yes,no,explicit,system competence,request to acknowledge uncertainty,domain knowledge,defer to human expertise,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_01:105,rest,114,1,1,0,2026-11-02 08:05:11,48.36789417266846,yes,no,implicit,system competence,direct challenge,prior experience,defer to human expertise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_03:197,rest,115,1,1,0,2026-11-02 21:36:59,19.480921030044556,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_03:197,rest,115,1,1,0,2026-11-03 10:02:38,34.05199193954468,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_03:197,rest,115,1,1,0,2026-11-02 08:05:23,12.048117876052856,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_03:111,rest,116,1,1,0,2026-11-02 21:38:02,61.980170249938965,yes,no,implicit,reasoning,direct challenge,prior experience,justify,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_03:111,rest,116,1,1,0,2026-11-03 10:05:01,142.19104051589966,yes,no,explicit,evidence,request to acknowledge uncertainty,domain knowledge,acknowledge uncertainty,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_03:111,rest,116,1,1,0,2026-11-02 08:05:59,34.90503168106079,yes,no,implicit,evidence,direct challenge,prior experience,provide additional information,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_13:90,rest,117,1,1,0,2026-11-02 21:38:21,18.55832839012146,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_13:90,rest,117,1,1,0,2026-11-03 10:11:48,407.06774520874023,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_13:90,rest,117,1,1,0,2026-11-02 08:06:39,40.04458212852478,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_04:122,rest,118,1,1,0,2026-11-02 21:39:06,44.52494931221008,yes,no,explicit,reasoning,direct challenge,prior experience,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_04:122,rest,118,1,1,0,2026-11-03 10:13:38,109.34820818901062,yes,no,explicit,reasoning,rejection,prior experience,justify,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_04:122,rest,118,1,1,0,2026-11-02 08:07:16,36.23444843292236,yes,no,implicit,evidence,rejection,domain knowledge,revise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_04:145,rest,119,1,1,0,2026-11-02 21:39:26,19.649110078811646,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_04:145,rest,119,1,1,0,2026-11-03 10:31:07,1049.196137189865,yes,no,explicit,evidence,direct challenge,domain knowledge,justify,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_04:145,rest,119,1,1,0,2026-11-02 08:07:31,14.897279977798462,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_04:65,rest,120,1,1,0,2026-11-02 16:15:51,185.61154294013977,yes,no,explicit,reasoning,direct challenge,domain knowledge,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:65,rest,120,1,1,0,2026-11-03 10:32:51,103.55201077461243,yes,no,explicit,explanation representation,rejection,domain knowledge,revise,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_04:65,rest,120,1,1,0,2026-11-02 08:08:15,44.24129891395569,yes,no,explicit,evidence,rejection,domain knowledge,revise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_01:221,rest,121,1,1,0,2026-11-02 16:16:01,9.827852725982666,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_01:221,rest,121,1,1,0,2026-11-03 10:33:50,59.005637645721436,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_01:221,rest,121,1,1,0,2026-11-02 08:08:25,9.189095258712769,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_04:146,rest,122,1,1,0,2026-11-02 16:18:19,137.40221500396729,yes,no,explicit,system competence,rejection,technical knowledge,incorporate correction,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:146,rest,122,1,1,0,2026-11-03 10:37:41,230.86078071594238,yes,no,explicit,system competence,rejection,domain knowledge,defer to human expertise,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_04:146,rest,122,1,1,0,2026-11-02 08:09:44,79.35358834266663,yes,no,explicit,system competence,direct challenge,domain knowledge,defer to human expertise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_04:206,rest,123,1,1,0,2026-11-02 16:18:43,23.75475525856018,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_04:206,rest,123,1,1,0,2026-11-03 10:38:03,20.84693217277527,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_04:206,rest,123,1,1,0,2026-11-02 08:09:52,7.146389961242676,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_04:127,rest,124,1,1,0,2026-11-02 16:20:08,84.72699069976807,yes,no,implicit,reasoning,alternative proposal,prior experience,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_04:127,rest,124,1,1,0,2026-11-03 10:40:38,155.57930541038513,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_04:127,rest,124,1,1,0,2026-11-02 08:10:06,13.632711172103882,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_04:142,rest,125,1,1,0,2026-11-02 16:20:35,26.84379243850708,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_04:142,rest,125,1,1,0,2026-11-03 10:41:56,76.84562826156616,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_04:142,rest,125,1,1,0,2026-11-02 08:11:48,101.39022183418274,yes,no,implicit,system competence,direct challenge,technical knowledge,defer to human expertise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_04:182,rest,126,1,1,0,2026-11-02 16:20:49,14.574062585830688,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:182,rest,126,1,1,0,2026-11-03 10:42:04,8.055531978607178,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_04:182,rest,126,1,1,0,2026-11-02 08:12:00,12.534970998764038,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_02:135,rest,127,1,1,0,2026-11-02 16:21:09,19.793827533721924,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:135,rest,127,1,1,0,2026-11-03 10:42:32,27.55863356590271,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_02:135,rest,127,1,1,0,2026-11-02 08:12:08,7.31110143661499,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_04:67,rest,128,1,1,0,2026-11-02 16:21:56,46.53666806221008,yes,no,explicit,reasoning,direct challenge,domain knowledge,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:67,rest,128,1,1,0,2026-11-03 10:46:19,226.74904584884644,yes,no,explicit,evidence,rejection,domain knowledge,defer to human expertise,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_04:67,rest,128,1,1,0,2026-11-02 08:12:53,44.60898399353027,yes,no,explicit,evidence,rejection,domain knowledge,revise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_04:209,rest,129,1,1,0,2026-11-02 16:25:34,199.00874423980713,yes,no,explicit,prediction,rejection,domain knowledge,acknowledge uncertainty,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:209,rest,129,1,1,0,2026-11-03 10:52:03,343.7775237560272,yes,no,explicit,system competence,request to acknowledge uncertainty,causal implausibility,defer to human expertise,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_04:209,rest,129,1,1,0,2026-11-02 08:14:26,93.08818125724792,yes,no,explicit,system competence,request to acknowledge uncertainty,domain knowledge,defer to human expertise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_09:30,rest,130,1,1,0,2026-11-02 16:26:53,78.25733637809753,yes,yes,explicit,explanation representation,alternative proposal,presentation ambiguity,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_09:30,rest,130,1,1,0,2026-11-03 10:52:36,32.70365262031555,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_09:30,rest,130,1,1,0,2026-11-02 08:14:54,27.504542112350464,no,yes,absent,,,,,User requested legends in the explanation,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_02:268,rest,131,1,1,0,2026-11-02 16:28:56,123.44689679145813,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_02:268,rest,131,1,1,0,2026-11-05 11:53:37,48.03883957862854,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_02:268,rest,131,1,1,0,2026-11-02 08:15:11,16.854241609573364,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_08:52,rest,132,1,1,0,2026-11-02 16:29:28,31.935802459716797,yes,no,explicit,reasoning,direct challenge,domain knowledge,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_08:52,rest,132,1,1,0,2026-11-05 11:55:04,85.9147686958313,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_08:52,rest,132,1,1,0,2026-11-02 08:16:46,94.33955645561218,yes,no,implicit,evidence,correction,domain knowledge,incorporate correction,"The user foes not disarc explanaitno, but disagrees in parts, providig correction that could be incorporated.",v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:168,rest,133,1,0,0,2026-10-29 18:57:04,163.94479537010193,yes,,explicit,explanation representation,alternative proposal,presentation ambiguity,revise,,v1.0
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:168,rest,133,2,1,0,2026-11-02 16:30:02,33.41507625579834,yes,yes,explicit,explanation representation,alternative proposal,presentation ambiguity,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:168,rest,133,1,0,0,2026-10-27 08:30:01,469.5223252773285,no,,absent,input data,direct challenge,data-quality concern,acknowledge uncertainty,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:168,rest,133,2,1,0,2026-11-05 11:55:26,21.70775580406189,no,yes,absent,input data,direct challenge,data-quality concern,acknowledge uncertainty,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_02:168,rest,133,1,1,0,2026-11-02 08:17:00,13.812418460845947,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_02:58,rest,134,1,1,0,2026-11-02 16:31:15,72.55925226211548,yes,yes,implicit,input data,direct challenge,data-quality concern,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:58,rest,134,1,1,0,2026-11-05 11:55:57,31.433494091033936,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_02:58,rest,134,1,1,0,2026-11-02 08:17:24,23.1315495967865,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_02:93,rest,135,1,1,0,2026-11-02 16:32:04,49.4541449546814,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:93,rest,135,1,1,0,2026-11-05 11:56:06,8.698360919952393,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_02:93,rest,135,1,1,0,2026-11-02 08:17:38,13.73464322090149,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_03:605,rest,136,1,1,0,2026-11-02 16:32:29,24.387340307235718,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_03:605,rest,136,1,1,0,2026-11-05 11:56:55,48.9817681312561,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_03:605,rest,136,1,1,0,2026-11-02 08:17:58,19.924557209014893,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_13:116,rest,137,1,1,0,2026-11-02 16:34:32,123.26633524894714,yes,no,explicit,reasoning,direct challenge,domain knowledge,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_13:116,rest,137,1,1,0,2026-11-05 12:00:05,189.67761635780334,yes,no,explicit,reasoning,rejection,missing evidence,incorporate correction,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_13:116,rest,137,1,1,0,2026-11-02 08:20:14,135.43102312088013,yes,no,ambiguous,evidence,direct challenge,domain knowledge,defer to human expertise,The user has dobds if provided evidence are valid to classify mushrooms,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_05:91,rest,138,1,1,0,2026-11-02 16:37:34,181.64148044586182,yes,yes,implicit,explanation representation,direct challenge,presentation ambiguity,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_05:91,rest,138,1,1,0,2026-11-05 12:00:51,45.54927444458008,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_05:91,rest,138,1,1,0,2026-11-02 08:20:39,25.117661476135254,no,yes,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_02:254,rest,139,1,1,0,2026-11-02 16:37:51,16.10063910484314,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_02:254,rest,139,1,1,0,2026-11-05 12:01:16,24.30466341972351,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_02:254,rest,139,1,1,0,2026-11-02 08:20:50,10.667864322662354,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_03:426,rest,140,1,1,0,2026-11-02 16:38:12,20.911402940750122,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_03:426,rest,140,1,1,0,2026-11-05 12:01:31,15.28879451751709,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_03:426,rest,140,1,1,0,2026-11-02 08:21:06,15.328003883361816,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_01:12,rest,141,1,1,0,2026-11-02 16:38:35,23.150259256362915,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_01:12,rest,141,1,1,0,2026-11-05 12:01:46,13.86728549003601,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_01:12,rest,141,1,1,0,2026-11-02 08:21:23,17.172101259231567,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MK_SSH_05:80,rest,142,1,1,0,2026-11-02 16:39:31,55.47576975822449,yes,no,explicit,explanation representation,alternative proposal,presentation ambiguity,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_05:80,rest,142,1,1,0,2026-11-05 12:02:33,47.280174016952515,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_05:80,rest,142,1,1,0,2026-11-02 08:21:45,22.049173831939697,no,yes,absent,,,,,Request related to aesthetics,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_13:100,rest,143,1,1,0,2026-11-02 16:41:55,144.31432104110718,no,no,absent,explanation representation,request for justification,domain knowledge,expose conflicting evidence,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_13:100,rest,143,1,1,0,2026-11-05 12:06:02,208.3539571762085,yes,yes,implicit,evidence,request to acknowledge uncertainty,domain knowledge,provide additional information,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_13:100,rest,143,1,1,0,2026-11-02 08:24:00,134.2927668094635,yes,yes,implicit,explanation representation,counterexample,domain knowledge,provide additional information,"The user has difficulties in interpreting the plot and assess if it is correct, or incorrect with domain knowledge.",v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_07:141,rest,144,1,1,0,2026-11-02 16:43:59,123.62442302703857,yes,no,explicit,prediction,rejection,domain knowledge,defer to human expertise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_07:141,rest,144,1,1,0,2026-11-05 12:08:28,146.10110235214233,yes,no,explicit,system competence,rejection,technical knowledge,acknowledge uncertainty,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_07:141,rest,144,1,1,0,2026-11-02 08:25:03,62.51624655723572,yes,no,explicit,prediction,rejection,domain knowledge,revise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_04:186,rest,145,1,1,0,2026-11-02 16:45:34,95.03409385681152,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:186,rest,145,1,1,0,2026-11-05 12:12:20,231.6555004119873,yes,no,explicit,system competence,rejection,prior experience,defer to human expertise,"I am not sure how to fill dimensions here because I can't read questions for slide 10, and answer is to this questions.",v1.2
+szymon.bobek@uj.edu.pl,PK_DE_04:186,rest,145,1,1,0,2026-11-02 08:25:51,48.29458975791931,yes,no,explicit,reasoning,rejection,domain knowledge,defer to human expertise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_13:66,rest,146,1,1,0,2026-11-02 16:46:28,53.6812162399292,no,yes,absent,,request for justification,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_13:66,rest,146,1,1,0,2026-11-05 12:12:57,36.12065815925598,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_13:66,rest,146,1,1,0,2026-11-02 08:26:58,66.632728099823,no,yes,absent,,,,,The user has difficulties in interpreting why certain features were used as important by the model,v1.2
+magdalena.kiszka@student.uj.edu.pl,MZ_SSH_07:334,rest,147,1,1,0,2026-11-02 16:47:25,56.32009720802307,yes,no,explicit,reasoning,direct challenge,domain knowledge,justify,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_07:334,rest,147,1,1,0,2026-11-05 12:14:10,73.0159707069397,yes,no,explicit,system competence,rejection,domain knowledge,defer to human expertise,,v1.2
+szymon.bobek@uj.edu.pl,MZ_SSH_07:334,rest,147,1,1,0,2026-11-02 08:28:18,79.701340675354,yes,no,implicit,evidence,rejection,prior experience,defer to human expertise,The user does not agree with evidences used by the model to derive decisions implicitelly by stating that it is not aligned with his/her beliefs or prior knolwedge,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_05:48,rest,148,1,1,0,2026-11-02 16:48:40,74.81380558013916,yes,yes,implicit,input data,request for justification,data-quality concern,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_05:48,rest,148,1,1,0,2026-11-05 12:56:22,2532.3434767723083,yes,yes,implicit,input data,request to acknowledge uncertainty,data-quality concern,provide additional information,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_05:48,rest,148,1,1,0,2026-11-02 08:29:38,78.85416841506958,no,yes,absent,,,,,The user does not know how to interpret data,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_IT_02:29,rest,149,1,1,0,2026-11-02 16:50:25,105.08751058578491,yes,yes,explicit,reasoning,direct challenge,presentation ambiguity,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_IT_02:29,rest,149,1,1,0,2026-11-05 12:56:57,34.08060908317566,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_IT_02:29,rest,149,1,1,0,2026-11-02 08:30:11,32.93075966835022,no,yes,absent,,,,,The user does not undestand how to read the plot,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_04:97,rest,150,1,1,0,2026-11-02 16:52:26,120.55641841888428,yes,yes,explicit,prediction,direct challenge,domain knowledge,justify,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:97,rest,150,1,1,0,2026-11-05 12:59:24,147.0990834236145,yes,no,explicit,evidence,rejection,internal inconsistency,provide additional information,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_04:97,rest,150,1,1,0,2026-11-02 08:30:52,41.05574321746826,yes,no,explicit,evidence,rejection,domain knowledge,defer to human expertise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_IT_02:11,rest,151,1,1,0,2026-11-02 21:53:43,60.11377549171448,yes,yes,explicit,explanation representation,direct challenge,presentation ambiguity,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_IT_02:11,rest,151,1,1,0,2026-11-05 12:59:47,22.66515326499939,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_IT_02:11,rest,151,1,1,0,2026-11-02 08:31:02,9.736167430877686,no,yes,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_05:64,rest,152,1,1,0,2026-11-02 21:54:24,40.01530575752258,yes,yes,explicit,input data,direct challenge,internal inconsistency,incorporate correction,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_05:64,rest,152,1,1,0,2026-11-05 13:01:35,107.68940496444702,yes,yes,explicit,input data,rejection,missing evidence,provide additional information,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_05:64,rest,152,1,1,0,2026-11-02 08:31:55,52.505576610565186,yes,no,implicit,prediction,rejection,data-quality concern,defer to human expertise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_09:56,rest,153,1,1,0,2026-11-02 21:54:39,14.974246501922607,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_09:56,rest,153,1,1,0,2026-11-05 13:02:00,24.514946222305298,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_09:56,rest,153,1,1,0,2026-11-02 08:32:11,15.514819145202637,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_03:298,rest,154,1,1,0,2026-11-02 21:54:56,16.84039044380188,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_03:298,rest,154,1,1,0,2026-11-05 13:02:14,13.585971355438232,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_03:298,rest,154,1,1,0,2026-11-02 08:32:18,7.010916233062744,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_03:206,rest,155,1,1,0,2026-11-02 21:55:16,18.79612684249878,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_03:206,rest,155,1,1,0,2026-11-05 13:02:31,16.566659927368164,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_03:206,rest,155,1,1,0,2026-11-02 08:32:24,5.659697771072388,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:334,rest,156,1,0,0,2026-10-29 19:15:35,127.19935941696167,yes,,explicit,explanation representation,alternative proposal,presentation ambiguity,revise,,v1.0
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:334,rest,156,2,1,0,2026-11-02 21:55:43,26.978219985961914,yes,yes,explicit,explanation representation,alternative proposal,presentation ambiguity,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:334,rest,156,1,1,0,2026-11-05 13:02:39,8.393967866897583,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_02:334,rest,156,1,1,0,2026-11-02 08:32:31,6.394129276275635,no,yes,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_IT_06:73,rest,157,1,1,0,2026-11-02 21:55:59,15.6237211227417,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_IT_06:73,rest,157,1,1,0,2026-11-05 13:03:34,54.17299246788025,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_IT_06:73,rest,157,1,1,0,2026-11-02 08:34:36,125.31384921073914,no,no,absent,,,,,The user does not know how to inteprt data,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_06:101,rest,158,1,1,0,2026-11-02 21:56:13,14.070642948150635,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_06:101,rest,158,1,1,0,2026-11-05 13:03:38,3.6419637203216553,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_06:101,rest,158,1,1,0,2026-11-02 08:34:41,4.676846981048584,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_IT_02:37,rest,159,1,1,0,2026-11-02 21:56:54,39.99018979072571,yes,yes,implicit,explanation representation,direct challenge,presentation ambiguity,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_IT_02:37,rest,159,1,1,0,2026-11-05 13:04:21,42.59592819213867,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_IT_02:37,rest,159,1,1,0,2026-11-02 08:35:18,36.59155225753784,no,yes,absent,,,,,The user does not know how to inteprt data and requests more informaiton,v1.2
+magdalena.kiszka@student.uj.edu.pl,MW_SSH_01:38,rest,160,1,1,0,2026-11-02 21:57:10,15.357917308807373,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_01:38,rest,160,1,1,0,2026-11-05 13:07:58,217.2568109035492,yes,no,explicit,reasoning,direct challenge,internal inconsistency,justify,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_01:38,rest,160,1,1,0,2026-11-02 08:36:01,42.64332294464111,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,PK_DE_02:95,rest,161,1,1,0,2026-11-02 21:58:07,56.8943932056427,yes,yes,explicit,explanation representation,direct challenge,technical knowledge,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:95,rest,161,1,1,0,2026-11-05 13:08:29,31.125412225723267,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_02:95,rest,161,1,1,0,2026-11-02 08:36:25,23.715068578720093,no,yes,absent,,,,,The user has difficulties in reading the plot,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:59,rest,162,1,1,0,2026-11-05 13:09:49,79.18412852287292,yes,no,explicit,evidence,rejection,domain knowledge,defer to human expertise,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_04:59,rest,162,1,1,0,2026-11-02 08:37:33,67.62570714950562,yes,no,explicit,evidence,direct challenge,domain knowledge,acknowledge uncertainty,The last sentence may suggest the user would accep reasoning if the uncertianty was added to it.,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:188,rest,163,1,1,0,2026-11-05 13:09:58,9.06946849822998,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_02:188,rest,163,1,1,0,2026-11-02 08:37:53,19.844932794570923,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_06:456,rest,164,1,1,0,2026-11-05 13:17:30,450.9694859981537,yes,no,ambiguous,system competence,request for justification,internal inconsistency,provide additional information,"The participant initially expresses disagreement with the system's output based on the colours. However, after considering the context and the importance of the features for identifying a poisonous mushroom, he acknowledges that the system's explanation might be valid",v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_06:456,rest,164,1,1,0,2026-11-02 08:39:16,82.66425466537476,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_01:84,rest,165,1,1,0,2026-11-05 13:19:14,103.70034575462341,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_01:84,rest,165,1,1,0,2026-11-02 08:40:35,78.79859519004822,yes,no,explicit,evidence,counterexample,domain knowledge,defer to human expertise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_02:143,rest,166,1,1,0,2026-11-05 13:19:45,31.097184419631958,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_02:143,rest,166,1,1,0,2026-11-02 08:40:48,12.321699619293213,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_06:181,rest,167,1,1,0,2026-11-05 13:19:54,8.421197414398193,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_06:181,rest,167,1,1,0,2026-11-02 08:40:55,7.039838075637817,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_06:288,rest,168,1,1,0,2026-11-05 13:22:44,169.74999737739563,yes,no,explicit,reasoning,alternative proposal,technical knowledge,justify,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_06:288,rest,168,1,1,0,2026-11-02 08:42:23,87.26932430267334,yes,no,implicit,reasoning,direct challenge,prior experience,defer to human expertise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_08:39,rest,169,1,1,0,2026-11-05 13:23:16,32.56300616264343,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_08:39,rest,169,1,1,0,2026-11-02 08:43:08,44.89138627052307,no,yes,absent,,,,,The user has difficulties in reading the plot and assessing its value as explanation,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_03:244,rest,170,1,1,0,2026-11-05 13:24:40,82.84042739868164,yes,no,explicit,input data,rejection,prior experience,incorporate correction,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_03:244,rest,170,1,1,0,2026-11-02 08:43:52,43.70561408996582,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_03:322,rest,171,1,1,0,2026-11-05 13:24:49,9.257386445999146,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_03:322,rest,171,1,1,0,2026-11-02 08:44:00,7.8389904499053955,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_05:114,rest,172,1,1,0,2026-11-05 13:26:30,100.72346901893616,yes,no,explicit,evidence,rejection,domain knowledge,defer to human expertise,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_05:114,rest,172,1,1,0,2026-11-02 08:45:23,82.08191895484924,yes,no,explicit,system competence,direct challenge,domain knowledge,provide additional information,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_01:222,rest,173,1,1,0,2026-11-05 13:26:58,28.085436820983887,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_01:222,rest,173,1,1,0,2026-11-02 08:54:00,516.4741628170013,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:266,rest,174,1,1,0,2026-10-29 19:07:04,272.4218018054962,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:266,rest,174,1,0,0,2026-11-02 14:43:11,42.85380983352661,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:266,rest,174,2,1,0,2026-11-05 13:27:29,29.851990461349487,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,DR_SSH_02:266,rest,174,1,1,0,2026-11-02 08:54:37,37.05167269706726,yes,no,implicit,input data,direct challenge,prior experience,defer to human expertise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_01:139,rest,175,1,1,0,2026-11-05 13:28:55,85.96783328056335,yes,no,implicit,evidence,direct challenge,domain knowledge,defer to human expertise,,v1.2
+szymon.bobek@uj.edu.pl,PK_DE_01:139,rest,175,1,1,0,2026-11-02 08:55:52,74.62941241264343,yes,no,implicit,evidence,direct challenge,domain knowledge,defer to human expertise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_03:145,rest,176,1,1,0,2026-11-05 13:30:36,101.12296533584595,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_05:107,rest,177,1,1,0,2026-11-05 13:32:06,89.21368646621704,yes,no,explicit,reasoning,correction,domain knowledge,incorporate correction,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_08:34,rest,178,1,1,0,2026-11-05 13:34:28,142.40621781349182,yes,no,implicit,evidence,correction,domain knowledge,defer to human expertise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:211,rest,179,1,1,0,2026-11-05 13:35:28,59.15401816368103,yes,no,explicit,system competence,rejection,causal implausibility,defer to human expertise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_07:31,rest,180,1,1,0,2026-11-05 13:36:01,32.78719973564148,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_03:369,rest,181,1,1,0,2026-11-05 13:36:11,10.219334602355957,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_06:292,rest,182,1,1,0,2026-11-05 13:39:29,196.96663308143616,yes,no,explicit,system competence,request to acknowledge uncertainty,prior experience,defer to human expertise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_IT_02:41,rest,183,1,1,0,2026-11-05 13:40:05,36.24748945236206,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_13:96,rest,184,1,1,0,2026-11-05 13:46:01,355.9513397216797,no,no,absent,reasoning,direct challenge,domain knowledge,justify,"The participant questions the dataset assumptions, selection, and completeness, challenging the reliability of the information underlying the models conclusions. He also questions whether certain features can be reliably assessed from the available images and asks to revisit the missing-data statistics.",v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_03:93,rest,185,1,1,0,2026-11-05 13:47:39,97.61333394050598,yes,no,explicit,reasoning,rejection,missing evidence,expose conflicting evidence,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_08:64,rest,186,1,1,0,2026-11-05 13:48:37,57.46336889266968,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_IT_06:89,rest,187,1,1,0,2026-11-05 13:49:15,37.48326277732849,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_13:46,rest,188,1,1,0,2026-11-05 13:50:48,92.58828234672546,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:174,rest,189,1,1,0,2026-11-05 13:51:22,34.31311845779419,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_03:288,rest,190,1,1,0,2026-11-05 13:51:31,8.784629821777344,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_07:116,rest,191,1,1,0,2026-11-05 13:51:56,24.634915351867676,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:131,rest,192,1,1,0,2026-11-05 13:53:11,74.14165902137756,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_05:99,rest,193,1,1,0,2026-11-05 13:53:35,23.937864542007446,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_06:89,rest,194,1,1,0,2026-11-05 13:55:19,103.40048098564148,yes,no,implicit,evidence,counterexample,causal implausibility,incorporate correction,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_01:32,rest,195,1,1,0,2026-11-05 13:55:59,40.497870683670044,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_04:326,rest,196,1,0,0,2026-11-05 13:56:12,12.58952808380127,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_04:326,rest,196,2,1,0,2026-11-05 13:56:24,9.204967021942139,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_03:139,rest,197,1,1,0,2026-11-05 13:57:38,73.26686596870422,yes,no,explicit,system competence,rejection,prior experience,acknowledge uncertainty,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_08:28,rest,198,1,1,0,2026-11-05 14:03:27,348.7394320964813,yes,no,ambiguous,evidence,request to acknowledge uncertainty,domain knowledge,acknowledge uncertainty,"The segment contains implicit contestation of the feature selection and reliability, but not a clear rejection of a specific model prediction.",v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_01:45,rest,199,1,1,0,2026-11-05 14:04:24,57.070873498916626,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:101,rest,200,1,1,0,2026-11-05 14:07:58,213.6431601047516,yes,no,explicit,prediction,rejection,domain knowledge,acknowledge uncertainty,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_05:307,rest,201,1,1,0,2026-11-05 14:08:55,56.929749965667725,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_07:47,rest,202,1,1,0,2026-11-05 15:14:51,58.345791816711426,yes,no,explicit,input data,correction,data-quality concern,acknowledge uncertainty,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_06:44,rest,203,1,1,0,2026-11-05 15:16:59,127.61068296432495,yes,no,explicit,input data,direct challenge,internal inconsistency,justify,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_10:91,rest,204,1,1,0,2026-11-05 15:19:58,178.793940782547,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_03:76,rest,205,1,1,0,2026-11-05 15:21:41,102.96614527702332,yes,no,explicit,prediction,alternative proposal,data-quality concern,incorporate correction,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_09:133,rest,206,1,1,0,2026-11-05 15:21:52,10.363770484924316,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:73,rest,207,1,1,0,2026-11-05 15:22:30,38.03867506980896,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_02:342,rest,208,1,0,0,2026-11-05 15:22:38,7.604709148406982,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_02:342,rest,208,2,1,0,2026-11-05 15:22:48,7.0990376472473145,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_03:54,rest,209,1,1,0,2026-11-05 15:23:44,55.49510860443115,yes,no,explicit,evidence,correction,domain knowledge,revise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_03:54,rest,209,2,0,1,2026-11-05 15:26:12,,,,,,,,,,
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_06:123,rest,210,1,1,0,2026-11-05 15:24:12,27.73711085319519,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_06:123,rest,210,2,0,1,2026-11-05 15:26:14,,,,,,,,,,
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_06:559,rest,211,1,1,0,2026-11-05 15:24:17,5.0039284229278564,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_06:559,rest,211,2,0,1,2026-11-05 15:26:15,,,,,,,,,,
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_03:41,rest,212,1,0,0,2026-11-05 15:25:28,70.78410172462463,yes,no,explicit,evidence,rejection,domain knowledge,incorporate correction,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_03:41,rest,212,2,1,0,2026-11-05 15:26:27,11.949509620666504,yes,no,explicit,evidence,correction,domain knowledge,incorporate correction,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_05:41,rest,213,1,1,0,2026-11-05 15:25:39,10.709085464477539,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_05:41,rest,213,2,0,1,2026-11-05 15:26:42,,,,,,,,,,
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_04:113,rest,214,1,1,0,2026-11-05 15:30:06,203.67255473136902,yes,no,explicit,system competence,rejection,domain knowledge,defer to human expertise,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:175,rest,215,1,1,0,2026-10-29 18:58:38,74.95528554916382,yes,,explicit,explanation representation,direct challenge,presentation ambiguity,revise,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:175,rest,215,1,0,0,2026-10-27 08:54:17,786.3884160518646,yes,,explicit,input data,direct challenge,data-quality concern,incorporate correction,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:175,rest,215,2,1,0,2026-11-05 15:30:40,34.16551375389099,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_03:341,excluded_unclear_transcript,216,1,1,0,2026-11-05 15:30:58,17.983452081680298,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_05:134,excluded_unclear_transcript,217,1,1,0,2026-11-05 15:31:20,21.477009534835815,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_01:33,excluded_unclear_transcript,218,1,1,0,2026-11-05 15:33:34,134.07259392738342,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_01:33,excluded_unclear_transcript,218,1,1,0,2026-10-31 07:55:52,371.2248947620392,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_01:47,excluded_unclear_transcript,219,1,1,0,2026-11-05 15:34:06,31.641687631607056,no,yes,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_01:47,excluded_unclear_transcript,219,1,1,0,2026-10-31 07:59:51,132.94178104400635,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_04:93,excluded_unclear_transcript,220,1,1,0,2026-11-05 15:35:14,67.31529450416565,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MW_SSH_04:93,excluded_unclear_transcript,220,1,1,0,2026-10-31 08:44:03,99.62010049819946,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_03:152,excluded_unclear_transcript,221,1,1,0,2026-11-05 15:35:55,40.94452905654907,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_IT_03:152,excluded_unclear_transcript,221,1,1,0,2026-10-31 08:45:47,103.25797271728516,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_07:104,excluded_unclear_transcript,222,1,1,0,2026-11-05 15:36:00,3.8952226638793945,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_SSH_07:104,excluded_unclear_transcript,222,1,1,0,2026-10-31 08:56:35,26.026074647903442,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_06:318,excluded_unclear_transcript,223,1,1,0,2026-11-05 15:36:19,18.797582149505615,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MZ_IT_06:318,excluded_unclear_transcript,223,1,1,0,2026-10-31 09:17:35,129.00484609603882,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_06:129,excluded_unclear_transcript,224,1,1,0,2026-11-05 15:36:26,7.260233640670776,no,no,absent,,,,,,v1.2
+szymon.bobek@uj.edu.pl,MK_IT_06:129,excluded_unclear_transcript,224,1,1,0,2026-10-31 09:18:21,45.432740449905396,no,no,absent,,,,,"The perticipant was reading the quation, not expressing any thoughts",v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_06:13,excluded_unclear_transcript,225,1,1,0,2026-11-05 15:36:36,9.06049633026123,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_03:192,excluded_unclear_transcript,226,1,1,0,2026-11-05 15:37:16,40.23610806465149,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_IT_05:248,excluded_unclear_transcript,227,1,1,0,2026-10-29 18:52:07,157.11053109169006,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:248,excluded_unclear_transcript,227,1,0,0,2026-10-27 08:06:14,66.2672848701477,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:248,excluded_unclear_transcript,227,2,0,1,2026-10-27 08:06:32,,,,,,,,,,
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:248,excluded_unclear_transcript,227,3,1,0,2026-11-05 15:37:24,7.8303163051605225,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_04:47,excluded_unclear_transcript,228,1,1,0,2026-11-05 15:37:47,22.919581413269043,no,yes,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_IT_05:135,excluded_unclear_transcript,229,1,1,0,2026-10-29 18:42:32,71.86626935005188,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:135,excluded_unclear_transcript,229,1,0,0,2026-10-27 07:33:05,153.7004268169403,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:135,excluded_unclear_transcript,229,2,0,1,2026-10-27 07:44:34,,,,,,,,,,
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:135,excluded_unclear_transcript,229,3,1,0,2026-11-05 15:38:44,56.6767852306366,no,no,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_IT_05:121,excluded_unclear_transcript,230,1,1,0,2026-10-29 18:33:27,260.5459291934967,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:121,excluded_unclear_transcript,230,1,0,1,2026-10-23 14:40:12,,,,,,,,,,
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:121,excluded_unclear_transcript,230,2,0,0,2026-10-27 07:24:12,1804.294796705246,yes,,explicit,reasoning,counterexample,causal implausibility,justify,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:121,excluded_unclear_transcript,230,3,0,0,2026-10-27 07:44:29,622.2291610240936,yes,,explicit,reasoning,counterexample,internal inconsistency,justify,"I'm not sure about expected response field. It seems not to have any expected response. It is long reasoning, so expected response from  other person is just listening.",v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:121,excluded_unclear_transcript,230,4,1,0,2026-11-05 15:38:59,14.144032001495361,yes,no,explicit,reasoning,counterexample,internal inconsistency,justify,"I'm not sure about expected response field. It seems not to have any expected response. It is long reasoning, so expected response from  other person is just listening.",v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_06:249,excluded_unclear_transcript,231,1,1,0,2026-11-05 15:40:10,71.16003966331482,yes,no,explicit,reasoning,rejection,prior experience,justify,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_IT_05:126,excluded_unclear_transcript,232,1,1,0,2026-10-29 18:41:20,434.8923439979553,yes,,implicit,explanation representation,direct challenge,domain knowledge,revise,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:126,excluded_unclear_transcript,232,1,0,0,2026-10-27 07:30:31,378.8675673007965,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:126,excluded_unclear_transcript,232,2,0,1,2026-10-27 07:44:32,,,,,,,,,,
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:126,excluded_unclear_transcript,232,3,1,0,2026-11-05 15:40:54,43.52674865722656,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_03:629,excluded_unclear_transcript,233,1,1,0,2026-11-05 15:41:04,10.092721223831177,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_06:263,excluded_unclear_transcript,234,1,1,0,2026-11-05 15:42:42,97.54255104064941,yes,no,implicit,evidence,alternative proposal,domain knowledge,justify,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_07:49,excluded_unclear_transcript,235,1,1,0,2026-11-05 15:43:30,47.14381694793701,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_02:172,excluded_unclear_transcript,236,1,1,0,2026-11-05 15:45:11,101.11063313484192,yes,yes,explicit,input data,rejection,internal inconsistency,expose conflicting evidence,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_IT_05:201,excluded_unclear_transcript,237,1,1,0,2026-10-29 18:48:04,331.30384612083435,yes,,explicit,reasoning,direct challenge,prior experience,justify,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:201,excluded_unclear_transcript,237,1,0,0,2026-10-27 08:01:27,1012.5644886493683,yes,,implicit,explanation representation,direct challenge,prior experience,defer to human expertise,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:201,excluded_unclear_transcript,237,2,1,0,2026-11-05 15:45:24,12.91113543510437,yes,no,implicit,explanation representation,direct challenge,prior experience,defer to human expertise,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_01:48,excluded_unclear_transcript,238,1,1,0,2026-11-05 15:46:27,62.55990719795227,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_02:113,excluded_unclear_transcript,239,1,1,0,2026-11-05 15:46:40,12.307667016983032,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_IT_06:111,excluded_unclear_transcript,240,1,1,0,2026-11-05 15:48:42,122.40496468544006,no,yes,absent,,,,,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_SSH_02:203,excluded_unclear_transcript,241,1,1,0,2026-10-29 19:00:12,93.94939517974854,yes,,explicit,explanation representation,direct challenge,presentation ambiguity,revise,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:203,excluded_unclear_transcript,241,1,0,0,2026-10-27 11:50:40,453.23146772384644,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_02:203,excluded_unclear_transcript,241,2,1,0,2026-11-05 15:49:01,18.44851326942444,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_05:77,excluded_unclear_transcript,242,1,1,0,2026-11-05 15:50:41,99.0676851272583,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_05:44,excluded_unclear_transcript,243,1,1,0,2026-11-05 15:52:46,124.78974866867065,yes,no,implicit,input data,alternative proposal,data-quality concern,incorporate correction,,v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_IT_05:311,excluded_unclear_transcript,244,1,1,0,2026-10-29 18:53:13,65.86104536056519,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:311,excluded_unclear_transcript,244,1,0,0,2026-10-27 08:21:27,894.9045195579529,yes,,ambiguous,system competence,direct challenge,technical knowledge,defer to human expertise,"You can find contestation in this sentence but it is common used phrase,  like template to  fill the space.",v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:311,excluded_unclear_transcript,244,2,1,0,2026-11-05 15:52:52,6.320576906204224,yes,no,ambiguous,system competence,direct challenge,technical knowledge,defer to human expertise,"You can find contestation in this sentence but it is common used phrase,  like template to  fill the space.",v1.2
+magdalena.kiszka@student.uj.edu.pl,DR_IT_05:207,excluded_unclear_transcript,245,1,1,0,2026-10-29 18:49:30,85.69816970825195,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:207,excluded_unclear_transcript,245,1,0,0,2026-10-27 08:05:08,220.66528940200806,no,,absent,,,,,,v1.0
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:207,excluded_unclear_transcript,245,2,0,1,2026-10-27 08:06:31,,,,,,,,,,
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:207,excluded_unclear_transcript,245,3,0,0,2026-11-05 15:53:25,32.03528332710266,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_IT_05:207,excluded_unclear_transcript,245,4,1,0,2026-11-05 15:53:41,14.002661943435669,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_IT_02:49,excluded_unclear_transcript,246,1,1,0,2026-11-05 15:54:13,31.93862009048462,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_06:228,excluded_unclear_transcript,247,1,1,0,2026-11-05 15:54:30,17.230036735534668,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_01:56,excluded_unclear_transcript,248,1,1,0,2026-11-05 15:55:11,40.02620077133179,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_06:252,excluded_unclear_transcript,249,1,0,0,2026-11-05 15:56:20,68.94165778160095,yes,no,explicit,prediction,alternative proposal,prior experience,incorporate correction,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_06:252,excluded_unclear_transcript,249,2,1,0,2026-11-05 15:56:31,7.609892845153809,yes,no,explicit,prediction,alternative proposal,prior experience,acknowledge uncertainty,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_IT_06:68,excluded_unclear_transcript,250,1,1,0,2026-11-05 15:56:57,25.138391494750977,no,yes,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MW_SSH_01:20,excluded_unclear_transcript,251,1,1,0,2026-11-05 15:57:17,19.561594486236572,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_05:336,excluded_unclear_transcript,252,1,1,0,2026-11-05 15:57:37,20.002174139022827,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_03:581,excluded_unclear_transcript,253,1,1,0,2026-11-05 15:57:55,17.205953121185303,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_SSH_02:488,excluded_unclear_transcript,254,1,1,0,2026-11-05 15:58:31,36.48917102813721,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,PK_DE_01:49,excluded_unclear_transcript,255,1,1,0,2026-11-05 16:00:19,107.66521143913269,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MK_SSH_07:51,excluded_unclear_transcript,256,1,1,0,2026-11-05 16:52:13,3113.588410139084,yes,no,implicit,input data,alternative proposal,domain knowledge,incorporate correction,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,MZ_IT_06:432,excluded_unclear_transcript,257,1,1,0,2026-11-05 16:52:25,12.039456605911255,no,no,absent,,,,,,v1.2
+maria.j.tyrpa@student.uj.edu.pl,DR_SSH_06:308,excluded_unclear_transcript,258,1,1,0,2026-11-05 16:52:33,7.264693021774292,no,no,absent,,,,,,v1.2

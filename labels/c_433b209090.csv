@@ -1,0 +1,206 @@
+annotator_code,episode_id,version,created_at,is_skipped,time_spent_s,is_contestation,explanation_request,presence,target,interaction_act,grounds,expected_response,notes
+c_433b209090,DR_IT_05:340,1,2026-10-31 07:49:41,0,40.10484743118286,no,no,absent,,,,,
+c_433b209090,DR_IT_05:340,2,2026-10-31 11:03:34,0,5.197976589202881,no,no,absent,,,,,
+c_433b209090,DR_SSH_01:177,1,2026-10-31 11:48:37,0,58.173038482666016,no,no,absent,,,,,
+c_433b209090,DR_SSH_02:168,1,2026-11-02 08:17:00,0,13.812418460845947,no,no,absent,,,,,
+c_433b209090,DR_SSH_02:172,1,2026-10-31 11:47:39,0,49.77870416641235,no,no,absent,,,,,
+c_433b209090,DR_SSH_02:214,1,2026-10-31 12:19:46,0,40.176676511764526,no,yes,absent,,,,,clear recommendations regarding the aesthetics and formatting
+c_433b209090,DR_SSH_02:240,1,2026-11-02 08:04:22,0,5.025760650634766,no,no,absent,,,,,
+c_433b209090,DR_SSH_02:266,1,2026-11-02 08:54:37,0,37.05167269706726,yes,no,implicit,input data,direct challenge,prior experience,defer to human expertise,
+c_433b209090,DR_SSH_02:284,1,2026-10-31 11:49:30,0,52.26566743850708,yes,no,explicit,input data,direct challenge,data-quality concern,incorporate correction,direct concern about quality of gnerated data
+c_433b209090,DR_SSH_02:332,1,2026-10-31 13:02:43,0,103.67978930473328,no,yes,absent,,,,,The plots were incorrctly labelled 
+c_433b209090,DR_SSH_02:334,1,2026-11-02 08:32:31,0,6.394129276275635,no,yes,absent,,,,,
+c_433b209090,DR_SSH_02:365,1,2026-10-31 13:00:59,0,50.01849436759949,yes,no,explicit,evidence,rejection,internal inconsistency,revise,
+c_433b209090,DR_SSH_02:87,1,2026-10-31 09:00:42,0,77.26521897315979,no,yes,absent,,,,,
+c_433b209090,DR_SSH_02:87,2,2026-10-31 11:28:04,0,41.62643575668335,no,no,absent,,,,,Suggestion related to the format of the explanation
+c_433b209090,DR_SSH_03:115,1,2026-10-31 09:26:34,0,302.86725306510925,yes,no,ambiguous,input data,request to acknowledge uncertainty,missing evidence,provide additional information,The user was not sure how the data was coleteced and measured
+c_433b209090,DR_SSH_03:115,2,2026-10-31 11:34:22,0,2.7959487438201904,yes,no,ambiguous,input data,request to acknowledge uncertainty,missing evidence,provide additional information,The user was not sure how the data was coleteced and measured
+c_433b209090,DR_SSH_03:180,1,2026-10-31 09:00:53,0,10.849225521087646,no,no,absent,,,,,
+c_433b209090,DR_SSH_03:180,2,2026-10-31 11:28:28,0,23.4181067943573,no,no,absent,,,,,The user simply comments on their domain knowlwedge about mushrooms
+c_433b209090,DR_SSH_03:197,1,2026-11-02 08:05:23,0,12.048117876052856,no,no,absent,,,,,
+c_433b209090,DR_SSH_03:206,1,2026-11-02 08:32:24,0,5.659697771072388,no,no,absent,,,,,
+c_433b209090,DR_SSH_03:244,1,2026-11-02 08:43:52,0,43.70561408996582,no,no,absent,,,,,
+c_433b209090,DR_SSH_03:298,1,2026-11-02 08:32:18,0,7.010916233062744,no,no,absent,,,,,
+c_433b209090,DR_SSH_03:322,1,2026-11-02 08:44:00,0,7.8389904499053955,no,no,absent,,,,,
+c_433b209090,DR_SSH_03:326,1,2026-10-31 08:56:49,0,14.715299606323242,no,no,absent,,,,,
+c_433b209090,DR_SSH_03:326,2,2026-10-31 11:27:16,0,59.299967527389526,no,yes,absent,,,,,"For the user it is not clear how to interpret colors. He/She correctly deduced it, but seems that there is some kind of uncertainty there."
+c_433b209090,DR_SSH_04:216,1,2026-10-31 07:39:14,0,41.63548731803894,no,no,absent,,,,,
+c_433b209090,DR_SSH_04:87,1,2026-10-31 11:49:40,0,10.434270143508911,no,no,absent,,,,,
+c_433b209090,DR_SSH_06:288,1,2026-11-02 08:42:23,0,87.26932430267334,yes,no,implicit,reasoning,direct challenge,prior experience,defer to human expertise,
+c_433b209090,DR_SSH_07:248,1,2026-10-31 08:02:00,0,129.34987831115723,no,yes,absent,,,,,
+c_433b209090,DR_SSH_07:374,1,2026-10-31 11:36:59,0,85.985271692276,yes,no,ambiguous,evidence,alternative proposal,domain knowledge,justify,The user doubts the correctness of th eevidence which are not aligned perfectly with his/her domain konwledge
+c_433b209090,MK_IT_03:134,1,2026-10-31 11:51:57,0,22.88337540626526,no,no,absent,,,,,target is just reding the questino out loud
+c_433b209090,MK_IT_03:136,1,2026-10-31 12:28:37,0,4.852049112319946,no,no,absent,,,,,
+c_433b209090,MK_IT_03:152,1,2026-10-31 08:45:47,0,103.25797271728516,no,no,absent,,,,,
+c_433b209090,MK_IT_03:210,1,2026-10-31 12:44:14,0,786.7131581306458,no,no,absent,,,,,
+c_433b209090,MK_IT_06:129,1,2026-10-31 09:18:21,0,45.432740449905396,no,no,absent,,,,,"The perticipant was reading the quation, not expressing any thoughts"
+c_433b209090,MK_IT_06:26,1,2026-10-31 11:53:20,0,82.71139430999756,no,no,absent,,,,,
+c_433b209090,MK_IT_06:32,1,2026-10-31 11:54:14,0,30.329137802124023,no,yes,absent,,,,,The user admits that is confused about the form of explanation
+c_433b209090,MK_IT_06:34,1,2026-11-02 07:57:49,0,37.9089629650116,no,yes,absent,,,,,The user has difficulties in interpreting the plot
+c_433b209090,MK_IT_06:66,1,2026-10-31 11:57:26,0,18.159292936325073,no,no,absent,,,,,
+c_433b209090,MK_IT_06:75,1,2026-10-31 11:33:35,0,86.91804575920105,yes,no,ambiguous,evidence,request for justification,domain knowledge,provide additional information,The user contest implicitelly the reasoning because it is not fully consistent with his/hre beliefs
+c_433b209090,MK_SSH_02:143,1,2026-11-02 08:40:48,0,12.321699619293213,no,no,absent,,,,,
+c_433b209090,MK_SSH_02:254,1,2026-11-02 08:20:50,0,10.667864322662354,no,no,absent,,,,,
+c_433b209090,MK_SSH_02:288,1,2026-10-31 12:28:47,0,9.512104988098145,no,no,absent,,,,,
+c_433b209090,MK_SSH_02:317,1,2026-10-31 09:21:31,0,189.28461360931396,yes,no,ambiguous,evidence,counterexample,internal inconsistency,justify,"The contestation is not direct, but refers to inconsistncies with previously seen explanations"
+c_433b209090,MK_SSH_02:317,2,2026-10-31 11:34:19,0,9.900354862213135,yes,no,ambiguous,evidence,counterexample,internal inconsistency,justify,"The contestation is not direct, but refers to inconsistncies with previously seen explanations"
+c_433b209090,MK_SSH_02:80,1,2026-10-31 11:56:06,0,11.79769515991211,no,no,absent,,,,,
+c_433b209090,MK_SSH_04:109,1,2026-10-31 08:49:46,0,30.075452089309692,no,no,absent,,,,,
+c_433b209090,MK_SSH_04:109,2,2026-10-31 11:24:05,0,15.674661636352539,no,no,absent,,,,,
+c_433b209090,MK_SSH_04:158,1,2026-10-31 11:26:16,0,52.924195528030396,no,no,absent,,,,,the user agreed with the model prediciton and explanation
+c_433b209090,MK_SSH_04:172,1,2026-10-31 12:26:40,0,48.49823999404907,no,no,absent,,,,,
+c_433b209090,MK_SSH_04:206,1,2026-11-02 08:09:52,0,7.146389961242676,no,no,absent,,,,,
+c_433b209090,MK_SSH_04:208,1,2026-10-31 13:07:57,0,14.079050064086914,no,no,absent,,,,,
+c_433b209090,MK_SSH_04:70,1,2026-10-31 11:46:48,0,35.30771350860596,no,yes,absent,,,,,The user doe snot know how to inpretre provided explanation
+c_433b209090,MK_SSH_04:91,1,2026-11-02 07:53:49,0,41.798887968063354,no,yes,absent,,,,,The user is not sure how to interoret the sahp plot
+c_433b209090,MK_SSH_05:77,1,2026-10-31 08:56:08,0,193.86058926582336,no,no,absent,,,,,
+c_433b209090,MK_SSH_05:77,2,2026-10-31 11:25:23,0,42.98220610618591,no,no,absent,,,,,The target sentence is just a question that the user read  out loud.
+c_433b209090,MK_SSH_05:78,1,2026-10-31 11:13:57,0,89.58782362937927,no,no,absent,,,,,"The user confirmed that explanation is aligned with his knowledge, but admitted also that his knowledge is more detailed and broad compared to what was provided by XAI"
+c_433b209090,MK_SSH_05:80,1,2026-11-02 08:21:45,0,22.049173831939697,no,yes,absent,,,,,Request related to aesthetics
+c_433b209090,MK_SSH_07:104,1,2026-10-31 08:56:35,0,26.026074647903442,no,no,absent,,,,,
+c_433b209090,MK_SSH_07:19,1,2026-10-31 08:52:54,0,112.34053468704224,no,yes,absent,,,,,Names of the features were not understandable in all of the cases
+c_433b209090,MK_SSH_07:19,2,2026-10-31 11:24:40,0,14.313090085983276,no,yes,absent,,,,,Names of the features were not understandable in all of the cases
+c_433b209090,MK_SSH_07:94,1,2026-10-31 11:55:38,0,24.26004695892334,no,yes,absent,,,,,the user admitsw that the form of presentation is complicated
+c_433b209090,MW_IT_02:11,1,2026-11-02 08:31:02,0,9.736167430877686,no,yes,absent,,,,,
+c_433b209090,MW_IT_02:29,1,2026-11-02 08:30:11,0,32.93075966835022,no,yes,absent,,,,,The user does not undestand how to read the plot
+c_433b209090,MW_IT_02:35,1,2026-10-31 11:18:34,0,33.32306981086731,no,yes,absent,,,,,Clear incomprehension  of how to read the presented explanatio due to lack of technical skills
+c_433b209090,MW_IT_02:37,1,2026-11-02 08:35:18,0,36.59155225753784,no,yes,absent,,,,,The user does not know how to inteprt data and requests more informaiton
+c_433b209090,MW_IT_06:73,1,2026-11-02 08:34:36,0,125.31384921073914,no,no,absent,,,,,The user does not know how to inteprt data
+c_433b209090,MW_IT_06:79,1,2026-10-31 13:00:08,0,101.74731254577637,no,no,absent,,,,,
+c_433b209090,MW_IT_07:105,1,2026-10-31 11:38:07,0,54.85329508781433,no,no,absent,,,,,
+c_433b209090,MW_IT_07:56,1,2026-10-31 11:55:13,0,33.432294845581055,no,no,absent,,,,,
+c_433b209090,MW_SSH_01:12,1,2026-11-02 08:21:23,0,17.172101259231567,no,no,absent,,,,,
+c_433b209090,MW_SSH_01:33,1,2026-10-31 07:55:52,0,371.2248947620392,no,no,absent,,,,,
+c_433b209090,MW_SSH_01:37,1,2026-10-31 13:05:12,0,111.23082566261292,no,yes,absent,,,,,recommendations regarding the way the explanation is presented to be more understandable
+c_433b209090,MW_SSH_01:38,1,2026-11-02 08:36:01,0,42.64332294464111,no,no,absent,,,,,
+c_433b209090,MW_SSH_01:39,1,2026-10-31 09:07:17,0,75.04176664352417,yes,no,explicit,evidence,direct challenge,domain knowledge,justify,
+c_433b209090,MW_SSH_01:39,2,2026-10-31 11:29:05,0,5.578208923339844,yes,no,explicit,evidence,direct challenge,domain knowledge,justify,
+c_433b209090,MW_SSH_01:47,1,2026-10-31 07:59:51,0,132.94178104400635,no,yes,absent,,,,,
+c_433b209090,MW_SSH_03:111,1,2026-11-02 08:05:59,0,34.90503168106079,yes,no,implicit,evidence,direct challenge,prior experience,provide additional information,
+c_433b209090,MW_SSH_03:46,1,2026-10-31 12:56:28,0,106.5571014881134,yes,no,ambiguous,prediction,direct challenge,missing evidence,provide additional information,The user is not sure about the correctness of the prediction or explanaiton based on ambiguous plots
+c_433b209090,MW_SSH_03:52,1,2026-10-31 08:51:02,0,75.79879307746887,yes,no,implicit,evidence,alternative proposal,prior experience,revise,
+c_433b209090,MW_SSH_03:52,2,2026-10-31 11:24:25,0,20.169569969177246,yes,no,implicit,evidence,alternative proposal,prior experience,revise,
+c_433b209090,MW_SSH_04:108,1,2026-10-31 09:15:26,0,24.96235227584839,no,no,absent,,,,,
+c_433b209090,MW_SSH_04:108,2,2026-10-31 11:32:08,0,115.61546778678894,yes,no,implicit,reasoning,request for justification,domain knowledge,provide additional information,
+c_433b209090,MW_SSH_04:142,1,2026-11-02 08:11:48,0,101.39022183418274,yes,no,implicit,system competence,direct challenge,technical knowledge,defer to human expertise,
+c_433b209090,MW_SSH_04:45,1,2026-10-31 11:54:39,0,25.11270523071289,no,no,absent,,,,,
+c_433b209090,MW_SSH_04:75,1,2026-10-31 12:54:41,0,626.3158719539642,yes,no,implicit,input data,request for justification,data-quality concern,provide additional information,
+c_433b209090,MW_SSH_04:93,1,2026-10-31 08:44:03,0,99.62010049819946,no,no,absent,,,,,
+c_433b209090,MW_SSH_05:101,1,2026-10-31 11:12:10,0,515.8299214839935,no,yes,absent,,,,,Incomprhensibility; clear confusion about what colors mean in the provided explanation.
+c_433b209090,MW_SSH_05:40,1,2026-11-02 07:57:11,0,63.31119179725647,no,no,absent,,,,,The user is changing his decision based on the evidenve from xai
+c_433b209090,MW_SSH_05:48,1,2026-11-02 08:29:38,0,78.85416841506958,no,yes,absent,,,,,The user does not know how to interpret data
+c_433b209090,MW_SSH_05:50,1,2026-10-31 12:23:38,0,30.58057951927185,no,no,absent,,,,,
+c_433b209090,MW_SSH_05:66,1,2026-11-02 08:04:04,0,38.63979506492615,no,yes,absent,,,,,The user has difficulties in correctly interpreting missing data
+c_433b209090,MW_SSH_05:75,1,2026-10-31 09:15:01,0,161.45541667938232,no,no,absent,,,,,
+c_433b209090,MW_SSH_05:75,2,2026-10-31 11:30:12,0,65.22981667518616,no,no,absent,,,,,"Some dounds about quality of data, which were generated"
+c_433b209090,MW_SSH_05:91,1,2026-11-02 08:20:39,0,25.117661476135254,no,yes,absent,,,,,
+c_433b209090,MW_SSH_05:95,1,2026-10-31 11:18:00,0,60.400200605392456,no,yes,absent,,,,,Clear problems with understanding how to read the presented explanation.
+c_433b209090,MZ_IT_05:149,1,2026-10-31 11:56:56,0,8.102569103240967,no,no,absent,,,,,
+c_433b209090,MZ_IT_05:166,1,2026-10-31 07:38:32,0,242.27047562599182,no,no,absent,,,,,
+c_433b209090,MZ_IT_05:209,1,2026-10-31 08:48:45,0,45.312559843063354,no,no,absent,,,,,it is more of an incomprehension
+c_433b209090,MZ_IT_05:209,2,2026-10-31 11:21:17,0,113.07967925071716,yes,no,ambiguous,evidence,alternative proposal,prior experience,provide additional information,The user has doubts if the predictins of the model are based on correct assumptios and evidences
+c_433b209090,MZ_IT_05:236,1,2026-10-31 11:35:32,0,16.733774662017822,no,no,absent,,,,,
+c_433b209090,MZ_IT_05:288,1,2026-10-31 11:37:11,0,12.530450582504272,no,no,absent,,,,,
+c_433b209090,MZ_IT_05:294,1,2026-10-31 11:46:13,0,173.40878033638,no,no,absent,,,,,
+c_433b209090,MZ_IT_05:314,1,2026-10-31 13:05:25,0,13.084820032119751,no,no,absent,,,,,
+c_433b209090,MZ_IT_05:338,1,2026-10-31 11:34:09,0,33.525249004364014,no,no,absent,,,,,
+c_433b209090,MZ_IT_06:181,1,2026-11-02 08:40:55,0,7.039838075637817,no,no,absent,,,,,
+c_433b209090,MZ_IT_06:318,1,2026-10-31 09:17:35,0,129.00484609603882,no,no,absent,,,,,
+c_433b209090,MZ_IT_06:396,1,2026-10-31 12:26:55,0,15.020194292068481,no,no,absent,,,,,
+c_433b209090,MZ_IT_06:456,1,2026-11-02 08:39:16,0,82.66425466537476,no,no,absent,,,,,
+c_433b209090,MZ_IT_06:500,1,2026-10-31 12:22:13,0,25.696592330932617,no,no,absent,,,,,
+c_433b209090,MZ_IT_06:606,1,2026-10-31 12:19:06,0,874.5380756855011,no,no,absent,,,,,
+c_433b209090,MZ_IT_06:615,1,2026-10-31 11:57:08,0,11.564043521881104,no,no,absent,,,,,
+c_433b209090,MZ_SSH_02:209,1,2026-10-31 12:31:07,0,25.40266489982605,no,no,absent,,,,,"Clear incomprehensibility, lack of knowledge on how to read the plot"
+c_433b209090,MZ_SSH_02:268,1,2026-11-02 08:15:11,0,16.854241609573364,no,no,absent,,,,,
+c_433b209090,MZ_SSH_02:414,1,2026-11-02 08:02:51,0,27.655949115753174,no,yes,absent,,,,,
+c_433b209090,MZ_SSH_02:438,1,2026-10-31 07:40:09,0,54.521212100982666,no,no,absent,,,,,
+c_433b209090,MZ_SSH_03:106,1,2026-10-31 11:53:43,0,22.988599061965942,no,no,absent,,,,,
+c_433b209090,MZ_SSH_03:426,1,2026-11-02 08:21:06,0,15.328003883361816,no,no,absent,,,,,
+c_433b209090,MZ_SSH_03:605,1,2026-11-02 08:17:58,0,19.924557209014893,no,no,absent,,,,,
+c_433b209090,MZ_SSH_03:717,1,2026-10-31 12:27:13,0,17.268743753433228,no,no,absent,,,,,
+c_433b209090,MZ_SSH_04:122,1,2026-11-02 08:07:16,0,36.23444843292236,yes,no,implicit,evidence,rejection,domain knowledge,revise,
+c_433b209090,MZ_SSH_04:127,1,2026-11-02 08:10:06,0,13.632711172103882,no,no,absent,,,,,
+c_433b209090,MZ_SSH_04:142,1,2026-11-02 08:04:17,0,13.154793977737427,no,no,absent,,,,,
+c_433b209090,MZ_SSH_04:144,1,2026-10-31 12:23:07,0,53.59251809120178,no,no,absent,,,,,Just reading the question out loud
+c_433b209090,MZ_SSH_04:145,1,2026-11-02 08:07:31,0,14.897279977798462,no,no,absent,,,,,
+c_433b209090,MZ_SSH_04:147,1,2026-10-31 11:55:54,0,16.184401035308838,no,no,absent,,,,,
+c_433b209090,MZ_SSH_04:188,1,2026-10-31 08:49:16,0,30.220096111297607,no,yes,absent,,,,,Incomprehension of the format of explanation
+c_433b209090,MZ_SSH_04:188,2,2026-10-31 11:23:49,0,151.93400931358337,no,yes,absent,,,,,Incomprehension of the format of explanation
+c_433b209090,MZ_SSH_04:212,1,2026-10-31 11:57:41,0,14.384482622146606,no,no,absent,,,,,
+c_433b209090,MZ_SSH_04:95,1,2026-10-31 11:58:21,0,40.22347640991211,no,yes,absent,,,,,expliicit suggestin on how to improve the explanation form the layout aesthetic perspective
+c_433b209090,MZ_SSH_07:179,1,2026-11-02 07:53:07,0,8.296290397644043,no,no,absent,,,,,
+c_433b209090,MZ_SSH_07:190,1,2026-11-02 07:54:10,0,20.14353656768799,no,no,absent,,,,,
+c_433b209090,MZ_SSH_07:334,1,2026-11-02 08:28:18,0,79.701340675354,yes,no,implicit,evidence,rejection,prior experience,defer to human expertise,The user does not agree with evidences used by the model to derive decisions implicitelly by stating that it is not aligned with his/her beliefs or prior knolwedge
+c_433b209090,PK_DE_01:105,1,2026-11-02 08:05:11,0,48.36789417266846,yes,no,implicit,system competence,direct challenge,prior experience,defer to human expertise,
+c_433b209090,PK_DE_01:117,1,2026-10-31 07:40:20,0,11.483580589294434,no,no,absent,,,,,
+c_433b209090,PK_DE_01:139,1,2026-11-02 08:55:52,0,74.62941241264343,yes,no,implicit,evidence,direct challenge,domain knowledge,defer to human expertise,
+c_433b209090,PK_DE_01:221,1,2026-11-02 08:08:25,0,9.189095258712769,no,no,absent,,,,,
+c_433b209090,PK_DE_01:222,1,2026-11-02 08:54:00,0,516.4741628170013,no,no,absent,,,,,
+c_433b209090,PK_DE_01:84,1,2026-11-02 08:40:35,0,78.79859519004822,yes,no,explicit,evidence,counterexample,domain knowledge,defer to human expertise,
+c_433b209090,PK_DE_02:133,1,2026-10-31 13:03:21,0,37.51107954978943,no,no,absent,,,,,
+c_433b209090,PK_DE_02:135,1,2026-11-02 08:12:08,0,7.31110143661499,no,no,absent,,,,,
+c_433b209090,PK_DE_02:160,1,2026-11-02 07:56:07,0,23.52689504623413,no,no,absent,,,,,
+c_433b209090,PK_DE_02:162,1,2026-10-31 13:07:42,0,40.13292646408081,no,no,absent,,,,,
+c_433b209090,PK_DE_02:182,1,2026-11-02 07:59:13,0,83.21471309661865,yes,no,implicit,system competence,direct challenge,technical knowledge,acknowledge uncertainty,
+c_433b209090,PK_DE_02:188,1,2026-11-02 08:37:53,0,19.844932794570923,no,yes,absent,,,,,
+c_433b209090,PK_DE_02:202,1,2026-10-31 09:06:01,0,175.1413872241974,no,no,absent,,,,,
+c_433b209090,PK_DE_02:202,2,2026-10-31 11:28:59,0,27.840123653411865,no,no,absent,,,,,
+c_433b209090,PK_DE_02:58,1,2026-11-02 08:17:24,0,23.1315495967865,no,no,absent,,,,,
+c_433b209090,PK_DE_02:87,1,2026-10-31 08:48:00,0,18.04875683784485,no,no,absent,,,,,
+c_433b209090,PK_DE_02:87,2,2026-10-31 11:19:23,0,29.484573364257812,no,no,absent,,,,,
+c_433b209090,PK_DE_02:93,1,2026-11-02 08:17:38,0,13.73464322090149,no,no,absent,,,,,
+c_433b209090,PK_DE_02:95,1,2026-11-02 08:36:25,0,23.715068578720093,no,yes,absent,,,,,The user has difficulties in reading the plot
+c_433b209090,PK_DE_02:97,1,2026-10-31 11:35:15,0,52.58138990402222,no,yes,absent,,,,,User has difficulties in interpretin plot and it is annoying.
+c_433b209090,PK_DE_03:22,1,2026-11-02 08:00:29,0,75.78923797607422,yes,no,implicit,system competence,correction,presentation ambiguity,incorporate correction,
+c_433b209090,PK_DE_03:26,1,2026-10-31 12:58:26,0,60.12951898574829,yes,no,explicit,evidence,correction,domain knowledge,revise,The user explicitelly corrected the important of the feature color
+c_433b209090,PK_DE_03:43,1,2026-10-31 13:07:02,0,52.15649437904358,yes,no,explicit,evidence,correction,domain knowledge,revise,
+c_433b209090,PK_DE_03:47,1,2026-11-02 08:03:25,0,33.643634557724,yes,no,explicit,evidence,correction,domain knowledge,incorporate correction,
+c_433b209090,PK_DE_03:68,1,2026-10-31 09:03:06,0,132.827130317688,yes,no,explicit,reasoning,direct challenge,domain knowledge,defer to human expertise,The participant challenged the features used by the model. 
+c_433b209090,PK_DE_03:68,2,2026-10-31 11:28:31,0,2.6994681358337402,yes,no,explicit,reasoning,direct challenge,domain knowledge,defer to human expertise,The participant challenged the features used by the model. 
+c_433b209090,PK_DE_03:89,1,2026-10-31 09:12:19,0,302.74020433425903,no,yes,absent,,,,,The participant did not understand how the ML model works and assumed that more features in the explanation the more confidence.
+c_433b209090,PK_DE_03:89,2,2026-10-31 11:29:07,0,1.538240671157837,no,yes,absent,,,,,The participant did not understand how the ML model works and assumed that more features in the explanation the more confidence.
+c_433b209090,PK_DE_04:146,1,2026-11-02 08:09:44,0,79.35358834266663,yes,no,explicit,system competence,direct challenge,domain knowledge,defer to human expertise,
+c_433b209090,PK_DE_04:160,1,2026-10-31 11:41:52,0,80.87679719924927,yes,no,explicit,reasoning,direct challenge,causal implausibility,provide additional information,
+c_433b209090,PK_DE_04:161,1,2026-10-31 13:06:09,0,43.60167574882507,yes,no,explicit,explanation representation,rejection,domain knowledge,revise,
+c_433b209090,PK_DE_04:182,1,2026-11-02 08:12:00,0,12.534970998764038,no,no,absent,,,,,
+c_433b209090,PK_DE_04:186,1,2026-11-02 08:25:51,0,48.29458975791931,yes,no,explicit,reasoning,rejection,domain knowledge,defer to human expertise,
+c_433b209090,PK_DE_04:209,1,2026-11-02 08:14:26,0,93.08818125724792,yes,no,explicit,system competence,request to acknowledge uncertainty,domain knowledge,defer to human expertise,
+c_433b209090,PK_DE_04:59,1,2026-11-02 08:37:33,0,67.62570714950562,yes,no,explicit,evidence,direct challenge,domain knowledge,acknowledge uncertainty,The last sentence may suggest the user would accep reasoning if the uncertianty was added to it.
+c_433b209090,PK_DE_04:65,1,2026-11-02 08:08:15,0,44.24129891395569,yes,no,explicit,evidence,rejection,domain knowledge,revise,
+c_433b209090,PK_DE_04:67,1,2026-11-02 08:12:53,0,44.60898399353027,yes,no,explicit,evidence,rejection,domain knowledge,revise,
+c_433b209090,PK_DE_04:87,1,2026-11-02 08:02:23,0,113.58446216583252,yes,no,implicit,evidence,correction,domain knowledge,incorporate correction,The user provides specific causal relations that can be used to classify mushroom as poisonous (like season in which it grows)
+c_433b209090,PK_DE_04:97,1,2026-11-02 08:30:52,0,41.05574321746826,yes,no,explicit,evidence,rejection,domain knowledge,defer to human expertise,
+c_433b209090,PK_DE_05:101,1,2026-10-31 11:56:47,0,40.91423845291138,no,no,absent,,,,,
+c_433b209090,PK_DE_05:112,1,2026-10-31 08:59:25,0,154.87653803825378,yes,yes,ambiguous,evidence,request to acknowledge uncertainty,domain knowledge,provide additional information,"The features were considered only additional ones, that should not be used as solo predictors"
+c_433b209090,PK_DE_05:112,2,2026-10-31 11:27:22,0,5.668452024459839,yes,yes,ambiguous,evidence,request to acknowledge uncertainty,domain knowledge,provide additional information,"The features were considered only additional ones, that should not be used as solo predictors"
+c_433b209090,PK_DE_05:114,1,2026-11-02 08:45:23,0,82.08191895484924,yes,no,explicit,system competence,direct challenge,domain knowledge,provide additional information,
+c_433b209090,PK_DE_05:128,1,2026-10-31 08:47:41,0,114.41347551345825,yes,yes,implicit,evidence,counterexample,domain knowledge,revise,
+c_433b209090,PK_DE_05:128,2,2026-10-31 11:18:54,0,19.550134658813477,yes,yes,implicit,evidence,counterexample,domain knowledge,revise,
+c_433b209090,PK_DE_05:56,1,2026-10-31 12:57:26,0,57.91132736206055,no,no,absent,,,,,
+c_433b209090,PK_DE_05:64,1,2026-11-02 08:31:55,0,52.505576610565186,yes,no,implicit,prediction,rejection,data-quality concern,defer to human expertise,
+c_433b209090,PK_DE_05:71,1,2026-10-31 11:43:19,0,87.1405713558197,yes,no,explicit,input data,direct challenge,domain knowledge,incorporate correction,The user argues about the wuality of data and corretness (some features should be renamed)
+c_433b209090,PK_DE_06:101,1,2026-11-02 08:34:41,0,4.676846981048584,no,no,absent,,,,,
+c_433b209090,PK_DE_07:105,1,2026-10-31 12:30:41,0,113.98132848739624,yes,no,ambiguous,reasoning,counterexample,domain knowledge,provide additional information,"The user admits that it is something you may expect, but later tell that it is not consistent with the domain knwoledge in general sense"
+c_433b209090,PK_DE_07:119,1,2026-10-31 07:43:26,0,185.9155557155609,yes,no,explicit,reasoning,direct challenge,domain knowledge,revise,The expert explicitely expressed objection that the prediction of the model provided by the explanation is not aligned with the expert knoeldge
+c_433b209090,PK_DE_07:141,1,2026-11-02 08:25:03,0,62.51624655723572,yes,no,explicit,prediction,rejection,domain knowledge,revise,
+c_433b209090,PK_DE_07:143,1,2026-10-31 07:57:38,0,105.21751856803894,yes,no,implicit,evidence,rejection,domain knowledge,incorporate correction,
+c_433b209090,PK_DE_07:143,2,2026-10-31 11:12:27,0,16.578227281570435,yes,no,implicit,evidence,rejection,domain knowledge,incorporate correction,
+c_433b209090,PK_DE_07:75,1,2026-11-02 07:52:58,0,69.96196389198303,no,yes,absent,,,,,Suggestion to change the type of the features from categorical to numerical/ordinal
+c_433b209090,PK_DE_08:20,1,2026-10-31 07:49:00,0,333.86348032951355,yes,no,ambiguous,evidence,request for justification,domain knowledge,provide additional information,"The overall reasoning behind the explanation seems to be right, but the user requested more infromation because based on the  evidences provided by the XAI it is not possible to decide if the internal reasoing is correct."
+c_433b209090,PK_DE_08:20,2,2026-10-31 11:03:28,0,43.87730956077576,yes,no,ambiguous,evidence,request for justification,domain knowledge,provide additional information,"The overall reasoning behind the explanation seems to be right, but the user requested more infromation because based on the  evidences provided by the XAI it is not possible to decide if the internal reasoing is correct."
+c_433b209090,PK_DE_08:39,1,2026-11-02 08:43:08,0,44.89138627052307,no,yes,absent,,,,,The user has difficulties in reading the plot and assessing its value as explanation
+c_433b209090,PK_DE_08:52,1,2026-11-02 08:16:46,0,94.33955645561218,yes,no,implicit,evidence,correction,domain knowledge,incorporate correction,"The user foes not disarc explanaitno, but disagrees in parts, providig correction that could be incorporated."
+c_433b209090,PK_DE_08:85,1,2026-10-31 12:28:32,0,78.6869375705719,yes,no,implicit,evidence,counterexample,domain knowledge,justify,
+c_433b209090,PK_DE_09:107,1,2026-10-31 11:51:34,0,113.07234048843384,yes,no,explicit,system competence,direct challenge,technical knowledge,incorporate correction,
+c_433b209090,PK_DE_09:30,1,2026-11-02 08:14:54,0,27.504542112350464,no,yes,absent,,,,,User requested legends in the explanation
+c_433b209090,PK_DE_09:56,1,2026-11-02 08:32:11,0,15.514819145202637,no,no,absent,,,,,
+c_433b209090,PK_DE_09:62,1,2026-11-02 07:55:44,0,93.6945252418518,yes,no,explicit,evidence,direct challenge,domain knowledge,revise,The user challenged the correctnes of certain features used in explanation as being irrelevant in real life
+c_433b209090,PK_DE_10:56,1,2026-10-31 11:40:30,0,143.52308869361877,yes,no,ambiguous,evidence,alternative proposal,domain knowledge,defer to human expertise,The user challenge the way the classification is made. 
+c_433b209090,PK_DE_10:87,1,2026-10-31 12:21:47,0,120.65440320968628,no,no,absent,,,,,Clear incomprehension on how to read the plot
+c_433b209090,PK_DE_13:100,1,2026-11-02 08:24:00,0,134.2927668094635,yes,yes,implicit,explanation representation,counterexample,domain knowledge,provide additional information,"The user has difficulties in interpreting the plot and assess if it is correct, or incorrect with domain knowledge."
+c_433b209090,PK_DE_13:116,1,2026-11-02 08:20:14,0,135.43102312088013,yes,no,ambiguous,evidence,direct challenge,domain knowledge,defer to human expertise,The user has dobds if provided evidence are valid to classify mushrooms
+c_433b209090,PK_DE_13:125,1,2026-10-31 12:25:51,0,132.95379209518433,yes,yes,implicit,evidence,alternative proposal,domain knowledge,provide additional information,"The suer tells that he classifies mushrooms differnetly, not using this features that are showsn in explanations."
+c_433b209090,PK_DE_13:66,1,2026-11-02 08:26:58,0,66.632728099823,no,yes,absent,,,,,The user has difficulties in interpreting why certain features were used as important by the model
+c_433b209090,PK_DE_13:76,1,2026-10-31 12:04:31,0,369.1926305294037,yes,yes,explicit,evidence,direct challenge,domain knowledge,revise,"incorrect eveidence for reasoinig, not consistent with domain konwledge. also difficulties with interpreting explanation"
+c_433b209090,PK_DE_13:90,1,2026-11-02 08:06:39,0,40.04458212852478,no,no,absent,,,,,

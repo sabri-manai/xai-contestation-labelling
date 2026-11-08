@@ -36,7 +36,7 @@ with a yellow warning need the new "explanation request" field.
 
 ## Project lead
 
-- Collect: `git pull && .venv/bin/python export_labels.py` → `../xai-contestation-framework/data/human_labels.csv`
-  (prints agreement between labellers).
-- Who is who: `.venv/bin/python -m app.sync alice@x.pl bob@y.pl` prints each email's code.
+- Collect: `git pull && .venv/bin/python export_labels.py` writes `data/human_labels.csv`, one row per
+  (coder, episode, version) for all coders; `is_latest = 1` marks the label that counts. New coder:
+  add their code (sidebar) and email to `CODERS` in `export_labels.py`.
 - Episode order: `data/queue_order.csv` (from `make_queue_order.py`); codebook changes: `coding_guide.md` §6.
