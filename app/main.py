@@ -79,12 +79,15 @@ if email:
         st.session_state.current_episode_id = all_ids[ep_num - 1]
 
 st.sidebar.divider()
-page = st.sidebar.radio("", ["Label", "Guide"], label_visibility="collapsed")
+page = st.sidebar.radio("Page", ["Label", "Guide", "Disagreements"], label_visibility="collapsed")
 
 if not email:
     st.info("👈 Enter your email in the sidebar to begin.")
 elif page == "Label":
     from app.views.label import render
+    render()
+elif page == "Disagreements":
+    from app.views.disagreements import render
     render()
 else:
     from app.views.guide import render

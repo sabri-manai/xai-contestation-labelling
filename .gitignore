@@ -24,5 +24,6 @@ Thumbs.db
 .env
 labels.db.bak-*
 labels/*.tmp
+discussion/*.tmp
 labelers_private.csv
 labels/*.migrated

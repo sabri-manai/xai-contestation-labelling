@@ -12,7 +12,8 @@ if str(_ROOT) not in sys.path:
 import streamlit as st
 
 from app.db import get_episode, get_latest_label, save_label
-from app.sync import write_file
+from app.discussion import in_discussion
+from app.sync import code_for, write_file
 
 # Load taxonomy once
 _TAXONOMY_PATH = Path(__file__).parent.parent.parent / "taxonomy.json"
@@ -108,6 +109,10 @@ def render():
         st.subheader("Label")
 
         prev = get_latest_label(annotator_id, ep_id)
+        if in_discussion(code_for(st.session_state.identifier), ep_id):
+            st.warning("This episode is in your **Disagreements** list, where the other coders' labels "
+                       "are shown. To change your label after seeing them, use that tab: a save here "
+                       "counts as an independent label.")
         if prev and not prev.get("is_skipped") and prev.get("explanation_request") is None:
             st.warning("Labelled before the **explanation request** field existed (codebook v1.1). "
                        "Please set it below and save again.")

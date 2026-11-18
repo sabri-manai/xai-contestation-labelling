@@ -1,0 +1,25 @@
+{
+  "version": "1.2m",
+  "date": "2026-11-12",
+  "source": "coders B and D, note on similarities and relations between taxonomy categories (data/coder_notes_taxonomy_relations.md)",
+  "rule": "data/DATA_RULES.md, 2026-11-12 'Coder-proposed merges'",
+  "merges": {
+    "grounds": {"domain knowledge or prior experience": {"fine": ["domain knowledge", "prior experience"], "endorsed": 2}},
+    "interaction_act": {
+      "direct challenge or rejection": {"fine": ["direct challenge", "rejection"], "endorsed": 2},
+      "correction, counterexample or alternative proposal": {"fine": ["correction", "counterexample", "alternative proposal"], "endorsed": 1}
+    },
+    "expected_response": {
+      "justify or provide additional information": {"fine": ["justify", "provide additional information"], "endorsed": 2},
+      "revise or incorporate correction": {"fine": ["revise", "incorporate correction"], "endorsed": 2}
+    },
+    "target": {"evidence or input data": {"fine": ["evidence", "input data"], "endorsed": 1}}
+  },
+  "relations": [
+    {"if": {"interaction_act": "request for justification"}, "then": {"expected_response": ["justify", "provide additional information"]}, "endorsed": 2},
+    {"if": {"interaction_act": "correction"}, "then": {"expected_response": ["incorporate correction", "revise"]}, "endorsed": 2},
+    {"if": {"interaction_act": "request to acknowledge uncertainty"}, "then": {"expected_response": ["acknowledge uncertainty"]}, "endorsed": 1},
+    {"if": {"grounds": "presentation ambiguity"}, "then": {"target": ["explanation representation"]}, "endorsed": 2},
+    {"if": {"grounds": "data-quality concern"}, "then": {"target": ["input data"]}, "endorsed": 2}
+  ]
+}
